@@ -1,0 +1,10 @@
+D:\CSharp Projetos\Inicial\Primeiro\bin\Debug\Primeiro.exe.config
+D:\CSharp Projetos\Inicial\Primeiro\bin\Debug\Primeiro.exe
+D:\CSharp Projetos\Inicial\Primeiro\bin\Debug\Primeiro.pdb
+D:\CSharp Projetos\Inicial\Primeiro\obj\Debug\Primeiro.csproj.AssemblyReference.cache
+D:\CSharp Projetos\Inicial\Primeiro\obj\Debug\Primeiro.csproj.SuggestedBindingRedirects.cache
+D:\CSharp Projetos\Inicial\Primeiro\obj\Debug\Primeiro.Properties.Resources.resources
+D:\CSharp Projetos\Inicial\Primeiro\obj\Debug\Primeiro.csproj.GenerateResource.cache
+D:\CSharp Projetos\Inicial\Primeiro\obj\Debug\Primeiro.csproj.CoreCompileInputs.cache
+D:\CSharp Projetos\Inicial\Primeiro\obj\Debug\Primeiro.exe
+D:\CSharp Projetos\Inicial\Primeiro\obj\Debug\Primeiro.pdb

@@ -1,0 +1,8 @@
+D:\CSharp Projetos\Variaveis\Variaveis\bin\Debug\Variaveis.exe.config
+D:\CSharp Projetos\Variaveis\Variaveis\bin\Debug\Variaveis.exe
+D:\CSharp Projetos\Variaveis\Variaveis\bin\Debug\Variaveis.pdb
+D:\CSharp Projetos\Variaveis\Variaveis\obj\Debug\Variaveis.csproj.AssemblyReference.cache
+D:\CSharp Projetos\Variaveis\Variaveis\obj\Debug\Variaveis.csproj.SuggestedBindingRedirects.cache
+D:\CSharp Projetos\Variaveis\Variaveis\obj\Debug\Variaveis.csproj.CoreCompileInputs.cache
+D:\CSharp Projetos\Variaveis\Variaveis\obj\Debug\Variaveis.exe
+D:\CSharp Projetos\Variaveis\Variaveis\obj\Debug\Variaveis.pdb

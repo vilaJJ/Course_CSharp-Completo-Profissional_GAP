@@ -1,0 +1,8 @@
+D:\CSharp Projetos\Operadores\Operadores\bin\Debug\Operadores.exe.config
+D:\CSharp Projetos\Operadores\Operadores\bin\Debug\Operadores.exe
+D:\CSharp Projetos\Operadores\Operadores\bin\Debug\Operadores.pdb
+D:\CSharp Projetos\Operadores\Operadores\obj\Debug\Operadores.csproj.AssemblyReference.cache
+D:\CSharp Projetos\Operadores\Operadores\obj\Debug\Operadores.csproj.SuggestedBindingRedirects.cache
+D:\CSharp Projetos\Operadores\Operadores\obj\Debug\Operadores.csproj.CoreCompileInputs.cache
+D:\CSharp Projetos\Operadores\Operadores\obj\Debug\Operadores.exe
+D:\CSharp Projetos\Operadores\Operadores\obj\Debug\Operadores.pdb

@@ -1,0 +1,8 @@
+D:\CSharp Projetos\ConversaoImplicita\ConversaoImplicita\bin\Debug\ConversaoImplicita.exe.config
+D:\CSharp Projetos\ConversaoImplicita\ConversaoImplicita\bin\Debug\ConversaoImplicita.exe
+D:\CSharp Projetos\ConversaoImplicita\ConversaoImplicita\bin\Debug\ConversaoImplicita.pdb
+D:\CSharp Projetos\ConversaoImplicita\ConversaoImplicita\obj\Debug\Conversao.csproj.AssemblyReference.cache
+D:\CSharp Projetos\ConversaoImplicita\ConversaoImplicita\obj\Debug\Conversao.csproj.SuggestedBindingRedirects.cache
+D:\CSharp Projetos\ConversaoImplicita\ConversaoImplicita\obj\Debug\Conversao.csproj.CoreCompileInputs.cache
+D:\CSharp Projetos\ConversaoImplicita\ConversaoImplicita\obj\Debug\ConversaoImplicita.exe
+D:\CSharp Projetos\ConversaoImplicita\ConversaoImplicita\obj\Debug\ConversaoImplicita.pdb

@@ -1,0 +1,8 @@
+D:\CSharp Projetos\InverterNomes\InverterNomes\bin\Debug\InverterNomes.exe.config
+D:\CSharp Projetos\InverterNomes\InverterNomes\bin\Debug\InverterNomes.exe
+D:\CSharp Projetos\InverterNomes\InverterNomes\bin\Debug\InverterNomes.pdb
+D:\CSharp Projetos\InverterNomes\InverterNomes\obj\Debug\InverterNomes.csproj.AssemblyReference.cache
+D:\CSharp Projetos\InverterNomes\InverterNomes\obj\Debug\InverterNomes.csproj.SuggestedBindingRedirects.cache
+D:\CSharp Projetos\InverterNomes\InverterNomes\obj\Debug\InverterNomes.csproj.CoreCompileInputs.cache
+D:\CSharp Projetos\InverterNomes\InverterNomes\obj\Debug\InverterNomes.exe
+D:\CSharp Projetos\InverterNomes\InverterNomes\obj\Debug\InverterNomes.pdb

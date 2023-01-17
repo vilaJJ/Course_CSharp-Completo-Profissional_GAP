@@ -1,0 +1,8 @@
+D:\CSharp Projetos\Comentarios\Comentarios\bin\Debug\Comentarios.exe.config
+D:\CSharp Projetos\Comentarios\Comentarios\bin\Debug\Comentarios.exe
+D:\CSharp Projetos\Comentarios\Comentarios\bin\Debug\Comentarios.pdb
+D:\CSharp Projetos\Comentarios\Comentarios\obj\Debug\Comentarios.csproj.AssemblyReference.cache
+D:\CSharp Projetos\Comentarios\Comentarios\obj\Debug\Comentarios.csproj.SuggestedBindingRedirects.cache
+D:\CSharp Projetos\Comentarios\Comentarios\obj\Debug\Comentarios.csproj.CoreCompileInputs.cache
+D:\CSharp Projetos\Comentarios\Comentarios\obj\Debug\Comentarios.exe
+D:\CSharp Projetos\Comentarios\Comentarios\obj\Debug\Comentarios.pdb
