@@ -6,3 +6,11 @@ D:\CSharp Projetos\Operadores\Operadores\obj\Debug\Operadores.csproj.SuggestedBi
 D:\CSharp Projetos\Operadores\Operadores\obj\Debug\Operadores.csproj.CoreCompileInputs.cache
 D:\CSharp Projetos\Operadores\Operadores\obj\Debug\Operadores.exe
 D:\CSharp Projetos\Operadores\Operadores\obj\Debug\Operadores.pdb
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Operadores\Operadores\bin\Debug\Operadores.exe.config
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Operadores\Operadores\bin\Debug\Operadores.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Operadores\Operadores\bin\Debug\Operadores.pdb
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Operadores\Operadores\obj\Debug\Operadores.csproj.AssemblyReference.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Operadores\Operadores\obj\Debug\Operadores.csproj.SuggestedBindingRedirects.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Operadores\Operadores\obj\Debug\Operadores.csproj.CoreCompileInputs.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Operadores\Operadores\obj\Debug\Operadores.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Operadores\Operadores\obj\Debug\Operadores.pdb
