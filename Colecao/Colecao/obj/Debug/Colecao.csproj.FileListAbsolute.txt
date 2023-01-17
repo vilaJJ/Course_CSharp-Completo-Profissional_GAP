@@ -1,0 +1,8 @@
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Colecao\Colecao\bin\Debug\Colecao.exe.config
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Colecao\Colecao\bin\Debug\Colecao.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Colecao\Colecao\bin\Debug\Colecao.pdb
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Colecao\Colecao\obj\Debug\Colecao.csproj.AssemblyReference.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Colecao\Colecao\obj\Debug\Colecao.csproj.SuggestedBindingRedirects.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Colecao\Colecao\obj\Debug\Colecao.csproj.CoreCompileInputs.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Colecao\Colecao\obj\Debug\Colecao.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Colecao\Colecao\obj\Debug\Colecao.pdb
