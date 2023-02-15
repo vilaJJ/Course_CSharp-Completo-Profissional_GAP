@@ -1,0 +1,8 @@
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\POO\TermoThis\bin\Debug\TermoThis.exe.config
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\POO\TermoThis\bin\Debug\TermoThis.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\POO\TermoThis\bin\Debug\TermoThis.pdb
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\POO\TermoThis\obj\Debug\TermoThis.csproj.AssemblyReference.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\POO\TermoThis\obj\Debug\TermoThis.csproj.SuggestedBindingRedirects.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\POO\TermoThis\obj\Debug\TermoThis.csproj.CoreCompileInputs.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\POO\TermoThis\obj\Debug\TermoThis.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\POO\TermoThis\obj\Debug\TermoThis.pdb
