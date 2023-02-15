@@ -1,0 +1,8 @@
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Calculadora\Calculadora\bin\Debug\Calculadora.exe.config
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Calculadora\Calculadora\bin\Debug\Calculadora.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Calculadora\Calculadora\bin\Debug\Calculadora.pdb
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.AssemblyReference.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.SuggestedBindingRedirects.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.CoreCompileInputs.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Calculadora\Calculadora\obj\Debug\Calculadora.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Calculadora\Calculadora\obj\Debug\Calculadora.pdb
