@@ -1,0 +1,8 @@
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\POO\Heranca\bin\Debug\Heranca.exe.config
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\POO\Heranca\bin\Debug\Heranca.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\POO\Heranca\bin\Debug\Heranca.pdb
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\POO\Heranca\obj\Debug\Heranca.csproj.AssemblyReference.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\POO\Heranca\obj\Debug\Heranca.csproj.SuggestedBindingRedirects.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\POO\Heranca\obj\Debug\Heranca.csproj.CoreCompileInputs.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\POO\Heranca\obj\Debug\Heranca.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\POO\Heranca\obj\Debug\Heranca.pdb

@@ -1,0 +1,8 @@
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\POO\Encapsular\bin\Debug\Encapsular.exe.config
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\POO\Encapsular\bin\Debug\Encapsular.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\POO\Encapsular\bin\Debug\Encapsular.pdb
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\POO\Encapsular\obj\Debug\Encapsular.csproj.AssemblyReference.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\POO\Encapsular\obj\Debug\Encapsular.csproj.SuggestedBindingRedirects.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\POO\Encapsular\obj\Debug\Encapsular.csproj.CoreCompileInputs.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\POO\Encapsular\obj\Debug\Encapsular.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\POO\Encapsular\obj\Debug\Encapsular.pdb
