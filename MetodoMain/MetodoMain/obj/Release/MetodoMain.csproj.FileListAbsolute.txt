@@ -1,0 +1,8 @@
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\MetodoMain\MetodoMain\bin\Release\MetodoMain.exe.config
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\MetodoMain\MetodoMain\bin\Release\MetodoMain.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\MetodoMain\MetodoMain\bin\Release\MetodoMain.pdb
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\MetodoMain\MetodoMain\obj\Release\MetodoMain.csproj.AssemblyReference.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\MetodoMain\MetodoMain\obj\Release\MetodoMain.csproj.SuggestedBindingRedirects.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\MetodoMain\MetodoMain\obj\Release\MetodoMain.csproj.CoreCompileInputs.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\MetodoMain\MetodoMain\obj\Release\MetodoMain.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\MetodoMain\MetodoMain\obj\Release\MetodoMain.pdb
