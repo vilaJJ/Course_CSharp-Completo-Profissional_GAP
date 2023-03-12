@@ -9,3 +9,14 @@ C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Teste\Teste\obj\Debug\Teste
 C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Teste\Teste\obj\Debug\Teste.exe
 C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Teste\Teste\obj\Debug\Teste.pdb
 C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Teste\Teste\obj\Debug\Teste.Form1.resources
+D:\CSharp Projetos\Teste\Teste\bin\Debug\Teste.exe.config
+D:\CSharp Projetos\Teste\Teste\bin\Debug\Teste.exe
+D:\CSharp Projetos\Teste\Teste\bin\Debug\Teste.pdb
+D:\CSharp Projetos\Teste\Teste\obj\Debug\Teste.csproj.AssemblyReference.cache
+D:\CSharp Projetos\Teste\Teste\obj\Debug\Teste.csproj.SuggestedBindingRedirects.cache
+D:\CSharp Projetos\Teste\Teste\obj\Debug\Teste.Form1.resources
+D:\CSharp Projetos\Teste\Teste\obj\Debug\Teste.Properties.Resources.resources
+D:\CSharp Projetos\Teste\Teste\obj\Debug\Teste.csproj.GenerateResource.cache
+D:\CSharp Projetos\Teste\Teste\obj\Debug\Teste.csproj.CoreCompileInputs.cache
+D:\CSharp Projetos\Teste\Teste\obj\Debug\Teste.exe
+D:\CSharp Projetos\Teste\Teste\obj\Debug\Teste.pdb

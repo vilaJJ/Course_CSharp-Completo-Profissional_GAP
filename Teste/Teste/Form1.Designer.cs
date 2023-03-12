@@ -28,14 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.botao = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // botao
             // 
-            this.botao.Location = new System.Drawing.Point(290, 177);
+            this.botao.Location = new System.Drawing.Point(161, 42);
+            this.botao.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.botao.Name = "botao";
-            this.botao.Size = new System.Drawing.Size(232, 104);
+            this.botao.Size = new System.Drawing.Size(309, 128);
             this.botao.TabIndex = 0;
             this.botao.Text = "Executar";
             this.botao.UseVisualStyleBackColor = true;
@@ -43,12 +45,21 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(622, 209);
             this.Controls.Add(this.botao);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Location = new System.Drawing.Point(250, 250);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MaximumSize = new System.Drawing.Size(1280, 960);
+            this.MinimumSize = new System.Drawing.Size(480, 256);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Minha aplicação";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Click += new System.EventHandler(this.MeuMetodo);
             this.ResumeLayout(false);
 
         }
