@@ -19,23 +19,17 @@ namespace Teste
 
             this.Size = new Size(720, 480);
 
-            this.ControlBox = false;
+            this.ControlBox = true;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            lbl_titulo.Text = "Clicando no Botão";
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
             this.Text = "Carregando a Form";
-        }
-
-        private void Form1_Click(object sender, EventArgs e)
-        {
-            this.Text = "Clicando na Form";
-            this.Size = new Size(1280, 720);
         }
 
         private void MeuMetodo(object sender, EventArgs e)
@@ -50,7 +44,17 @@ namespace Teste
 
         private void label1_Click(object sender, EventArgs e)
         {
+            btn_exe.Size = new Size(3100, 200);
+        }
 
+        private void btn_exe_MouseEnter(object sender, EventArgs e)
+        {
+            lbl_titulo.Text = "Mouse dentro do botão";
+        }
+
+        private void btn_exe_MouseLeave(object sender, EventArgs e)
+        {
+            lbl_titulo.Text = "Mouse fora do botão";
         }
     }
 }
