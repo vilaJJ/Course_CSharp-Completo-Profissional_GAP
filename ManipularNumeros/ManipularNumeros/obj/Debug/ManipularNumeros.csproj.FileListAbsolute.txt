@@ -1,0 +1,11 @@
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ManipularNumeros\ManipularNumeros\bin\Debug\ManipularNumeros.exe.config
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ManipularNumeros\ManipularNumeros\bin\Debug\ManipularNumeros.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ManipularNumeros\ManipularNumeros\bin\Debug\ManipularNumeros.pdb
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ManipularNumeros\ManipularNumeros\obj\Debug\ManipularNumeros.csproj.AssemblyReference.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ManipularNumeros\ManipularNumeros\obj\Debug\ManipularNumeros.csproj.SuggestedBindingRedirects.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ManipularNumeros\ManipularNumeros\obj\Debug\ManipularNumeros.Properties.Resources.resources
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ManipularNumeros\ManipularNumeros\obj\Debug\ManipularNumeros.csproj.GenerateResource.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ManipularNumeros\ManipularNumeros\obj\Debug\ManipularNumeros.csproj.CoreCompileInputs.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ManipularNumeros\ManipularNumeros\obj\Debug\ManipularNumeros.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ManipularNumeros\ManipularNumeros\obj\Debug\ManipularNumeros.pdb
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ManipularNumeros\ManipularNumeros\obj\Debug\ManipularNumeros.FormPrincipal.resources
