@@ -1,0 +1,11 @@
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ManipularString\ManipularString\bin\Debug\ManipularString.exe.config
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ManipularString\ManipularString\bin\Debug\ManipularString.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ManipularString\ManipularString\bin\Debug\ManipularString.pdb
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ManipularString\ManipularString\obj\Debug\ManipularString.csproj.AssemblyReference.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ManipularString\ManipularString\obj\Debug\ManipularString.csproj.SuggestedBindingRedirects.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ManipularString\ManipularString\obj\Debug\ManipularString.Form1.resources
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ManipularString\ManipularString\obj\Debug\ManipularString.Properties.Resources.resources
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ManipularString\ManipularString\obj\Debug\ManipularString.csproj.GenerateResource.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ManipularString\ManipularString\obj\Debug\ManipularString.csproj.CoreCompileInputs.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ManipularString\ManipularString\obj\Debug\ManipularString.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ManipularString\ManipularString\obj\Debug\ManipularString.pdb
