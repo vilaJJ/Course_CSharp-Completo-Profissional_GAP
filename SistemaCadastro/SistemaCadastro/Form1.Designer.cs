@@ -39,9 +39,9 @@
             this.checkBox_casaPropria = new System.Windows.Forms.CheckBox();
             this.checkBox_veiculoProprio = new System.Windows.Forms.CheckBox();
             this.groupBox_sexo = new System.Windows.Forms.GroupBox();
-            this.radioButton_sexo_masc = new System.Windows.Forms.RadioButton();
-            this.radioButton_sexo_fem = new System.Windows.Forms.RadioButton();
             this.radioButton_sexo_outro = new System.Windows.Forms.RadioButton();
+            this.radioButton_sexo_fem = new System.Windows.Forms.RadioButton();
+            this.radioButton_sexo_masc = new System.Windows.Forms.RadioButton();
             this.listBox_resultados = new System.Windows.Forms.ListBox();
             this.button_cadastrar = new System.Windows.Forms.Button();
             this.button_excluir = new System.Windows.Forms.Button();
@@ -157,6 +157,28 @@
             this.groupBox_sexo.TabStop = false;
             this.groupBox_sexo.Text = "Sexo";
             // 
+            // radioButton_sexo_outro
+            // 
+            this.radioButton_sexo_outro.AutoSize = true;
+            this.radioButton_sexo_outro.Location = new System.Drawing.Point(6, 65);
+            this.radioButton_sexo_outro.Name = "radioButton_sexo_outro";
+            this.radioButton_sexo_outro.Size = new System.Drawing.Size(51, 17);
+            this.radioButton_sexo_outro.TabIndex = 2;
+            this.radioButton_sexo_outro.TabStop = true;
+            this.radioButton_sexo_outro.Text = "Outro";
+            this.radioButton_sexo_outro.UseVisualStyleBackColor = true;
+            // 
+            // radioButton_sexo_fem
+            // 
+            this.radioButton_sexo_fem.AutoSize = true;
+            this.radioButton_sexo_fem.Location = new System.Drawing.Point(6, 42);
+            this.radioButton_sexo_fem.Name = "radioButton_sexo_fem";
+            this.radioButton_sexo_fem.Size = new System.Drawing.Size(67, 17);
+            this.radioButton_sexo_fem.TabIndex = 1;
+            this.radioButton_sexo_fem.TabStop = true;
+            this.radioButton_sexo_fem.Text = "Feminino";
+            this.radioButton_sexo_fem.UseVisualStyleBackColor = true;
+            // 
             // radioButton_sexo_masc
             // 
             this.radioButton_sexo_masc.AutoSize = true;
@@ -170,28 +192,6 @@
             this.radioButton_sexo_masc.UseVisualStyleBackColor = true;
             this.radioButton_sexo_masc.CheckedChanged += new System.EventHandler(this.radioButton_sexo_masc_CheckedChanged);
             // 
-            // radioButton_sexo_fem
-            // 
-            this.radioButton_sexo_fem.AutoSize = true;
-            this.radioButton_sexo_fem.Location = new System.Drawing.Point(6, 42);
-            this.radioButton_sexo_fem.Name = "radioButton_sexo_fem";
-            this.radioButton_sexo_fem.Size = new System.Drawing.Size(67, 17);
-            this.radioButton_sexo_fem.TabIndex = 1;
-            this.radioButton_sexo_fem.TabStop = true;
-            this.radioButton_sexo_fem.Text = "Feminino";
-            this.radioButton_sexo_fem.UseVisualStyleBackColor = true;
-            // 
-            // radioButton_sexo_outro
-            // 
-            this.radioButton_sexo_outro.AutoSize = true;
-            this.radioButton_sexo_outro.Location = new System.Drawing.Point(6, 65);
-            this.radioButton_sexo_outro.Name = "radioButton_sexo_outro";
-            this.radioButton_sexo_outro.Size = new System.Drawing.Size(51, 17);
-            this.radioButton_sexo_outro.TabIndex = 2;
-            this.radioButton_sexo_outro.TabStop = true;
-            this.radioButton_sexo_outro.Text = "Outro";
-            this.radioButton_sexo_outro.UseVisualStyleBackColor = true;
-            // 
             // listBox_resultados
             // 
             this.listBox_resultados.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
@@ -202,6 +202,7 @@
             this.listBox_resultados.Name = "listBox_resultados";
             this.listBox_resultados.Size = new System.Drawing.Size(913, 144);
             this.listBox_resultados.TabIndex = 11;
+            this.listBox_resultados.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.listBox_resultados_MouseDoubleClick);
             // 
             // button_cadastrar
             // 

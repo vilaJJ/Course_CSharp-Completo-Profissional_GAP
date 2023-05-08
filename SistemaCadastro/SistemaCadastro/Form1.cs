@@ -151,5 +151,31 @@ namespace SistemaCadastro
                 listBox_resultados.Items.Add(p.Nome);
             }
         }
+
+        private void listBox_resultados_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            int id = listBox_resultados.SelectedIndex;
+            Pessoa p = pessoas[id];
+
+            txtBox_nome.Text = p.Nome;
+            dateTimePicker_dataNasc.Text = p.DataNascimento;
+            comboBox_estadoCivil.SelectedItem = p.EstadoCivil;
+            maskedTextBox_telefone.Text = p.Telefone;
+            checkBox_casaPropria.Checked = p.CasaPropria;
+            checkBox_veiculoProprio.Checked = p.Veiculo;
+
+            switch (p.Sexo)
+            {
+                case 'M':
+                    radioButton_sexo_masc.Checked = true;
+                    break;
+                case 'F':
+                    radioButton_sexo_fem.Checked = true;
+                    break;
+                default:
+                    radioButton_sexo_outro.Checked = true;
+                    break;
+            }
+        }
     }
 }
