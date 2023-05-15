@@ -1,0 +1,14 @@
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\JoKenPo\JoKenPo\bin\Debug\JoKenPo.exe.config
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\JoKenPo\JoKenPo\bin\Debug\JoKenPo.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\JoKenPo\JoKenPo\bin\Debug\JoKenPo.pdb
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\JoKenPo\JoKenPo\obj\Debug\JoKenPo.csproj.AssemblyReference.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\JoKenPo\JoKenPo\obj\Debug\JoKenPo.csproj.SuggestedBindingRedirects.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\JoKenPo\JoKenPo\obj\Debug\JoKenPo.JogoMain.resources
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\JoKenPo\JoKenPo\obj\Debug\JoKenPo.Properties.Resources.resources
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\JoKenPo\JoKenPo\obj\Debug\JoKenPo.csproj.GenerateResource.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\JoKenPo\JoKenPo\obj\Debug\JoKenPo.csproj.CoreCompileInputs.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\JoKenPo\JoKenPo\obj\Debug\JoKenPo.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\JoKenPo\JoKenPo\obj\Debug\JoKenPo.pdb
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\JoKenPo\JoKenPo\bin\Debug\pt-BR\JoKenPo.resources.dll
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\JoKenPo\JoKenPo\obj\Debug\JoKenPo.JogoMain.pt-BR.resources
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\JoKenPo\JoKenPo\obj\Debug\pt-BR\JoKenPo.resources.dll
