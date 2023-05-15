@@ -1,0 +1,11 @@
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ClassesImportantes\ClassesImportantes\bin\Debug\ClassesImportantes.exe.config
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ClassesImportantes\ClassesImportantes\bin\Debug\ClassesImportantes.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ClassesImportantes\ClassesImportantes\bin\Debug\ClassesImportantes.pdb
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ClassesImportantes\ClassesImportantes\obj\Debug\ClassesImportantes.csproj.AssemblyReference.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ClassesImportantes\ClassesImportantes\obj\Debug\ClassesImportantes.csproj.SuggestedBindingRedirects.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ClassesImportantes\ClassesImportantes\obj\Debug\ClassesImportantes.ClassesImportantes.resources
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ClassesImportantes\ClassesImportantes\obj\Debug\ClassesImportantes.Properties.Resources.resources
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ClassesImportantes\ClassesImportantes\obj\Debug\ClassesImportantes.csproj.GenerateResource.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ClassesImportantes\ClassesImportantes\obj\Debug\ClassesImportantes.csproj.CoreCompileInputs.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ClassesImportantes\ClassesImportantes\obj\Debug\ClassesImportantes.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ClassesImportantes\ClassesImportantes\obj\Debug\ClassesImportantes.pdb
