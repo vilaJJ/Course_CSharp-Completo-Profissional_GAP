@@ -180,6 +180,143 @@ namespace Colecoes
             }
         }
 
+        private void button_SortedDictionary_Click(object sender, EventArgs e)
+        {
+            lista.Items.Clear();
+
+            SortedDictionary<int, string> uniforme_time = new SortedDictionary<int, string>()
+            {
+                { 10, "Juan Felipe" },
+                { 4, "Joeps" },
+                { 11, "Jeff" },
+                { 7, "João Arthur" }
+            };
+
+            uniforme_time.Add(1, "Vitor A. S.");
+            uniforme_time.Add(3, "Ian Vitor");
+
+            // uniforme_time.Remove(1);
+
+            MessageBox.Show($"{uniforme_time.Count} jogadores.");
+
+            // uniforme_time.Clear();
+            
+            // uniforme_time.ContainsKey(15);
+            // uniforme_time.ContainsValue("João L.");
+            MessageBox.Show(uniforme_time.ElementAt(0).ToString());
+
+            foreach (KeyValuePair<int, string> item in uniforme_time) // uniforme_time.Reverse()
+            {
+                lista.Items.Add($"{item.Value} ({item.Key})");
+            }
+        }
+
+        private void button_SortedSet_Click(object sender, EventArgs e)
+        {
+            lista.Items.Clear();
+
+            SortedSet<string> jogadores = new SortedSet<string>() // Semelhante ao HashSet, não pode repetir o valor
+            {
+                "Juan Felipe",
+                "Joel",
+                "Ian Vitor",
+                "Ricardin",
+                "Franklei",
+                "João Lucas",
+                "João Arthur",
+                "Victor",
+                "Paulo Berg",
+                "Edu",
+                "Jeff"
+            };
+
+            jogadores.Add("Vitor");
+            jogadores.Remove("Franklei");
+
+            // jogadores.ElementAt(1);
+            // jogadores.First();
+            // jogadores.Last();
+            // jogadores.Count;
+            // jogadores.Clear();
+
+            foreach (string item in jogadores) // jogadores.Reverse()
+            {
+                lista.Items.Add(item);
+            }
+        }
+
+        private void button_Queue_Click(object sender, EventArgs e)
+        {
+            lista.Items.Clear();
+
+            Queue<string> fila = new Queue<string>();
+
+            fila.Enqueue("Juan Felipe Alves Flores");
+            fila.Enqueue("Maria Eduarda Batista de Sousa");
+            fila.Enqueue("Yasmin Garcia Borges");
+
+            void preencher_lista()
+            {
+                lista.Items.Clear();
+                foreach (string item in fila)
+                {
+                    lista.Items.Add(item);
+                }
+            }
+
+            /*
+            MessageBox.Show($"Há {fila.Count} pessoas na fila.");
+            MessageBox.Show($"{fila.Peek()} é o primeiro da fila."); // Apenas busca o valor do primeiro da fila.
+            */
+
+            // fila.Clear();
+
+            preencher_lista();
+
+            //MessageBox.Show($"Primeiro da fila: {fila.First()}\nÚltimo da fila: {fila.Last()}");
+
+            while (fila.Count > 0)
+            {
+                MessageBox.Show($"Há {fila.Count} pessoas na fila.");
+                MessageBox.Show($"{fila.Dequeue()} era o primeiro da fila e foi atendido. Próximo."); // Remove o primeiro valor da fila.
+                preencher_lista();
+            }            
+        }
+        private void button_Stack_Click(object sender, EventArgs e)
+        {
+            lista.Items.Clear();
+
+            Stack<string> pilha = new Stack<string>();
+
+            void preencher_lista()
+            {
+                lista.Items.Clear();
+                foreach (string item in pilha)
+                {
+                    lista.Items.Add(item);
+                }
+            }           
+
+            pilha.Push("Juan Felipe");
+            pilha.Push("Yasmin Garcia");
+            pilha.Push("Maria Eduarda");
+
+            preencher_lista();            
+
+            // MessageBox.Show($"{pilha.Peek()} está no topo da pilha.");
+
+            while (pilha.Count > 0)
+            {
+                MessageBox.Show($"Existem {pilha.Count} elementos na pilha.");
+                MessageBox.Show($"{pilha.Pop()} está no topo da pilha e foi removido.");
+                preencher_lista();
+            }
+
+            preencher_lista();
+
+            // pilha.Clear();
+        }
+
         private void button_limpar_Click(object sender, EventArgs e)
         {
             if (!(lista.Items.Count == 0))
@@ -187,6 +324,6 @@ namespace Colecoes
                 lista.Items.Clear();
                 MessageBox.Show("Lista esvaziada.");
             }            
-        }
+        }        
     }
 }

@@ -34,6 +34,10 @@
             this.button_HashSet = new System.Windows.Forms.Button();
             this.button_Dictionary = new System.Windows.Forms.Button();
             this.button_SortedList = new System.Windows.Forms.Button();
+            this.button_SortedDictionary = new System.Windows.Forms.Button();
+            this.button_SortedSet = new System.Windows.Forms.Button();
+            this.button_Queue = new System.Windows.Forms.Button();
+            this.button_Stack = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lista
@@ -44,7 +48,7 @@
             this.lista.ItemHeight = 25;
             this.lista.Location = new System.Drawing.Point(0, 0);
             this.lista.Name = "lista";
-            this.lista.Size = new System.Drawing.Size(585, 561);
+            this.lista.Size = new System.Drawing.Size(585, 411);
             this.lista.TabIndex = 0;
             // 
             // button_List
@@ -59,7 +63,7 @@
             // 
             // button_limpar
             // 
-            this.button_limpar.Location = new System.Drawing.Point(690, 520);
+            this.button_limpar.Location = new System.Drawing.Point(690, 370);
             this.button_limpar.Name = "button_limpar";
             this.button_limpar.Size = new System.Drawing.Size(82, 29);
             this.button_limpar.TabIndex = 2;
@@ -97,11 +101,55 @@
             this.button_SortedList.UseVisualStyleBackColor = true;
             this.button_SortedList.Click += new System.EventHandler(this.button_SortedList_Click);
             // 
+            // button_SortedDictionary
+            // 
+            this.button_SortedDictionary.Location = new System.Drawing.Point(591, 175);
+            this.button_SortedDictionary.Name = "button_SortedDictionary";
+            this.button_SortedDictionary.Size = new System.Drawing.Size(181, 34);
+            this.button_SortedDictionary.TabIndex = 6;
+            this.button_SortedDictionary.Text = "SortedDictionary";
+            this.button_SortedDictionary.UseVisualStyleBackColor = true;
+            this.button_SortedDictionary.Click += new System.EventHandler(this.button_SortedDictionary_Click);
+            // 
+            // button_SortedSet
+            // 
+            this.button_SortedSet.Location = new System.Drawing.Point(591, 215);
+            this.button_SortedSet.Name = "button_SortedSet";
+            this.button_SortedSet.Size = new System.Drawing.Size(181, 33);
+            this.button_SortedSet.TabIndex = 7;
+            this.button_SortedSet.Text = "SortedSet";
+            this.button_SortedSet.UseVisualStyleBackColor = true;
+            this.button_SortedSet.Click += new System.EventHandler(this.button_SortedSet_Click);
+            // 
+            // button_Queue
+            // 
+            this.button_Queue.Location = new System.Drawing.Point(591, 254);
+            this.button_Queue.Name = "button_Queue";
+            this.button_Queue.Size = new System.Drawing.Size(181, 33);
+            this.button_Queue.TabIndex = 8;
+            this.button_Queue.Text = "Queue";
+            this.button_Queue.UseVisualStyleBackColor = true;
+            this.button_Queue.Click += new System.EventHandler(this.button_Queue_Click);
+            // 
+            // button_Stack
+            // 
+            this.button_Stack.Location = new System.Drawing.Point(591, 293);
+            this.button_Stack.Name = "button_Stack";
+            this.button_Stack.Size = new System.Drawing.Size(181, 32);
+            this.button_Stack.TabIndex = 9;
+            this.button_Stack.Text = "Stack";
+            this.button_Stack.UseVisualStyleBackColor = true;
+            this.button_Stack.Click += new System.EventHandler(this.button_Stack_Click);
+            // 
             // Colecoes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(784, 561);
+            this.ClientSize = new System.Drawing.Size(784, 411);
+            this.Controls.Add(this.button_Stack);
+            this.Controls.Add(this.button_Queue);
+            this.Controls.Add(this.button_SortedSet);
+            this.Controls.Add(this.button_SortedDictionary);
             this.Controls.Add(this.button_SortedList);
             this.Controls.Add(this.button_Dictionary);
             this.Controls.Add(this.button_HashSet);
@@ -110,7 +158,7 @@
             this.Controls.Add(this.lista);
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(800, 600);
-            this.MinimumSize = new System.Drawing.Size(800, 600);
+            this.MinimumSize = new System.Drawing.Size(800, 450);
             this.Name = "Colecoes";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Listas Genéricas";
@@ -126,6 +174,10 @@
         private System.Windows.Forms.Button button_HashSet;
         private System.Windows.Forms.Button button_Dictionary;
         private System.Windows.Forms.Button button_SortedList;
+        private System.Windows.Forms.Button button_SortedDictionary;
+        private System.Windows.Forms.Button button_SortedSet;
+        private System.Windows.Forms.Button button_Queue;
+        private System.Windows.Forms.Button button_Stack;
     }
 }
 
