@@ -1,0 +1,8 @@
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ClassesImportantes\TaskConsole\bin\Debug\TaskConsole.exe.config
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ClassesImportantes\TaskConsole\bin\Debug\TaskConsole.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ClassesImportantes\TaskConsole\bin\Debug\TaskConsole.pdb
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ClassesImportantes\TaskConsole\obj\Debug\TaskConsole.csproj.AssemblyReference.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ClassesImportantes\TaskConsole\obj\Debug\TaskConsole.csproj.SuggestedBindingRedirects.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ClassesImportantes\TaskConsole\obj\Debug\TaskConsole.csproj.CoreCompileInputs.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ClassesImportantes\TaskConsole\obj\Debug\TaskConsole.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ClassesImportantes\TaskConsole\obj\Debug\TaskConsole.pdb

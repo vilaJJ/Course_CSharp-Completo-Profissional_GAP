@@ -1,0 +1,11 @@
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ClassesImportantes\ThreadForm\bin\Debug\ThreadForm.exe.config
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ClassesImportantes\ThreadForm\bin\Debug\ThreadForm.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ClassesImportantes\ThreadForm\bin\Debug\ThreadForm.pdb
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ClassesImportantes\ThreadForm\obj\Debug\ThreadForm.csproj.AssemblyReference.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ClassesImportantes\ThreadForm\obj\Debug\ThreadForm.csproj.SuggestedBindingRedirects.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ClassesImportantes\ThreadForm\obj\Debug\ThreadForm.Form1.resources
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ClassesImportantes\ThreadForm\obj\Debug\ThreadForm.Properties.Resources.resources
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ClassesImportantes\ThreadForm\obj\Debug\ThreadForm.csproj.GenerateResource.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ClassesImportantes\ThreadForm\obj\Debug\ThreadForm.csproj.CoreCompileInputs.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ClassesImportantes\ThreadForm\obj\Debug\ThreadForm.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ClassesImportantes\ThreadForm\obj\Debug\ThreadForm.pdb
