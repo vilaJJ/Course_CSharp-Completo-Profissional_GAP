@@ -1,0 +1,12 @@
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Formulario\Formulario\bin\Debug\Formulario.exe.config
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Formulario\Formulario\bin\Debug\Formulario.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Formulario\Formulario\bin\Debug\Formulario.pdb
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Formulario\Formulario\obj\Debug\Formulario.csproj.AssemblyReference.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Formulario\Formulario\obj\Debug\Formulario.csproj.SuggestedBindingRedirects.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Formulario\Formulario\obj\Debug\Formulario.FormPrincipal.resources
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Formulario\Formulario\obj\Debug\Formulario.Properties.Resources.resources
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Formulario\Formulario\obj\Debug\Formulario.csproj.GenerateResource.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Formulario\Formulario\obj\Debug\Formulario.csproj.CoreCompileInputs.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Formulario\Formulario\obj\Debug\Formulario.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Formulario\Formulario\obj\Debug\Formulario.pdb
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Formulario\Formulario\obj\Debug\Formulario.FormSecundaria.resources
