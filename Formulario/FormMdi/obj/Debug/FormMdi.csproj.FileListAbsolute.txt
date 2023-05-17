@@ -1,0 +1,13 @@
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Formulario\FormMdi\bin\Debug\FormMdi.exe.config
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Formulario\FormMdi\bin\Debug\FormMdi.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Formulario\FormMdi\bin\Debug\FormMdi.pdb
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Formulario\FormMdi\obj\Debug\FormMdi.csproj.AssemblyReference.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Formulario\FormMdi\obj\Debug\FormMdi.csproj.SuggestedBindingRedirects.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Formulario\FormMdi\obj\Debug\FormMdi.Form1.resources
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Formulario\FormMdi\obj\Debug\FormMdi.Properties.Resources.resources
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Formulario\FormMdi\obj\Debug\FormMdi.csproj.GenerateResource.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Formulario\FormMdi\obj\Debug\FormMdi.csproj.CoreCompileInputs.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Formulario\FormMdi\obj\Debug\FormMdi.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Formulario\FormMdi\obj\Debug\FormMdi.pdb
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Formulario\FormMdi\obj\Debug\FormMdi.Form2.resources
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Formulario\FormMdi\obj\Debug\FormMdi.Form3.resources

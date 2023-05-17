@@ -1,0 +1,11 @@
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Formulario\FormControle\bin\Debug\FormControle.exe.config
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Formulario\FormControle\bin\Debug\FormControle.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Formulario\FormControle\bin\Debug\FormControle.pdb
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Formulario\FormControle\obj\Debug\FormControle.csproj.AssemblyReference.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Formulario\FormControle\obj\Debug\FormControle.csproj.SuggestedBindingRedirects.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Formulario\FormControle\obj\Debug\FormControle.Form1.resources
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Formulario\FormControle\obj\Debug\FormControle.Properties.Resources.resources
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Formulario\FormControle\obj\Debug\FormControle.csproj.GenerateResource.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Formulario\FormControle\obj\Debug\FormControle.csproj.CoreCompileInputs.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Formulario\FormControle\obj\Debug\FormControle.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Formulario\FormControle\obj\Debug\FormControle.pdb
