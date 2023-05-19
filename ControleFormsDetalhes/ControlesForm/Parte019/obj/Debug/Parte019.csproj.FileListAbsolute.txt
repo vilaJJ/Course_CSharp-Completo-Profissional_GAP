@@ -1,0 +1,15 @@
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ControleFormsDetalhes\ControlesForm\Parte019\bin\Debug\Parte019.exe.config
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ControleFormsDetalhes\ControlesForm\Parte019\bin\Debug\Parte019.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ControleFormsDetalhes\ControlesForm\Parte019\bin\Debug\Parte019.pdb
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ControleFormsDetalhes\ControlesForm\Parte019\obj\Debug\Parte019.csproj.AssemblyReference.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ControleFormsDetalhes\ControlesForm\Parte019\obj\Debug\Parte019.csproj.SuggestedBindingRedirects.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ControleFormsDetalhes\ControlesForm\Parte019\obj\Debug\Parte019.Form1.resources
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ControleFormsDetalhes\ControlesForm\Parte019\obj\Debug\Parte019.Properties.Resources.resources
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ControleFormsDetalhes\ControlesForm\Parte019\obj\Debug\Parte019.csproj.GenerateResource.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ControleFormsDetalhes\ControlesForm\Parte019\obj\Debug\Parte019.csproj.CoreCompileInputs.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ControleFormsDetalhes\ControlesForm\Parte019\obj\Debug\Parte019.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ControleFormsDetalhes\ControlesForm\Parte019\obj\Debug\Parte019.pdb
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ControleFormsDetalhes\ControlesForm\Parte019\bin\Debug\Utilitarios.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ControleFormsDetalhes\ControlesForm\Parte019\bin\Debug\Utilitarios.pdb
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ControleFormsDetalhes\ControlesForm\Parte019\bin\Debug\Utilitarios.exe.config
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ControleFormsDetalhes\ControlesForm\Parte019\obj\Debug\Parte019.csproj.CopyComplete
