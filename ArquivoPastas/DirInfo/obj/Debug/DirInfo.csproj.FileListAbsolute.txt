@@ -1,0 +1,15 @@
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ArquivoPastas\DirInfo\bin\Debug\DirInfo.exe.config
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ArquivoPastas\DirInfo\bin\Debug\DirInfo.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ArquivoPastas\DirInfo\bin\Debug\DirInfo.pdb
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ArquivoPastas\DirInfo\bin\Debug\Utilitarios.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ArquivoPastas\DirInfo\bin\Debug\Utilitarios.pdb
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ArquivoPastas\DirInfo\bin\Debug\Utilitarios.exe.config
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ArquivoPastas\DirInfo\obj\Debug\DirInfo.csproj.AssemblyReference.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ArquivoPastas\DirInfo\obj\Debug\DirInfo.csproj.SuggestedBindingRedirects.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ArquivoPastas\DirInfo\obj\Debug\DirInfo.Form1.resources
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ArquivoPastas\DirInfo\obj\Debug\DirInfo.Properties.Resources.resources
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ArquivoPastas\DirInfo\obj\Debug\DirInfo.csproj.GenerateResource.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ArquivoPastas\DirInfo\obj\Debug\DirInfo.csproj.CoreCompileInputs.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ArquivoPastas\DirInfo\obj\Debug\DirInfo.csproj.CopyComplete
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ArquivoPastas\DirInfo\obj\Debug\DirInfo.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ArquivoPastas\DirInfo\obj\Debug\DirInfo.pdb

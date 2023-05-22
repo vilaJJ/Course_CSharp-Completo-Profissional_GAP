@@ -1,0 +1,15 @@
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ArquivoPastas\LerEscrever\bin\Debug\LerEscrever.exe.config
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ArquivoPastas\LerEscrever\bin\Debug\LerEscrever.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ArquivoPastas\LerEscrever\bin\Debug\LerEscrever.pdb
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ArquivoPastas\LerEscrever\bin\Debug\Utilitarios.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ArquivoPastas\LerEscrever\bin\Debug\Utilitarios.pdb
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ArquivoPastas\LerEscrever\bin\Debug\Utilitarios.exe.config
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ArquivoPastas\LerEscrever\obj\Debug\LerEscrever.csproj.AssemblyReference.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ArquivoPastas\LerEscrever\obj\Debug\LerEscrever.csproj.SuggestedBindingRedirects.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ArquivoPastas\LerEscrever\obj\Debug\LerEscrever.Form1.resources
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ArquivoPastas\LerEscrever\obj\Debug\LerEscrever.Properties.Resources.resources
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ArquivoPastas\LerEscrever\obj\Debug\LerEscrever.csproj.GenerateResource.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ArquivoPastas\LerEscrever\obj\Debug\LerEscrever.csproj.CoreCompileInputs.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ArquivoPastas\LerEscrever\obj\Debug\LerEscrever.csproj.CopyComplete
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ArquivoPastas\LerEscrever\obj\Debug\LerEscrever.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ArquivoPastas\LerEscrever\obj\Debug\LerEscrever.pdb
