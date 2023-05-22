@@ -1,0 +1,8 @@
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\BaseDados\Utilitarios\bin\Debug\Utilitarios.exe.config
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\BaseDados\Utilitarios\bin\Debug\Utilitarios.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\BaseDados\Utilitarios\bin\Debug\Utilitarios.pdb
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\BaseDados\Utilitarios\obj\Debug\Utilitarios.csproj.AssemblyReference.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\BaseDados\Utilitarios\obj\Debug\Utilitarios.csproj.SuggestedBindingRedirects.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\BaseDados\Utilitarios\obj\Debug\Utilitarios.csproj.CoreCompileInputs.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\BaseDados\Utilitarios\obj\Debug\Utilitarios.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\BaseDados\Utilitarios\obj\Debug\Utilitarios.pdb
