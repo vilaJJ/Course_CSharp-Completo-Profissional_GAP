@@ -31,5 +31,23 @@ namespace Utilitarios
             sw.Dispose();
             sw.Close();
         }
+
+        public static void StreamReader(StreamReader sr)
+        {
+            sr.Dispose();
+            sr.Close();
+        }
+
+        public static void BinaryWriter(BinaryWriter bw)
+        {
+            bw.Flush();
+            bw.Dispose();
+            bw.Close();
+        }
+        public static void BinaryReader(BinaryReader br)
+        {
+            br.Dispose();
+            br.Close();
+        }
     }
 }
