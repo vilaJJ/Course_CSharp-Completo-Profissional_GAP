@@ -1,0 +1,11 @@
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\LINQ_1\LINQ_1\bin\Debug\LINQ_1.exe.config
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\LINQ_1\LINQ_1\bin\Debug\LINQ_1.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\LINQ_1\LINQ_1\bin\Debug\LINQ_1.pdb
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\LINQ_1\LINQ_1\obj\Debug\LINQ_1.csproj.AssemblyReference.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\LINQ_1\LINQ_1\obj\Debug\LINQ_1.csproj.SuggestedBindingRedirects.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\LINQ_1\LINQ_1\obj\Debug\LINQ_1.FormPrincipal.resources
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\LINQ_1\LINQ_1\obj\Debug\LINQ_1.Properties.Resources.resources
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\LINQ_1\LINQ_1\obj\Debug\LINQ_1.csproj.GenerateResource.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\LINQ_1\LINQ_1\obj\Debug\LINQ_1.csproj.CoreCompileInputs.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\LINQ_1\LINQ_1\obj\Debug\LINQ_1.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\LINQ_1\LINQ_1\obj\Debug\LINQ_1.pdb
