@@ -23,5 +23,15 @@ namespace Utilitarios
                 MessageBoxIcon.Information
             );
         }
+
+        public static void MensagemInformacao(string mensagem, string titulo)
+        {
+            MessageBox.Show(
+                mensagem,
+                titulo,
+                MessageBoxButtons.OK,
+                MessageBoxIcon.Information
+            );
+        }
     }
 }

@@ -65,6 +65,8 @@
             // 
             // lista
             // 
+            this.lista.AllowUserToAddRows = false;
+            this.lista.AllowUserToOrderColumns = true;
             this.lista.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.lista.BackgroundColor = System.Drawing.SystemColors.Control;
             this.lista.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -75,6 +77,7 @@
             this.lista.Location = new System.Drawing.Point(12, 200);
             this.lista.MultiSelect = false;
             this.lista.Name = "lista";
+            this.lista.RowHeadersVisible = false;
             this.lista.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.lista.Size = new System.Drawing.Size(587, 336);
             this.lista.TabIndex = 1;
@@ -162,6 +165,7 @@
             this.button_Inserir.TabIndex = 8;
             this.button_Inserir.Text = "Inserir";
             this.button_Inserir.UseVisualStyleBackColor = true;
+            this.button_Inserir.Click += new System.EventHandler(this.button_Inserir_Click);
             // 
             // button_Procurar
             // 
@@ -172,6 +176,7 @@
             this.button_Procurar.TabIndex = 9;
             this.button_Procurar.Text = "Procurar";
             this.button_Procurar.UseVisualStyleBackColor = true;
+            this.button_Procurar.Click += new System.EventHandler(this.button_Procurar_Click);
             // 
             // button_Editar
             // 
@@ -182,6 +187,7 @@
             this.button_Editar.TabIndex = 10;
             this.button_Editar.Text = "Editar";
             this.button_Editar.UseVisualStyleBackColor = true;
+            this.button_Editar.Click += new System.EventHandler(this.button_Editar_Click);
             // 
             // button_Excluir
             // 
@@ -192,6 +198,7 @@
             this.button_Excluir.TabIndex = 11;
             this.button_Excluir.Text = "Excluir";
             this.button_Excluir.UseVisualStyleBackColor = true;
+            this.button_Excluir.Click += new System.EventHandler(this.button_Excluir_Click);
             // 
             // toolStrip1
             // 
