@@ -1,0 +1,11 @@
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\GDIPlus\GDIPlus\bin\Debug\GDIPlus.exe.config
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\GDIPlus\GDIPlus\bin\Debug\GDIPlus.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\GDIPlus\GDIPlus\bin\Debug\GDIPlus.pdb
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\GDIPlus\GDIPlus\obj\Debug\GDIPlus.csproj.AssemblyReference.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\GDIPlus\GDIPlus\obj\Debug\GDIPlus.csproj.SuggestedBindingRedirects.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\GDIPlus\GDIPlus\obj\Debug\GDIPlus.FormPrincipal.resources
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\GDIPlus\GDIPlus\obj\Debug\GDIPlus.Properties.Resources.resources
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\GDIPlus\GDIPlus\obj\Debug\GDIPlus.csproj.GenerateResource.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\GDIPlus\GDIPlus\obj\Debug\GDIPlus.csproj.CoreCompileInputs.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\GDIPlus\GDIPlus\obj\Debug\GDIPlus.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\GDIPlus\GDIPlus\obj\Debug\GDIPlus.pdb
