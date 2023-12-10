@@ -1,13 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Drawing.Imaging;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace GDIPlus
@@ -23,10 +17,10 @@ namespace GDIPlus
             // Utilizar o desenho ou imagem
         }
 
-        private void button_Desenhar_Click(object sender, EventArgs e)
+        private void Button_Desenhar_Click(object sender, EventArgs e)
         {
             // Folha em branco
-            Bitmap folha = new Bitmap(pictureBox_Resultado.Width, pictureBox_Resultado.Height);
+            Bitmap folha = new Bitmap(PictureBox_Resultado.Width, PictureBox_Resultado.Height);
 
             // Criar desenhador
             Graphics desenhador = Graphics.FromImage(folha);
@@ -210,7 +204,7 @@ namespace GDIPlus
             #endregion
 
             #region Arcos
-
+            /*
             Pen lapis = new Pen(Color.DarkSlateBlue, 2);
 
             Point p1 = new Point(100, 100);
@@ -218,14 +212,107 @@ namespace GDIPlus
             Rectangle rect = new Rectangle(p1, size1);
 
             desenhador.DrawArc(lapis, rect, 90, 180);
+            */
+            #endregion
+
+            #region Bezier
+            /*
+            Pen lapis = new Pen(Color.Black, 5);
+
+            Point p1 = new Point(50, 300);  // Início
+            Point p2 = new Point(150, 350);
+            Point p3 = new Point(300, 100);
+            Point p4 = new Point(400, 150); // Meio
+            Point p5 = new Point(500, 400);
+            Point p6 = new Point(550, 100);
+            Point p7 = new Point(600, 10);  // Fim
+
+            Point[] pontos = new Point[]
+            {
+                p1, p2, p3, p4, p5, p6, p7
+            };
+
+            // desenhador.DrawBezier(lapis, p1, p2, p3, p4);
+
+            desenhador.DrawBeziers(lapis, pontos);
+            */
+            #endregion
+
+            #region Pie
+            /*
+            Pen lapis = new Pen(Color.Black, 3);
+            Brush pincel = Brushes.Purple;
+
+            Rectangle retangulo = new Rectangle(100, 50, 300, 300);
+
+            desenhador.DrawPie(lapis, retangulo, 0, 90);
+            desenhador.FillPie(pincel, retangulo, 90, 90);
+            desenhador.DrawPie(lapis, retangulo, 180, 90);
+            desenhador.FillPie(pincel, retangulo, 270, 90);
+
+            desenhador.DrawRectangle(lapis, retangulo);
+            */
+            #endregion
+
+            #region Path
+            /*
+            Pen lapis = new Pen(Color.Black);
+            GraphicsPath graphicPath = new GraphicsPath(FillMode.Alternate);
+
+            Rectangle retangulo1 = new Rectangle(10, 10, 100, 100);
+            Rectangle retangulo2 = new Rectangle(50, 10, 100, 100);
+            Rectangle retangulo3 = new Rectangle(500, 200, 100, 150);
+
+            graphicPath.AddEllipse(retangulo1);
+            graphicPath.AddEllipse(retangulo2);
+            graphicPath.AddRectangle(retangulo3);
+            graphicPath.AddEllipse(retangulo3);
+
+            desenhador.DrawPath(lapis, graphicPath);
+            desenhador.FillPath(Brushes.DarkGreen, graphicPath);
+            */
+            #endregion
+
+            #region Strings
+            /*
+            string texto = "Clube de Regatas do Flamengo (CRF)! Uma vez Flamengo, sempre Flamengo! Flamengo eu sempre herei de ser! É o meu maior prazer, vê-lo brilhar! Nessa na terra, seja no mar, VENCER! VENCER! VENCER! Uma vez Flamengo, Flamengo até morrer!";
+            Font fonte = new Font("Arial", 20, FontStyle.Bold, GraphicsUnit.Point);
+
+            Rectangle retanguloGradiente = new Rectangle(0, 0, 400, 400);
+            Brush pincel = new LinearGradientBrush(retanguloGradiente, Color.HotPink, Color.Purple, 45);
+
+            Rectangle rectangle = new Rectangle(100, 100, 800, 500);
+
+            StringFormat formatoTexto = new StringFormat()
+            {
+                Alignment = StringAlignment.Center,
+                LineAlignment = StringAlignment.Center
+            };
+
+            desenhador.DrawString(texto, fonte, pincel, rectangle, formatoTexto);
+            */
+            #endregion
+
+            #region Imagens
+
+            Image imagem1 = Image.FromFile($@"{Application.StartupPath}\Imagens\print_raro.png");
+            Rectangle origem1 = new Rectangle(0, 0, imagem1.Width, imagem1.Height);
+            Rectangle destino1 = new Rectangle(0, 0, PictureBox_Resultado.Width, PictureBox_Resultado.Height);
+
+            Image imagem2 = Image.FromFile($@"{Application.StartupPath}\Imagens\absolute_cinema.png");
+            Rectangle origem2 = new Rectangle(0, 0, imagem2.Width, imagem2.Height);
+            Rectangle destino2 = new Rectangle(25, 150, imagem2.Width, imagem2.Height);
+
+            desenhador.DrawImage(imagem1, destino1, origem1, GraphicsUnit.Pixel);
+            desenhador.DrawImage(imagem2, destino2, origem2, GraphicsUnit.Pixel);
 
             #endregion
 
             // Exibir no PictureBox
-            pictureBox_Resultado.Image = folha;
+            PictureBox_Resultado.Image = folha;
 
             // Salvar como arquivo
-            folha.Save(@"C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\GDIPlus\desenho.jpg", ImageFormat.Jpeg);
+            folha.Save(@"C:\Users\vilar\OneDrive\Área de Trabalho\Estudos\Estudando-CSharp\GDIPlus\desenho.jpg", ImageFormat.Jpeg);
         }
     }
 }

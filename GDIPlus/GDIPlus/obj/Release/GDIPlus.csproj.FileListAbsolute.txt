@@ -1,0 +1,10 @@
+C:\Users\vilar\OneDrive\Área de Trabalho\Estudos\Estudando-CSharp\GDIPlus\GDIPlus\bin\Release\GDIPlus.exe.config
+C:\Users\vilar\OneDrive\Área de Trabalho\Estudos\Estudando-CSharp\GDIPlus\GDIPlus\bin\Release\GDIPlus.exe
+C:\Users\vilar\OneDrive\Área de Trabalho\Estudos\Estudando-CSharp\GDIPlus\GDIPlus\bin\Release\GDIPlus.pdb
+C:\Users\vilar\OneDrive\Área de Trabalho\Estudos\Estudando-CSharp\GDIPlus\GDIPlus\obj\Release\GDIPlus.csproj.AssemblyReference.cache
+C:\Users\vilar\OneDrive\Área de Trabalho\Estudos\Estudando-CSharp\GDIPlus\GDIPlus\obj\Release\GDIPlus.FormPrincipal.resources
+C:\Users\vilar\OneDrive\Área de Trabalho\Estudos\Estudando-CSharp\GDIPlus\GDIPlus\obj\Release\GDIPlus.Properties.Resources.resources
+C:\Users\vilar\OneDrive\Área de Trabalho\Estudos\Estudando-CSharp\GDIPlus\GDIPlus\obj\Release\GDIPlus.csproj.GenerateResource.cache
+C:\Users\vilar\OneDrive\Área de Trabalho\Estudos\Estudando-CSharp\GDIPlus\GDIPlus\obj\Release\GDIPlus.csproj.CoreCompileInputs.cache
+C:\Users\vilar\OneDrive\Área de Trabalho\Estudos\Estudando-CSharp\GDIPlus\GDIPlus\obj\Release\GDIPlus.exe
+C:\Users\vilar\OneDrive\Área de Trabalho\Estudos\Estudando-CSharp\GDIPlus\GDIPlus\obj\Release\GDIPlus.pdb
