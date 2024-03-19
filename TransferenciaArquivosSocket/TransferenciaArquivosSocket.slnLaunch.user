@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Iniciar cliente e servidor",
+    "Projects": [
+      {
+        "Name": "TransferenciaArquivosSocket\\TransferenciaArquivosServer.csproj",
+        "Action": "Start"
+      },
+      {
+        "Name": "TransferenciaArquivoCliente\\TransferenciaArquivoCliente.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

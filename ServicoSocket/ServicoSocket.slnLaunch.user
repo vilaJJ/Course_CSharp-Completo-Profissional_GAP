@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Executar cliente e servidor",
+    "Projects": [
+      {
+        "Name": "SocketServer\\SocketServer.csproj",
+        "Action": "Start"
+      },
+      {
+        "Name": "SocketCliente\\SocketCliente.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransferenciaArquivosServer", "TransferenciaArquivosSocket\TransferenciaArquivosServer.csproj", "{29637BE1-9040-4327-ABBB-D87B9AEFA9A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransferenciaArquivoCliente", "TransferenciaArquivoCliente\TransferenciaArquivoCliente.csproj", "{7832EA44-2A34-47CB-8FFE-10A1E65A21AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29637BE1-9040-4327-ABBB-D87B9AEFA9A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29637BE1-9040-4327-ABBB-D87B9AEFA9A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29637BE1-9040-4327-ABBB-D87B9AEFA9A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29637BE1-9040-4327-ABBB-D87B9AEFA9A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7832EA44-2A34-47CB-8FFE-10A1E65A21AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7832EA44-2A34-47CB-8FFE-10A1E65A21AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7832EA44-2A34-47CB-8FFE-10A1E65A21AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7832EA44-2A34-47CB-8FFE-10A1E65A21AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {966EF53E-8728-45C0-A5FF-E339DB5F5868}
+	EndGlobalSection
+EndGlobal

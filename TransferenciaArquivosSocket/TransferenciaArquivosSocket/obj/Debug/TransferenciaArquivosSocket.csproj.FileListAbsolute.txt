@@ -1,0 +1,10 @@
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\TransferenciaArquivosSocket\TransferenciaArquivosSocket\bin\Debug\TransferenciaArquivosSocket.exe.config
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\TransferenciaArquivosSocket\TransferenciaArquivosSocket\bin\Debug\TransferenciaArquivosSocket.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\TransferenciaArquivosSocket\TransferenciaArquivosSocket\bin\Debug\TransferenciaArquivosSocket.pdb
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\TransferenciaArquivosSocket\TransferenciaArquivosSocket\obj\Debug\TransferenciaArquivosSocket.csproj.AssemblyReference.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\TransferenciaArquivosSocket\TransferenciaArquivosSocket\obj\Debug\TransferenciaArquivosSocket.FormPrincipal.resources
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\TransferenciaArquivosSocket\TransferenciaArquivosSocket\obj\Debug\TransferenciaArquivosSocket.Properties.Resources.resources
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\TransferenciaArquivosSocket\TransferenciaArquivosSocket\obj\Debug\TransferenciaArquivosSocket.csproj.GenerateResource.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\TransferenciaArquivosSocket\TransferenciaArquivosSocket\obj\Debug\TransferenciaArquivosSocket.csproj.CoreCompileInputs.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\TransferenciaArquivosSocket\TransferenciaArquivosSocket\obj\Debug\TransferenciaArquivosSocket.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\TransferenciaArquivosSocket\TransferenciaArquivosSocket\obj\Debug\TransferenciaArquivosSocket.pdb

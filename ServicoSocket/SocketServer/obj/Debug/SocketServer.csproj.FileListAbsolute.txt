@@ -1,0 +1,7 @@
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ServicoSocket\SocketServer\bin\Debug\SocketServer.exe.config
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ServicoSocket\SocketServer\bin\Debug\SocketServer.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ServicoSocket\SocketServer\bin\Debug\SocketServer.pdb
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ServicoSocket\SocketServer\obj\Debug\SocketServer.csproj.AssemblyReference.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ServicoSocket\SocketServer\obj\Debug\SocketServer.csproj.CoreCompileInputs.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ServicoSocket\SocketServer\obj\Debug\SocketServer.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ServicoSocket\SocketServer\obj\Debug\SocketServer.pdb
