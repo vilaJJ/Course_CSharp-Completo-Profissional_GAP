@@ -1,0 +1,10 @@
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\SocketChat\SocketChatServer\bin\Debug\SocketChatServer.exe.config
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\SocketChat\SocketChatServer\bin\Debug\SocketChatServer.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\SocketChat\SocketChatServer\bin\Debug\SocketChatServer.pdb
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\SocketChat\SocketChatServer\obj\Debug\SocketChatServer.csproj.AssemblyReference.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\SocketChat\SocketChatServer\obj\Debug\SocketChatServer.Formularios.FormPrincipal.resources
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\SocketChat\SocketChatServer\obj\Debug\SocketChatServer.Properties.Resources.resources
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\SocketChat\SocketChatServer\obj\Debug\SocketChatServer.csproj.GenerateResource.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\SocketChat\SocketChatServer\obj\Debug\SocketChatServer.csproj.CoreCompileInputs.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\SocketChat\SocketChatServer\obj\Debug\SocketChatServer.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\SocketChat\SocketChatServer\obj\Debug\SocketChatServer.pdb
