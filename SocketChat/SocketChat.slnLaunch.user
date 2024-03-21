@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Servidor e cliente",
+    "Projects": [
+      {
+        "Name": "SocketChatServer\\SocketChatServer.csproj",
+        "Action": "Start"
+      },
+      {
+        "Name": "SocketChatClient\\SocketChatClient.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

@@ -48,12 +48,12 @@ namespace SocketChatServer.Classes
         /// </summary>
         private void FecharConexao()
         {
-            tcpClient.Close();
-
-            Enviador.Flush();
+            Enviador.Flush();     
 
             Receptor.Close();
             Enviador.Close();
+
+            tcpClient.Close();
         }
 
         private void AceitarCliente()

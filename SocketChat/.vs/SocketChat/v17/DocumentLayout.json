@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\NSYS-DEV-05\\Desktop\\Estudos\\CSharp-Projetos\\SocketChat\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BBB1F198-293C-4D72-97E8-F532799CC246}|SocketChatServer\\SocketChatServer.csproj|C:\\Users\\NSYS-DEV-05\\Desktop\\Estudos\\CSharp-Projetos\\SocketChat\\socketchatserver\\formularios\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BBB1F198-293C-4D72-97E8-F532799CC246}|SocketChatServer\\SocketChatServer.csproj|solutionrelative:socketchatserver\\formularios\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{09C3F6C4-813F-4B0F-900C-89C3DC72432B}|SocketChatClient\\SocketChatClient.csproj|c:\\users\\nsys-dev-05\\desktop\\estudos\\csharp-projetos\\socketchat\\socketchatclient\\formularios\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09C3F6C4-813F-4B0F-900C-89C3DC72432B}|SocketChatClient\\SocketChatClient.csproj|solutionrelative:socketchatclient\\formularios\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BBB1F198-293C-4D72-97E8-F532799CC246}|SocketChatServer\\SocketChatServer.csproj|c:\\users\\nsys-dev-05\\desktop\\estudos\\csharp-projetos\\socketchat\\socketchatserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBB1F198-293C-4D72-97E8-F532799CC246}|SocketChatServer\\SocketChatServer.csproj|solutionrelative:socketchatserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBB1F198-293C-4D72-97E8-F532799CC246}|SocketChatServer\\SocketChatServer.csproj|c:\\users\\nsys-dev-05\\desktop\\estudos\\csharp-projetos\\socketchat\\socketchatserver\\formularios\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBB1F198-293C-4D72-97E8-F532799CC246}|SocketChatServer\\SocketChatServer.csproj|solutionrelative:socketchatserver\\formularios\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBB1F198-293C-4D72-97E8-F532799CC246}|SocketChatServer\\SocketChatServer.csproj|c:\\users\\nsys-dev-05\\desktop\\estudos\\csharp-projetos\\socketchat\\socketchatserver\\classes\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BBB1F198-293C-4D72-97E8-F532799CC246}|SocketChatServer\\SocketChatServer.csproj|C:\\Users\\NSYS-DEV-05\\Desktop\\Estudos\\CSharp-Projetos\\SocketChat\\socketchatserver\\classes\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BBB1F198-293C-4D72-97E8-F532799CC246}|SocketChatServer\\SocketChatServer.csproj|solutionrelative:socketchatserver\\classes\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BBB1F198-293C-4D72-97E8-F532799CC246}|SocketChatServer\\SocketChatServer.csproj|c:\\users\\nsys-dev-05\\desktop\\estudos\\csharp-projetos\\socketchat\\socketchatserver\\classes\\chatserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBB1F198-293C-4D72-97E8-F532799CC246}|SocketChatServer\\SocketChatServer.csproj|solutionrelative:socketchatserver\\classes\\chatserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{09C3F6C4-813F-4B0F-900C-89C3DC72432B}|SocketChatClient\\SocketChatClient.csproj|c:\\users\\nsys-dev-05\\desktop\\estudos\\csharp-projetos\\socketchat\\socketchatclient\\formularios\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{09C3F6C4-813F-4B0F-900C-89C3DC72432B}|SocketChatClient\\SocketChatClient.csproj|solutionrelative:socketchatclient\\formularios\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BBB1F198-293C-4D72-97E8-F532799CC246}|SocketChatServer\\SocketChatServer.csproj|C:\\Users\\NSYS-DEV-05\\Desktop\\Estudos\\CSharp-Projetos\\SocketChat\\socketchatserver\\eventos\\statuschangedeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBB1F198-293C-4D72-97E8-F532799CC246}|SocketChatServer\\SocketChatServer.csproj|solutionrelative:socketchatserver\\eventos\\statuschangedeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BBB1F198-293C-4D72-97E8-F532799CC246}|SocketChatServer\\SocketChatServer.csproj|C:\\Users\\NSYS-DEV-05\\Desktop\\Estudos\\CSharp-Projetos\\SocketChat\\socketchatserver\\classes\\chatserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBB1F198-293C-4D72-97E8-F532799CC246}|SocketChatServer\\SocketChatServer.csproj|solutionrelative:socketchatserver\\classes\\chatserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,62 +26,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 223,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "FormPrincipal.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\NSYS-DEV-05\\Desktop\\Estudos\\CSharp-Projetos\\SocketChat\\SocketChatServer\\Formularios\\FormPrincipal.cs",
-              "RelativeDocumentMoniker": "SocketChatServer\\Formularios\\FormPrincipal.cs",
-              "ToolTip": "C:\\Users\\NSYS-DEV-05\\Desktop\\Estudos\\CSharp-Projetos\\SocketChat\\SocketChatServer\\Formularios\\FormPrincipal.cs [Design]",
-              "RelativeToolTip": "SocketChatServer\\Formularios\\FormPrincipal.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\NSYS-DEV-05\\Desktop\\Estudos\\CSharp-Projetos\\SocketChat\\SocketChatClient\\Formularios\\FormPrincipal.cs",
+              "RelativeDocumentMoniker": "SocketChatClient\\Formularios\\FormPrincipal.cs",
+              "ToolTip": "C:\\Users\\NSYS-DEV-05\\Desktop\\Estudos\\CSharp-Projetos\\SocketChat\\SocketChatClient\\Formularios\\FormPrincipal.cs [Design]",
+              "RelativeToolTip": "SocketChatClient\\Formularios\\FormPrincipal.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T11:26:23.219Z",
+              "WhenOpened": "2024-03-21T11:29:44.241Z",
               "IsPinned": true,
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "StatusChangedEventArgs.cs",
-              "DocumentMoniker": "C:\\Users\\NSYS-DEV-05\\Desktop\\Estudos\\CSharp-Projetos\\SocketChat\\SocketChatServer\\Eventos\\StatusChangedEventArgs.cs",
-              "RelativeDocumentMoniker": "SocketChatServer\\Eventos\\StatusChangedEventArgs.cs",
-              "ToolTip": "C:\\Users\\NSYS-DEV-05\\Desktop\\Estudos\\CSharp-Projetos\\SocketChat\\SocketChatServer\\Eventos\\StatusChangedEventArgs.cs",
-              "RelativeToolTip": "SocketChatServer\\Eventos\\StatusChangedEventArgs.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T11:42:23.796Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ChatServer.cs",
-              "DocumentMoniker": "C:\\Users\\NSYS-DEV-05\\Desktop\\Estudos\\CSharp-Projetos\\SocketChat\\SocketChatServer\\Classes\\ChatServer.cs",
-              "RelativeDocumentMoniker": "SocketChatServer\\Classes\\ChatServer.cs",
-              "ToolTip": "C:\\Users\\NSYS-DEV-05\\Desktop\\Estudos\\CSharp-Projetos\\SocketChat\\SocketChatServer\\Classes\\ChatServer.cs",
-              "RelativeToolTip": "SocketChatServer\\Classes\\ChatServer.cs",
-              "ViewState": "AQIAAJ0AAAAAAAAAAAAMwMYAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T11:42:35.178Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Conexao.cs",
-              "DocumentMoniker": "C:\\Users\\NSYS-DEV-05\\Desktop\\Estudos\\CSharp-Projetos\\SocketChat\\SocketChatServer\\Classes\\Conexao.cs",
-              "RelativeDocumentMoniker": "SocketChatServer\\Classes\\Conexao.cs",
-              "ToolTip": "C:\\Users\\NSYS-DEV-05\\Desktop\\Estudos\\CSharp-Projetos\\SocketChat\\SocketChatServer\\Classes\\Conexao.cs",
-              "RelativeToolTip": "SocketChatServer\\Classes\\Conexao.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAASwFIAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T14:44:29.958Z",
-              "IsPinned": true,
-              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -117,28 +67,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\NSYS-DEV-05\\Desktop\\Estudos\\CSharp-Projetos\\SocketChat\\SocketChatServer\\Program.cs",
-              "RelativeDocumentMoniker": "SocketChatServer\\Program.cs",
-              "ToolTip": "C:\\Users\\NSYS-DEV-05\\Desktop\\Estudos\\CSharp-Projetos\\SocketChat\\SocketChatServer\\Program.cs",
-              "RelativeToolTip": "SocketChatServer\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA3AAAA",
+              "DocumentIndex": 0,
+              "Title": "FormPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\NSYS-DEV-05\\Desktop\\Estudos\\CSharp-Projetos\\SocketChat\\SocketChatClient\\Formularios\\FormPrincipal.cs",
+              "RelativeDocumentMoniker": "SocketChatClient\\Formularios\\FormPrincipal.cs",
+              "ToolTip": "C:\\Users\\NSYS-DEV-05\\Desktop\\Estudos\\CSharp-Projetos\\SocketChat\\SocketChatClient\\Formularios\\FormPrincipal.cs",
+              "RelativeToolTip": "SocketChatClient\\Formularios\\FormPrincipal.cs",
+              "ViewState": "AQIAAIoAAAAAAAAAAAAvwJsAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T15:19:08.715Z",
+              "WhenOpened": "2024-03-21T11:48:04.535Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FormPrincipal.cs",
-              "DocumentMoniker": "C:\\Users\\NSYS-DEV-05\\Desktop\\Estudos\\CSharp-Projetos\\SocketChat\\SocketChatServer\\Formularios\\FormPrincipal.cs",
-              "RelativeDocumentMoniker": "SocketChatServer\\Formularios\\FormPrincipal.cs",
-              "ToolTip": "C:\\Users\\NSYS-DEV-05\\Desktop\\Estudos\\CSharp-Projetos\\SocketChat\\SocketChatServer\\Formularios\\FormPrincipal.cs",
-              "RelativeToolTip": "SocketChatServer\\Formularios\\FormPrincipal.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAiwEYAAAA0AAAA",
+              "DocumentIndex": 1,
+              "Title": "Conexao.cs",
+              "DocumentMoniker": "C:\\Users\\NSYS-DEV-05\\Desktop\\Estudos\\CSharp-Projetos\\SocketChat\\SocketChatServer\\Classes\\Conexao.cs",
+              "RelativeDocumentMoniker": "SocketChatServer\\Classes\\Conexao.cs",
+              "ToolTip": "C:\\Users\\NSYS-DEV-05\\Desktop\\Estudos\\CSharp-Projetos\\SocketChat\\SocketChatServer\\Classes\\Conexao.cs",
+              "RelativeToolTip": "SocketChatServer\\Classes\\Conexao.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAnwDsAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T15:06:36.363Z",
+              "WhenOpened": "2024-03-20T14:44:29.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChatServer.cs",
+              "DocumentMoniker": "C:\\Users\\NSYS-DEV-05\\Desktop\\Estudos\\CSharp-Projetos\\SocketChat\\SocketChatServer\\Classes\\ChatServer.cs",
+              "RelativeDocumentMoniker": "SocketChatServer\\Classes\\ChatServer.cs",
+              "ToolTip": "C:\\Users\\NSYS-DEV-05\\Desktop\\Estudos\\CSharp-Projetos\\SocketChat\\SocketChatServer\\Classes\\ChatServer.cs",
+              "RelativeToolTip": "SocketChatServer\\Classes\\ChatServer.cs",
+              "ViewState": "AQIAAKYAAAAAAAAAAAAMwMYAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T11:42:35.178Z",
               "EditorCaption": ""
             }
           ]
