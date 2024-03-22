@@ -1,0 +1,13 @@
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ConsumirDLL\ConsumirDLL\bin\Debug\ConsumirDLL.exe.config
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ConsumirDLL\ConsumirDLL\bin\Debug\ConsumirDLL.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ConsumirDLL\ConsumirDLL\bin\Debug\ConsumirDLL.pdb
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ConsumirDLL\ConsumirDLL\bin\Debug\DataHoraAtual.dll
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ConsumirDLL\ConsumirDLL\bin\Debug\DataHoraAtual.pdb
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ConsumirDLL\ConsumirDLL\obj\Debug\ConsumirDLL.csproj.AssemblyReference.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ConsumirDLL\ConsumirDLL\obj\Debug\ConsumirDLL.FormPrincipal.resources
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ConsumirDLL\ConsumirDLL\obj\Debug\ConsumirDLL.Properties.Resources.resources
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ConsumirDLL\ConsumirDLL\obj\Debug\ConsumirDLL.csproj.GenerateResource.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ConsumirDLL\ConsumirDLL\obj\Debug\ConsumirDLL.csproj.CoreCompileInputs.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ConsumirDLL\ConsumirDLL\obj\Debug\Consumir.1D0ABC8D.Up2Date
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ConsumirDLL\ConsumirDLL\obj\Debug\ConsumirDLL.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ConsumirDLL\ConsumirDLL\obj\Debug\ConsumirDLL.pdb

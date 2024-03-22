@@ -1,0 +1,1 @@
+Seja bem-vindo ao instalador de 'Hello World'.

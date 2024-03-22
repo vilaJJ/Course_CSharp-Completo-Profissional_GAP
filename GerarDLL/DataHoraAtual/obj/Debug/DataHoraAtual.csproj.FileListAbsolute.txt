@@ -1,0 +1,6 @@
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\GerarDLL\DataHoraAtual\bin\Debug\DataHoraAtual.dll
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\GerarDLL\DataHoraAtual\bin\Debug\DataHoraAtual.pdb
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\GerarDLL\DataHoraAtual\obj\Debug\DataHoraAtual.csproj.AssemblyReference.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\GerarDLL\DataHoraAtual\obj\Debug\DataHoraAtual.csproj.CoreCompileInputs.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\GerarDLL\DataHoraAtual\obj\Debug\DataHoraAtual.dll
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\GerarDLL\DataHoraAtual\obj\Debug\DataHoraAtual.pdb

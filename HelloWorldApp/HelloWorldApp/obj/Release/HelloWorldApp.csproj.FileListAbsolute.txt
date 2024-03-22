@@ -1,0 +1,10 @@
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\HelloWorldApp\HelloWorldApp\bin\Release\HelloWorldApp.exe.config
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\HelloWorldApp\HelloWorldApp\bin\Release\HelloWorldApp.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\HelloWorldApp\HelloWorldApp\bin\Release\HelloWorldApp.pdb
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\HelloWorldApp\HelloWorldApp\obj\Release\HelloWorldApp.csproj.AssemblyReference.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\HelloWorldApp\HelloWorldApp\obj\Release\HelloWorldApp.FormPrincipal.resources
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\HelloWorldApp\HelloWorldApp\obj\Release\HelloWorldApp.Properties.Resources.resources
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\HelloWorldApp\HelloWorldApp\obj\Release\HelloWorldApp.csproj.GenerateResource.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\HelloWorldApp\HelloWorldApp\obj\Release\HelloWorldApp.csproj.CoreCompileInputs.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\HelloWorldApp\HelloWorldApp\obj\Release\HelloWorldApp.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\HelloWorldApp\HelloWorldApp\obj\Release\HelloWorldApp.pdb
