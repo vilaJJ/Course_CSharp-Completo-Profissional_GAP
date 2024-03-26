@@ -186,6 +186,176 @@ namespace CriptografarArquivos.Classes
             return resultado;
         }
 
+        /// <summary>
+        /// Método para criptografar um arquivo.
+        /// </summary>
+        /// <param name="pathArquivo">Caminho do arquivo.</param>
+        /// <returns>Status</returns>
+        internal static string EncriptografarArquivo(string pathArquivo)
+        {
+            using (var aes = Aes.Create())
+            using (var transformador = aes.CreateEncryptor())
+            {
+                var chaveEncriptografada = ProvedorCriptografiaRSA.Encrypt(aes.Key, false);
+                
+                var chaveLength = new byte[4];
+                var inicializadorLength = new byte[4];
 
+                var tamanhoChave = chaveEncriptografada.Length;
+                chaveLength = BitConverter.GetBytes(tamanhoChave);
+
+                var tamanhoInicializador = aes.IV.Length;
+                inicializadorLength = BitConverter.GetBytes(tamanhoInicializador);
+
+                // Escreva o seguinte FileStream
+                // para o arquivo criptografado(outFs)
+                // - Comprimento da chave
+                // - Comprimento do IV
+                // - Chave criptografada
+                // - O IV
+                // - O conteudo da cifra criptografada
+
+                var startFileName = pathArquivo.LastIndexOf("\\") + 1;
+                var outFile = PastaParaCriptografados + pathArquivo.Substring(startFileName) + ".enc";
+
+                try
+                {
+                    using (var inputFileStream = new FileStream(pathArquivo, FileMode.Open))
+                    using (var outFileStream = new FileStream(outFile, FileMode.Create))
+                    using (var outStreamEncrypted = new CryptoStream(outFileStream, transformador, CryptoStreamMode.Write))
+                    {
+                        outFileStream.Write(chaveLength, 0, chaveLength.Length);
+                        outFileStream.Write(inicializadorLength, 0, inicializadorLength.Length);
+                        outFileStream.Write(chaveEncriptografada, 0, tamanhoChave);
+                        outFileStream.Write(aes.IV, 0, tamanhoInicializador);
+
+                        // Criptografar por laços, para economizar memória
+                        int count, offset, bytesRead;
+                        count = offset = bytesRead = 0;
+
+                        // blockSizeBytes pode ter qualquer tamanho arbitrário.
+                        var blockSizeBytes = aes.BlockSize / 8;
+
+                        var dados = new byte[blockSizeBytes];
+
+                        do
+                        {
+                            count = inputFileStream.Read(dados, 0, blockSizeBytes);
+                            offset += count;
+
+                            outStreamEncrypted.Write(dados, 0, count);
+                            bytesRead += blockSizeBytes;
+                        } while (count > 0);
+
+                        outStreamEncrypted.FlushFinalBlock();
+                    }
+                }
+                catch (Exception ex)
+                {
+                    return ex.Message;
+                }
+
+                return string.Format(
+                    "Arquivo criptografado:\n\nOrigem: {0}\nDestino: {1}",
+                    pathArquivo,
+                    outFile
+                    );
+            }
+        }
+
+        /// <summary>
+        /// Método para descriptografar um arquivo.
+        /// </summary>
+        /// <param name="pathArquivo">Caminho do arquivo.</param>
+        /// <returns>Status</returns>
+        internal static string DescriptografarArquivo(string pathArquivo)
+        {
+            // Matrizes de bytes 
+            var lenKey = new byte[4];
+            var lenIV = new byte[4];
+
+            var outFile = DestinoDescriptografados + pathArquivo.Substring(0, pathArquivo.LastIndexOf("."));
+
+            // Cria instância de AES para descriptografar de forma simétrica.
+            using (var aes = Aes.Create())
+            using (var inputFileStream = new FileStream(PastaParaCriptografados + pathArquivo, FileMode.Open))
+            using (var outFileStream = new FileStream(pathArquivo, FileMode.Create))
+            {
+                try
+                {
+                    inputFileStream.Seek(0, SeekOrigin.Begin);
+                    inputFileStream.Seek(0, SeekOrigin.Begin);
+
+                    inputFileStream.Read(lenKey, 0, 3);
+
+                    inputFileStream.Seek(4, SeekOrigin.Begin);
+
+                    inputFileStream.Read(lenIV, 0, 3);
+
+                    // Converte os comprimentos em valores inteiros
+                    var keyLength = BitConverter.ToInt32(lenKey, 0);
+                    var ivLength = BitConverter.ToInt32(lenIV, 0);
+
+                    // Determina a posição inicial do texto cifrado e seu comprimento
+                    var startC = keyLength + ivLength + 8;
+                    var lenC = (int)inputFileStream.Length - startC;
+
+                    // Matrizes para chave criptografada, IV e texto cifrado
+                    var chaveEncriptografada = new byte[keyLength];
+                    var iv = new byte[ivLength];
+
+                    // Extrair a chave e IV
+                    inputFileStream.Seek(8, SeekOrigin.Begin);
+                    inputFileStream.Read(chaveEncriptografada, 0, keyLength);
+
+                    inputFileStream.Seek(8 + keyLength, SeekOrigin.Begin);
+                    inputFileStream.Read(iv, 0, ivLength);
+
+                    if (Directory.Exists(DestinoDescriptografados) is false)
+                    {
+                        Directory.CreateDirectory(DestinoDescriptografados);
+                    }
+
+                    // Usar RSACryptoServiceProvider para descriptografar a chave AES
+                    var chaveDescriptografada = ProvedorCriptografiaRSA.Decrypt(chaveEncriptografada, false);
+
+                    // Descriptografar a chave
+                    using (var transformador = aes.CreateDecryptor(chaveDescriptografada, iv))
+                    {
+                        int count, offset;
+                        count = offset = 0;
+
+                        // blockSizeBytes pode ter qualquer tamanho arbitrário
+                        var blockSizeBytes = aes.BlockSize / 8;
+                        var dados = new byte[blockSizeBytes];
+
+                        // Começar no início do texto cifrado.
+                        inputFileStream.Seek(startC, SeekOrigin.Begin);
+
+                        using (var outStreamDecrypted = new CryptoStream(outFileStream, transformador, CryptoStreamMode.Write))
+                        {
+                            do
+                            {
+                                count = inputFileStream.Read(dados, 0, blockSizeBytes);
+                                offset += count;
+                                outStreamDecrypted.Write(dados, 0, count);
+                            } while (count > 0);
+
+                            outStreamDecrypted.FlushFinalBlock();
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    return ex.Message;
+                }                
+            }
+
+            return string.Format(
+                "Arquivo criptografado:\n\nOrigem: {0}\nDestino: {1}",
+                pathArquivo,
+                outFile
+                );
+        }
     }
 }
