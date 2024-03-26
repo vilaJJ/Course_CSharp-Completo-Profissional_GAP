@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CriptografiaMD5", "CriptografiaMD5\CriptografiaMD5.csproj", "{16D3BC3F-CBBA-46A2-84D8-AF79BE132092}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16D3BC3F-CBBA-46A2-84D8-AF79BE132092}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16D3BC3F-CBBA-46A2-84D8-AF79BE132092}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16D3BC3F-CBBA-46A2-84D8-AF79BE132092}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16D3BC3F-CBBA-46A2-84D8-AF79BE132092}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D9E22A1-A69A-4C13-895C-F7B761234249}
+	EndGlobalSection
+EndGlobal
