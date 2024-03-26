@@ -1,0 +1,112 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vilar\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Estudando-CSharp\\CriptografarArquivos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{94D1C8C8-0779-49DD-9797-A42D4C415B3D}|CriptografarArquivos\\CriptografarArquivos.csproj|c:\\users\\vilar\\onedrive\\\u00E1rea de trabalho\\estudos\\estudando-csharp\\criptografararquivos\\criptografararquivos\\classes\\criptografia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94D1C8C8-0779-49DD-9797-A42D4C415B3D}|CriptografarArquivos\\CriptografarArquivos.csproj|solutionrelative:criptografararquivos\\classes\\criptografia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D1C8C8-0779-49DD-9797-A42D4C415B3D}|CriptografarArquivos\\CriptografarArquivos.csproj|c:\\users\\vilar\\onedrive\\\u00E1rea de trabalho\\estudos\\estudando-csharp\\criptografararquivos\\criptografararquivos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94D1C8C8-0779-49DD-9797-A42D4C415B3D}|CriptografarArquivos\\CriptografarArquivos.csproj|solutionrelative:criptografararquivos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D1C8C8-0779-49DD-9797-A42D4C415B3D}|CriptografarArquivos\\CriptografarArquivos.csproj|c:\\users\\vilar\\onedrive\\\u00E1rea de trabalho\\estudos\\estudando-csharp\\criptografararquivos\\criptografararquivos\\formularios\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94D1C8C8-0779-49DD-9797-A42D4C415B3D}|CriptografarArquivos\\CriptografarArquivos.csproj|solutionrelative:criptografararquivos\\formularios\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D1C8C8-0779-49DD-9797-A42D4C415B3D}|CriptografarArquivos\\CriptografarArquivos.csproj|c:\\users\\vilar\\onedrive\\\u00E1rea de trabalho\\estudos\\estudando-csharp\\criptografararquivos\\criptografararquivos\\formularios\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{94D1C8C8-0779-49DD-9797-A42D4C415B3D}|CriptografarArquivos\\CriptografarArquivos.csproj|solutionrelative:criptografararquivos\\formularios\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D1C8C8-0779-49DD-9797-A42D4C415B3D}|CriptografarArquivos\\CriptografarArquivos.csproj|c:\\users\\vilar\\onedrive\\\u00E1rea de trabalho\\estudos\\estudando-csharp\\criptografararquivos\\criptografararquivos\\formularios\\formprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94D1C8C8-0779-49DD-9797-A42D4C415B3D}|CriptografarArquivos\\CriptografarArquivos.csproj|solutionrelative:criptografararquivos\\formularios\\formprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 182,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Criptografia.cs",
+              "DocumentMoniker": "C:\\Users\\vilar\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Estudando-CSharp\\CriptografarArquivos\\CriptografarArquivos\\Classes\\Criptografia.cs",
+              "RelativeDocumentMoniker": "CriptografarArquivos\\Classes\\Criptografia.cs",
+              "ToolTip": "C:\\Users\\vilar\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Estudando-CSharp\\CriptografarArquivos\\CriptografarArquivos\\Classes\\Criptografia.cs",
+              "RelativeToolTip": "CriptografarArquivos\\Classes\\Criptografia.cs",
+              "ViewState": "AQIAAJIAAAAAAAAAAAAgwKAAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T04:34:36.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vilar\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Estudando-CSharp\\CriptografarArquivos\\CriptografarArquivos\\Program.cs",
+              "RelativeDocumentMoniker": "CriptografarArquivos\\Program.cs",
+              "ToolTip": "C:\\Users\\vilar\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Estudando-CSharp\\CriptografarArquivos\\CriptografarArquivos\\Program.cs",
+              "RelativeToolTip": "CriptografarArquivos\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T03:01:47.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormPrincipal.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\vilar\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Estudando-CSharp\\CriptografarArquivos\\CriptografarArquivos\\Formularios\\FormPrincipal.Designer.cs",
+              "RelativeDocumentMoniker": "CriptografarArquivos\\Formularios\\FormPrincipal.Designer.cs",
+              "ToolTip": "C:\\Users\\vilar\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Estudando-CSharp\\CriptografarArquivos\\CriptografarArquivos\\Formularios\\FormPrincipal.Designer.cs",
+              "RelativeToolTip": "CriptografarArquivos\\Formularios\\FormPrincipal.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T03:01:43.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\vilar\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Estudando-CSharp\\CriptografarArquivos\\CriptografarArquivos\\Formularios\\FormPrincipal.cs",
+              "RelativeDocumentMoniker": "CriptografarArquivos\\Formularios\\FormPrincipal.cs",
+              "ToolTip": "C:\\Users\\vilar\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Estudando-CSharp\\CriptografarArquivos\\CriptografarArquivos\\Formularios\\FormPrincipal.cs",
+              "RelativeToolTip": "CriptografarArquivos\\Formularios\\FormPrincipal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T03:01:34.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormPrincipal.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\vilar\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Estudando-CSharp\\CriptografarArquivos\\CriptografarArquivos\\Formularios\\FormPrincipal.cs",
+              "RelativeDocumentMoniker": "CriptografarArquivos\\Formularios\\FormPrincipal.cs",
+              "ToolTip": "C:\\Users\\vilar\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Estudando-CSharp\\CriptografarArquivos\\CriptografarArquivos\\Formularios\\FormPrincipal.cs [Design]",
+              "RelativeToolTip": "CriptografarArquivos\\Formularios\\FormPrincipal.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T03:01:00.31Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
