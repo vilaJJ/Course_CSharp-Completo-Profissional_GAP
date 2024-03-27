@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{94D1C8C8-0779-49DD-9797-A42D4C415B3D}|CriptografarArquivos\\CriptografarArquivos.csproj|solutionrelative:criptografararquivos\\classes\\criptografia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94D1C8C8-0779-49DD-9797-A42D4C415B3D}|CriptografarArquivos\\CriptografarArquivos.csproj|C:\\Users\\NSYS-DEV-05\\Desktop\\Estudos\\CSharp-Projetos\\CriptografarArquivos\\criptografararquivos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94D1C8C8-0779-49DD-9797-A42D4C415B3D}|CriptografarArquivos\\CriptografarArquivos.csproj|solutionrelative:criptografararquivos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{94D1C8C8-0779-49DD-9797-A42D4C415B3D}|CriptografarArquivos\\CriptografarArquivos.csproj|C:\\Users\\NSYS-DEV-05\\Desktop\\Estudos\\CSharp-Projetos\\CriptografarArquivos\\criptografararquivos\\formularios\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{94D1C8C8-0779-49DD-9797-A42D4C415B3D}|CriptografarArquivos\\CriptografarArquivos.csproj|solutionrelative:criptografararquivos\\formularios\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{94D1C8C8-0779-49DD-9797-A42D4C415B3D}|CriptografarArquivos\\CriptografarArquivos.csproj|C:\\Users\\NSYS-DEV-05\\Desktop\\Estudos\\CSharp-Projetos\\CriptografarArquivos\\criptografararquivos\\formularios\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{94D1C8C8-0779-49DD-9797-A42D4C415B3D}|CriptografarArquivos\\CriptografarArquivos.csproj|solutionrelative:criptografararquivos\\formularios\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D1C8C8-0779-49DD-9797-A42D4C415B3D}|CriptografarArquivos\\CriptografarArquivos.csproj|C:\\Users\\NSYS-DEV-05\\Desktop\\Estudos\\CSharp-Projetos\\CriptografarArquivos\\criptografararquivos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94D1C8C8-0779-49DD-9797-A42D4C415B3D}|CriptografarArquivos\\CriptografarArquivos.csproj|solutionrelative:criptografararquivos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{94D1C8C8-0779-49DD-9797-A42D4C415B3D}|CriptografarArquivos\\CriptografarArquivos.csproj|C:\\Users\\NSYS-DEV-05\\Desktop\\Estudos\\CSharp-Projetos\\CriptografarArquivos\\criptografararquivos\\formularios\\formprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -64,14 +64,14 @@
               "RelativeDocumentMoniker": "CriptografarArquivos\\Classes\\Criptografia.cs",
               "ToolTip": "C:\\Users\\NSYS-DEV-05\\Desktop\\Estudos\\CSharp-Projetos\\CriptografarArquivos\\CriptografarArquivos\\Classes\\Criptografia.cs",
               "RelativeToolTip": "CriptografarArquivos\\Classes\\Criptografia.cs",
-              "ViewState": "AQIAALYAAAAAAAAAAAAQwAoBAAAzAAAA",
+              "ViewState": "AQIAAIwAAAAAAAAAAADgv6EAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-26T04:34:36.571Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\NSYS-DEV-05\\Desktop\\Estudos\\CSharp-Projetos\\CriptografarArquivos\\CriptografarArquivos\\Program.cs",
               "RelativeDocumentMoniker": "CriptografarArquivos\\Program.cs",
@@ -91,30 +91,33 @@
               "RelativeToolTip": "CriptografarArquivos\\Formularios\\FormPrincipal.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T03:01:43.039Z"
+              "WhenOpened": "2024-03-26T03:01:43.039Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "FormPrincipal.cs",
               "DocumentMoniker": "C:\\Users\\NSYS-DEV-05\\Desktop\\Estudos\\CSharp-Projetos\\CriptografarArquivos\\CriptografarArquivos\\Formularios\\FormPrincipal.cs",
               "RelativeDocumentMoniker": "CriptografarArquivos\\Formularios\\FormPrincipal.cs",
               "ToolTip": "C:\\Users\\NSYS-DEV-05\\Desktop\\Estudos\\CSharp-Projetos\\CriptografarArquivos\\CriptografarArquivos\\Formularios\\FormPrincipal.cs",
               "RelativeToolTip": "CriptografarArquivos\\Formularios\\FormPrincipal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAfAAAA",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAAwIIAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T03:01:34.166Z"
+              "WhenOpened": "2024-03-26T03:01:34.166Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "FormPrincipal.cs [Design]",
               "DocumentMoniker": "C:\\Users\\NSYS-DEV-05\\Desktop\\Estudos\\CSharp-Projetos\\CriptografarArquivos\\CriptografarArquivos\\Formularios\\FormPrincipal.cs",
               "RelativeDocumentMoniker": "CriptografarArquivos\\Formularios\\FormPrincipal.cs",
-              "ToolTip": "C:\\Users\\vilar\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Estudando-CSharp\\CriptografarArquivos\\CriptografarArquivos\\Formularios\\FormPrincipal.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\vilar\\OneDrive\\\u00C1rea de Trabalho\\Estudos\\Estudando-CSharp\\CriptografarArquivos\\CriptografarArquivos\\Formularios\\FormPrincipal.cs [Design]",
+              "ToolTip": "C:\\Users\\NSYS-DEV-05\\Desktop\\Estudos\\CSharp-Projetos\\CriptografarArquivos\\CriptografarArquivos\\Formularios\\FormPrincipal.cs [Design]",
+              "RelativeToolTip": "CriptografarArquivos\\Formularios\\FormPrincipal.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T03:01:00.31Z"
+              "WhenOpened": "2024-03-26T03:01:00.31Z",
+              "EditorCaption": " [Design]"
             }
           ]
         },

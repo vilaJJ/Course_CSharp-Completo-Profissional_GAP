@@ -1,0 +1,10 @@
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\CriptografarArquivos\CriptografarArquivos\bin\Debug\CriptografarArquivos.exe.config
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\CriptografarArquivos\CriptografarArquivos\bin\Debug\CriptografarArquivos.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\CriptografarArquivos\CriptografarArquivos\bin\Debug\CriptografarArquivos.pdb
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\CriptografarArquivos\CriptografarArquivos\obj\Debug\CriptografarArquivos.csproj.AssemblyReference.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\CriptografarArquivos\CriptografarArquivos\obj\Debug\CriptografarArquivos.Formularios.FormPrincipal.resources
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\CriptografarArquivos\CriptografarArquivos\obj\Debug\CriptografarArquivos.Properties.Resources.resources
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\CriptografarArquivos\CriptografarArquivos\obj\Debug\CriptografarArquivos.csproj.GenerateResource.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\CriptografarArquivos\CriptografarArquivos\obj\Debug\CriptografarArquivos.csproj.CoreCompileInputs.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\CriptografarArquivos\CriptografarArquivos\obj\Debug\CriptografarArquivos.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\CriptografarArquivos\CriptografarArquivos\obj\Debug\CriptografarArquivos.pdb

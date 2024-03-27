@@ -37,6 +37,7 @@
             this.Label_Status = new System.Windows.Forms.Label();
             this.TextBox_Chave = new System.Windows.Forms.TextBox();
             this.Label_Chave = new System.Windows.Forms.Label();
+            this.OpenFileDialog_SelecionarArquivo = new System.Windows.Forms.OpenFileDialog();
             this.SuspendLayout();
             // 
             // Button_ImportarChavePublica
@@ -47,6 +48,7 @@
             this.Button_ImportarChavePublica.TabIndex = 4;
             this.Button_ImportarChavePublica.Text = "&Importar chave pública";
             this.Button_ImportarChavePublica.UseVisualStyleBackColor = true;
+            this.Button_ImportarChavePublica.Click += new System.EventHandler(this.Button_ImportarChavePublica_Click);
             // 
             // Button_ObterChavePrivada
             // 
@@ -56,6 +58,7 @@
             this.Button_ObterChavePrivada.TabIndex = 6;
             this.Button_ObterChavePrivada.Text = "&Obter chave privada";
             this.Button_ObterChavePrivada.UseVisualStyleBackColor = true;
+            this.Button_ObterChavePrivada.Click += new System.EventHandler(this.Button_ObterChavePrivada_Click);
             // 
             // Button_ExportarChavePublica
             // 
@@ -65,6 +68,7 @@
             this.Button_ExportarChavePublica.TabIndex = 5;
             this.Button_ExportarChavePublica.Text = "&Exportar chave pública";
             this.Button_ExportarChavePublica.UseVisualStyleBackColor = true;
+            this.Button_ExportarChavePublica.Click += new System.EventHandler(this.Button_ExportarChavePublica_Click);
             // 
             // Button_CriptografarArquivo
             // 
@@ -74,6 +78,7 @@
             this.Button_CriptografarArquivo.TabIndex = 1;
             this.Button_CriptografarArquivo.Text = "&Criptografar arquivo";
             this.Button_CriptografarArquivo.UseVisualStyleBackColor = true;
+            this.Button_CriptografarArquivo.Click += new System.EventHandler(this.Button_CriptografarArquivo_Click);
             // 
             // Button_CriarChaves
             // 
@@ -83,6 +88,7 @@
             this.Button_CriarChaves.TabIndex = 3;
             this.Button_CriarChaves.Text = "Criar c&haves";
             this.Button_CriarChaves.UseVisualStyleBackColor = true;
+            this.Button_CriarChaves.Click += new System.EventHandler(this.Button_CriarChaves_Click);
             // 
             // Button_DescriptografarArquivo
             // 
@@ -92,15 +98,16 @@
             this.Button_DescriptografarArquivo.TabIndex = 2;
             this.Button_DescriptografarArquivo.Text = "&Descriptografar arquivo";
             this.Button_DescriptografarArquivo.UseVisualStyleBackColor = true;
+            this.Button_DescriptografarArquivo.Click += new System.EventHandler(this.Button_DescriptografarArquivo_Click);
             // 
             // Label_Status
             // 
-            this.Label_Status.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label_Status.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
             this.Label_Status.Location = new System.Drawing.Point(12, 9);
             this.Label_Status.Name = "Label_Status";
             this.Label_Status.Size = new System.Drawing.Size(560, 191);
             this.Label_Status.TabIndex = 0;
-            this.Label_Status.Text = "Chave não definida";
+            this.Label_Status.Text = "Status";
             this.Label_Status.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // TextBox_Chave
@@ -143,6 +150,7 @@
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Criptografia de Arquivos";
+            this.Load += new System.EventHandler(this.FormPrincipal_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -159,6 +167,7 @@
         internal System.Windows.Forms.Label Label_Status;
         internal System.Windows.Forms.TextBox TextBox_Chave;
         internal System.Windows.Forms.Label Label_Chave;
+        internal System.Windows.Forms.OpenFileDialog OpenFileDialog_SelecionarArquivo;
     }
 }
 

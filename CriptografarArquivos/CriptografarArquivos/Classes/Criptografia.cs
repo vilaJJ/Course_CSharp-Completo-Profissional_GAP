@@ -42,7 +42,7 @@ namespace CriptografarArquivos.Classes
         /// <summary>
         /// Arquivo para a chave pública
         /// </summary>
-        private static string _chavePublicaArquivo = _pastaParaCriptografados + "rsaPublicKey.txt";
+        private static string _chavePublicaArquivo => _pastaParaCriptografados + "rsaPublicKey.txt";
 
         /// <summary>
         /// Chave contendo o nome para private/public key value pair.
@@ -50,7 +50,7 @@ namespace CriptografarArquivos.Classes
         internal static string NomeChave { get; set; }
 
         /// <summary>
-        /// Método para criar a chave púbglica
+        /// Método para criar a chave pública
         /// </summary>
         /// <returns>Chave pública.</returns>
         internal static string CriarChaveAssimetrica()
@@ -99,7 +99,8 @@ namespace CriptografarArquivos.Classes
             {
                 using (var writer = new StreamWriter(_chavePublicaArquivo, false))
                 {
-                    writer.Write(ProvedorCriptografiaRSA.ToXmlString(false));
+                    var xml = ProvedorCriptografiaRSA.ToXmlString(false);
+                    writer.Write(xml);
                 }
             }
             catch (Exception ex)
@@ -180,7 +181,7 @@ namespace CriptografarArquivos.Classes
             resultado = string.Format(
                 "Key: {0} - {1}",
                 ParametrosCsp.KeyContainerName,
-                ProvedorCriptografiaRSA.PublicOnly ? "Somente Privada" : "Key Pair Completa"
+                ProvedorCriptografiaRSA.PublicOnly ? "Somente Pública" : "Key Pair Completa"
                 );
 
             return resultado;
@@ -279,7 +280,7 @@ namespace CriptografarArquivos.Classes
             // Cria instância de AES para descriptografar de forma simétrica.
             using (var aes = Aes.Create())
             using (var inputFileStream = new FileStream(PastaParaCriptografados + pathArquivo, FileMode.Open))
-            using (var outFileStream = new FileStream(pathArquivo, FileMode.Create))
+            using (var outFileStream = new FileStream(outFile, FileMode.Create))
             {
                 try
                 {
@@ -352,7 +353,7 @@ namespace CriptografarArquivos.Classes
             }
 
             return string.Format(
-                "Arquivo criptografado:\n\nOrigem: {0}\nDestino: {1}",
+                "Arquivo descriptografado:\n\nOrigem: {0}\nDestino: {1}",
                 pathArquivo,
                 outFile
                 );
