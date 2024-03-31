@@ -1,0 +1,10 @@
+C:\Users\vilar\OneDrive\Área de Trabalho\Estudos\Estudando-CSharp\ProgramacaoAssincrona\ProgramacaoAssincrona\bin\Debug\ProgramacaoAssincrona.exe.config
+C:\Users\vilar\OneDrive\Área de Trabalho\Estudos\Estudando-CSharp\ProgramacaoAssincrona\ProgramacaoAssincrona\bin\Debug\ProgramacaoAssincrona.exe
+C:\Users\vilar\OneDrive\Área de Trabalho\Estudos\Estudando-CSharp\ProgramacaoAssincrona\ProgramacaoAssincrona\bin\Debug\ProgramacaoAssincrona.pdb
+C:\Users\vilar\OneDrive\Área de Trabalho\Estudos\Estudando-CSharp\ProgramacaoAssincrona\ProgramacaoAssincrona\obj\Debug\ProgramacaoAssincrona.csproj.AssemblyReference.cache
+C:\Users\vilar\OneDrive\Área de Trabalho\Estudos\Estudando-CSharp\ProgramacaoAssincrona\ProgramacaoAssincrona\obj\Debug\ProgramacaoAssincrona.Formularios.FormPrincipal.resources
+C:\Users\vilar\OneDrive\Área de Trabalho\Estudos\Estudando-CSharp\ProgramacaoAssincrona\ProgramacaoAssincrona\obj\Debug\ProgramacaoAssincrona.Properties.Resources.resources
+C:\Users\vilar\OneDrive\Área de Trabalho\Estudos\Estudando-CSharp\ProgramacaoAssincrona\ProgramacaoAssincrona\obj\Debug\ProgramacaoAssincrona.csproj.GenerateResource.cache
+C:\Users\vilar\OneDrive\Área de Trabalho\Estudos\Estudando-CSharp\ProgramacaoAssincrona\ProgramacaoAssincrona\obj\Debug\ProgramacaoAssincrona.csproj.CoreCompileInputs.cache
+C:\Users\vilar\OneDrive\Área de Trabalho\Estudos\Estudando-CSharp\ProgramacaoAssincrona\ProgramacaoAssincrona\obj\Debug\ProgramacaoAssincrona.exe
+C:\Users\vilar\OneDrive\Área de Trabalho\Estudos\Estudando-CSharp\ProgramacaoAssincrona\ProgramacaoAssincrona\obj\Debug\ProgramacaoAssincrona.pdb
