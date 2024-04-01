@@ -1,0 +1,13 @@
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ExpressoesLambda\ExpressoesLambda\bin\Debug\ExpressoesLambda.exe.config
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ExpressoesLambda\ExpressoesLambda\bin\Debug\ExpressoesLambda.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ExpressoesLambda\ExpressoesLambda\bin\Debug\ExpressoesLambda.pdb
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ExpressoesLambda\ExpressoesLambda\obj\Debug\ExpressoesLambda.csproj.AssemblyReference.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ExpressoesLambda\ExpressoesLambda\obj\Debug\ExpressoesLambda.Formularios.FormPrincipal.resources
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ExpressoesLambda\ExpressoesLambda\obj\Debug\ExpressoesLambda.Properties.Resources.resources
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ExpressoesLambda\ExpressoesLambda\obj\Debug\ExpressoesLambda.csproj.GenerateResource.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ExpressoesLambda\ExpressoesLambda\obj\Debug\ExpressoesLambda.csproj.CoreCompileInputs.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ExpressoesLambda\ExpressoesLambda\obj\Debug\ExpressoesLambda.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ExpressoesLambda\ExpressoesLambda\obj\Debug\ExpressoesLambda.pdb
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ExpressoesLambda\ExpressoesLambda\bin\Debug\NTSAgnesFramework.dll
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ExpressoesLambda\ExpressoesLambda\bin\Debug\NTSAgnesFramework.xml
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\ExpressoesLambda\ExpressoesLambda\obj\Debug\Expresso.4F15190A.Up2Date

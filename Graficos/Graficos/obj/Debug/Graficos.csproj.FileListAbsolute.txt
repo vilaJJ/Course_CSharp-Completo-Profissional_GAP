@@ -1,0 +1,10 @@
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Graficos\Graficos\bin\Debug\Graficos.exe.config
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Graficos\Graficos\bin\Debug\Graficos.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Graficos\Graficos\bin\Debug\Graficos.pdb
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Graficos\Graficos\obj\Debug\Graficos.csproj.AssemblyReference.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Graficos\Graficos\obj\Debug\Graficos.Formularios.FormPrincipal.resources
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Graficos\Graficos\obj\Debug\Graficos.Properties.Resources.resources
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Graficos\Graficos\obj\Debug\Graficos.csproj.GenerateResource.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Graficos\Graficos\obj\Debug\Graficos.csproj.CoreCompileInputs.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Graficos\Graficos\obj\Debug\Graficos.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\Graficos\Graficos\obj\Debug\Graficos.pdb

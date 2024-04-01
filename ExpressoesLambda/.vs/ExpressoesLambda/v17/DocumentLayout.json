@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\NSYS-DEV-05\\Desktop\\Estudos\\CSharp-Projetos\\ExpressoesLambda\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{292ED973-7B29-4EF1-A6EC-4B675836E20A}|ExpressoesLambda\\ExpressoesLambda.csproj|c:\\users\\nsys-dev-05\\desktop\\estudos\\csharp-projetos\\expressoeslambda\\expressoeslambda\\formularios\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{292ED973-7B29-4EF1-A6EC-4B675836E20A}|ExpressoesLambda\\ExpressoesLambda.csproj|solutionrelative:expressoeslambda\\formularios\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{292ED973-7B29-4EF1-A6EC-4B675836E20A}|ExpressoesLambda\\ExpressoesLambda.csproj|c:\\users\\nsys-dev-05\\desktop\\estudos\\csharp-projetos\\expressoeslambda\\expressoeslambda\\formularios\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{292ED973-7B29-4EF1-A6EC-4B675836E20A}|ExpressoesLambda\\ExpressoesLambda.csproj|solutionrelative:expressoeslambda\\formularios\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{33c88fe3-43b3-374e-9aac-c4679036dce0}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{349f9bf5-2e30-3986-9160-182c28a1f71a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\NSYS-DEV-05\\Desktop\\Estudos\\CSharp-Projetos\\ExpressoesLambda\\ExpressoesLambda\\Formularios\\FormPrincipal.cs",
+              "RelativeDocumentMoniker": "ExpressoesLambda\\Formularios\\FormPrincipal.cs",
+              "ToolTip": "C:\\Users\\NSYS-DEV-05\\Desktop\\Estudos\\CSharp-Projetos\\ExpressoesLambda\\ExpressoesLambda\\Formularios\\FormPrincipal.cs",
+              "RelativeToolTip": "ExpressoesLambda\\Formularios\\FormPrincipal.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAowFAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T12:10:40.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormPrincipal.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\NSYS-DEV-05\\Desktop\\Estudos\\CSharp-Projetos\\ExpressoesLambda\\ExpressoesLambda\\Formularios\\FormPrincipal.cs",
+              "RelativeDocumentMoniker": "ExpressoesLambda\\Formularios\\FormPrincipal.cs",
+              "ToolTip": "C:\\Users\\NSYS-DEV-05\\Desktop\\Estudos\\CSharp-Projetos\\ExpressoesLambda\\ExpressoesLambda\\Formularios\\FormPrincipal.cs [Design]",
+              "RelativeToolTip": "ExpressoesLambda\\Formularios\\FormPrincipal.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T12:08:38.848Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 406,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{5a4e9529-b6a0-46b5-be4f-0f0b239bc0eb}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

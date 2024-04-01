@@ -1,0 +1,774 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NTSAgnesFramework</name>
+    </assembly>
+    <members>
+        <member name="F:NTSAgnesFramework.FormModelo2.FormCadastro3.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:NTSAgnesFramework.FormModelo2.FormCadastro3.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:NTSAgnesFramework.FormModelo2.FormCadastro3.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:NTSAgnesFramework.FormModelo2.FormCadastro4.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:NTSAgnesFramework.FormModelo2.FormCadastro4.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:NTSAgnesFramework.FormModelo2.FormCadastro4.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:NTSAgnesFramework.FormModelo2.FormLimpo1.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:NTSAgnesFramework.FormModelo2.FormLimpo1.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:NTSAgnesFramework.FormModelo2.FormLimpo1.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:NTSAgnesFramework.FormModelo2.FormCadastro2.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:NTSAgnesFramework.FormModelo2.FormCadastro2.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:NTSAgnesFramework.FormModelo2.FormCadastro2.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:NTSAgnesFramework.FormModelo2.FormCadastro1.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:NTSAgnesFramework.FormModelo2.FormCadastro1.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:NTSAgnesFramework.FormModelo2.FormCadastro1.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:NTSAgnesFramework.FormModelo2.FormConsulta.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:NTSAgnesFramework.FormModelo2.FormConsulta.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:NTSAgnesFramework.FormModelo2.FormConsulta.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:NTSAgnesFramework.FormModelo2.FormLimpo.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:NTSAgnesFramework.FormModelo2.FormLimpo.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:NTSAgnesFramework.FormModelo2.FormLimpo.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:NTSAgnesFramework.FormModelo3.FormCadastro1">
+            <summary>
+            Formulário base modelo de Cadastro 1. 
+            <para>
+            *Possui duas divisões na forma de tab pages (Cadastro e Consulta) no tabControl, sendo cada divisão os seus respectivos botoões de interação.
+            </para>
+            </summary>
+        </member>
+        <member name="F:NTSAgnesFramework.FormModelo3.FormCadastro1.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:NTSAgnesFramework.FormModelo3.FormCadastro1.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:NTSAgnesFramework.FormModelo3.FormCadastro1.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "T:NTSAgnesFramework.FormModelo3.FormCadastro2" -->
+        <member name="F:NTSAgnesFramework.FormModelo3.FormCadastro2.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:NTSAgnesFramework.FormModelo3.FormCadastro2.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:NTSAgnesFramework.FormModelo3.FormCadastro2.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:NTSAgnesFramework.FormModelo3.FormCadastro3.#ctor" -->
+        <member name="F:NTSAgnesFramework.FormModelo3.FormCadastro3.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:NTSAgnesFramework.FormModelo3.FormCadastro3.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:NTSAgnesFramework.FormModelo3.FormCadastro3.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "T:NTSAgnesFramework.FormModelo3.FormConsulta" -->
+        <member name="F:NTSAgnesFramework.FormModelo3.FormConsulta.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:NTSAgnesFramework.FormModelo3.FormConsulta.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:NTSAgnesFramework.FormModelo3.FormConsulta.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:NTSAgnesFramework.FormModelo3.FormCaixaDialogoEntrada">
+            <summary>
+            Formulário de base para uma caixa de dialogo com entrada de dados através da TextBox.
+            <para>
+            Pode ser aplicado para capturar uma resposta do cliente através de um diálogo em tempo de execução.
+            </para>
+            <para>
+            Modo de usar: Passe um parâmetro no construtor para receber respostas dentro do formulário ao ser executado no bloco using.
+            </para>
+            </summary>
+        </member>
+        <member name="F:NTSAgnesFramework.FormModelo3.FormCaixaDialogoEntrada.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:NTSAgnesFramework.FormModelo3.FormCaixaDialogoEntrada.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:NTSAgnesFramework.FormModelo3.FormCaixaDialogoEntrada.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:NTSAgnesFramework.FormModelo3.FormLimpo.#ctor">
+            <summary>
+            Formulário de base Limpo.
+            <para>
+            Formulário limpo para modelagem livre. apenas com painéis e logo padrão.
+            </para>
+            </summary>
+        </member>
+        <member name="F:NTSAgnesFramework.FormModelo3.FormLimpo.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:NTSAgnesFramework.FormModelo3.FormLimpo.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:NTSAgnesFramework.FormModelo3.FormLimpo.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:NTSAgnesFramework.FormModelo3.FormModeloInicio2">
+            <summary>
+            Formulário de base para tela inicial de possívels aplicações desktop.
+            <para>
+            Possui um design moderno e dinamico, com menu de auto rolagem e botões disposotos lateralmente.
+            </para>
+            </summary>
+        </member>
+        <member name="F:NTSAgnesFramework.FormModelo3.FormModeloInicio2.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:NTSAgnesFramework.FormModelo3.FormModeloInicio2.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:NTSAgnesFramework.FormModelo3.FormModeloInicio2.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:NTSAgnesFramework.FormModelo3.FormModeloInicio">
+            <summary>
+            Formulário de base para tela inicial de possívels aplicações desktop.
+            <para>
+            Possui um design moderno e dinamico, com menu de auto rolagem e botões disposotos lateralmente.
+            </para>
+            </summary>
+        </member>
+        <member name="F:NTSAgnesFramework.FormModelo3.FormModeloInicio.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:NTSAgnesFramework.FormModelo3.FormModeloInicio.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:NTSAgnesFramework.FormModelo3.FormModeloInicio.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:NTSAgnesFramework.FormModelo.FormConsulta.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:NTSAgnesFramework.FormModelo.FormConsulta.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:NTSAgnesFramework.FormModelo.FormConsulta.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:NTSAgnesFramework.FormModelo.FormCadastro1.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:NTSAgnesFramework.FormModelo.FormCadastro1.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:NTSAgnesFramework.FormModelo.FormCadastro1.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:NTSAgnesFramework.FormModelo.FormCadastro.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:NTSAgnesFramework.FormModelo.FormCadastro.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:NTSAgnesFramework.FormModelo.FormCadastro.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:NTSAgnesFramework.FormModelo.FormLimpo.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:NTSAgnesFramework.FormModelo.FormLimpo.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:NTSAgnesFramework.FormModelo.FormLimpo.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:NTSAgnesFramework.NTSToolBox.NTSButton">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:NTSAgnesFramework.NTSToolBox.NTSMaskedTextBox.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:NTSAgnesFramework.NTSToolBox.NTSMaskedTextBox.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:NTSAgnesFramework.NTSToolBox.NTSMaskedTextBox.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:NTSAgnesFramework.NTSToolBox.NTSTextBoxAdvacend1.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:NTSAgnesFramework.NTSToolBox.NTSTextBoxAdvacend1.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:NTSAgnesFramework.NTSToolBox.NTSTextBoxAdvacend1.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:NTSAgnesFramework.NTSToolBox.NTSTextBoxAdvacend.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:NTSAgnesFramework.NTSToolBox.NTSTextBoxAdvacend.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:NTSAgnesFramework.NTSToolBox.NTSTextBoxAdvacend.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:NTSAgnesFramework.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.botao_fecharEsc100Pix30">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.BotaoTelaCheiaEsc100Pix30">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.cabecalho22">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.cabecalho221">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.calendarDark">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.calendarWhite">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.cancelarOperacao">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.chat">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.Consulta">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.expandirEsc100Pix30">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.Fechar">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.gravarArquivo">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.iconAdicionarTam95Pix30">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.iconAlterarTam95Pix30">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.icone_logorepart">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.icone_logorepartfinal">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.iconeAdicionarTam70Pix50">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.iconeAlterarTam70Pix50">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.iconeCancelarOperacaoPix30Tam95">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.iconeCancelarOperacaoPix30Tam951">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.iconeCancelarOperacaoPix50Tam70">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.iconeConfiguracaoImpressoraTam70Pix50">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.iconeConfirmarPix30Tam95">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.iconeExcluirTam70Pix50">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.iconeImprimirTam70Pix50">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.iconeNotaFiscalEletronicaTam70Pix50">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.iconePesquisarTam95Pix30">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.iconeRelatorioTam70Pix50">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.iconeSairTam95Pix30">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.iconeSairTam95Pix301">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.iconeSalvarArquivoPix30Tam95">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.iconeSalvarTam70Pix50">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.iconExcluirTam95Pix30">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.iconExibirArquivoTam95Pix30">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.iconExibirTodosTam95Pix30">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.Icono_Restaurar">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.icons8_adicionar_arquivo_50_70">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.icons8_apagar_arquivo_50">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.icons8_buying_30">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.icons8_configuração_do_projeto_50__2_">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.icons8_customer_insight_30">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.icons8_home_30">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.icons8_imprimir_arquivo_50">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.icons8_logout_30">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.icons8_manutenção_de_impressora_50">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.icons8_menu_rounded_40">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.icons8_name_tag_30">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.icons8_new_product_30">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.icons8_nota_fiscal_electrónica_50_NFE90">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.icons8_pesquisar_50">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.icons8_roteiro_de_relatório_gráfico_50">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.icons8_sales_performance_30">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.icons8_salvar_arquivo_50__3_">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.logo">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.logoNortesys">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.manutencao">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.manutencao_web">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.manutencaoPag">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.maximizarEsc100Pix30">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.MinimizarEsc100Pix30">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.pesquisa">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.pesquisar_arquivo">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.pesquisarArquivo">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.restaurareEsc100Pix30">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:NTSAgnesFramework.Properties.Resources.salvar_arquivo_px30_tam95">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+    </members>
+</doc>
