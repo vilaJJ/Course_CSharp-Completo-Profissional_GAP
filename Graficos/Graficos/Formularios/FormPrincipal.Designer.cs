@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
@@ -43,9 +44,10 @@
             this.DataGridView_Historico_EixoX = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DataGridView_Historico_EixoY = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Button_LimparGrafico = new System.Windows.Forms.Button();
-            this.ComboBox_TipoGráfico = new System.Windows.Forms.ComboBox();
+            this.ComboBox_TipoGrafico = new System.Windows.Forms.ComboBox();
             this.CheckBox_Grafico3D = new System.Windows.Forms.CheckBox();
             this.ComboBox_PaletaCorGrafico = new System.Windows.Forms.ComboBox();
+            this.Timer_InsercaoAleatoria = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.Chart_Grafico)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DataGridView_Historico)).BeginInit();
             this.SuspendLayout();
@@ -155,6 +157,7 @@
             this.DataGridView_Historico.ShowRowErrors = false;
             this.DataGridView_Historico.Size = new System.Drawing.Size(205, 174);
             this.DataGridView_Historico.TabIndex = 6;
+            this.DataGridView_Historico.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridView_Historico_CellClick);
             this.DataGridView_Historico.SelectionChanged += new System.EventHandler(this.DataGridView_Historico_SelectionChanged);
             // 
             // DataGridView_Historico_EixoX
@@ -179,16 +182,16 @@
             this.Button_LimparGrafico.UseVisualStyleBackColor = true;
             this.Button_LimparGrafico.Click += new System.EventHandler(this.Button_LimparGrafico_Click);
             // 
-            // ComboBox_TipoGráfico
+            // ComboBox_TipoGrafico
             // 
-            this.ComboBox_TipoGráfico.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.ComboBox_TipoGráfico.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.ComboBox_TipoGráfico.FormattingEnabled = true;
-            this.ComboBox_TipoGráfico.Location = new System.Drawing.Point(15, 326);
-            this.ComboBox_TipoGráfico.Name = "ComboBox_TipoGráfico";
-            this.ComboBox_TipoGráfico.Size = new System.Drawing.Size(158, 23);
-            this.ComboBox_TipoGráfico.TabIndex = 8;
-            this.ComboBox_TipoGráfico.SelectedIndexChanged += new System.EventHandler(this.ComboBox_TipoGráfico_SelectedIndexChanged);
+            this.ComboBox_TipoGrafico.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.ComboBox_TipoGrafico.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.ComboBox_TipoGrafico.FormattingEnabled = true;
+            this.ComboBox_TipoGrafico.Location = new System.Drawing.Point(15, 326);
+            this.ComboBox_TipoGrafico.Name = "ComboBox_TipoGrafico";
+            this.ComboBox_TipoGrafico.Size = new System.Drawing.Size(158, 23);
+            this.ComboBox_TipoGrafico.TabIndex = 8;
+            this.ComboBox_TipoGrafico.SelectedIndexChanged += new System.EventHandler(this.ComboBox_TipoGrafico_SelectedIndexChanged);
             // 
             // CheckBox_Grafico3D
             // 
@@ -212,6 +215,11 @@
             this.ComboBox_PaletaCorGrafico.TabIndex = 9;
             this.ComboBox_PaletaCorGrafico.SelectedIndexChanged += new System.EventHandler(this.ComboBox_PaletaCorGrafico_SelectedIndexChanged);
             // 
+            // Timer_InsercaoAleatoria
+            // 
+            this.Timer_InsercaoAleatoria.Interval = 500;
+            this.Timer_InsercaoAleatoria.Tick += new System.EventHandler(this.Timer_InsercaoAleatoria_Tick);
+            // 
             // FormPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -219,7 +227,7 @@
             this.ClientSize = new System.Drawing.Size(584, 361);
             this.Controls.Add(this.ComboBox_PaletaCorGrafico);
             this.Controls.Add(this.CheckBox_Grafico3D);
-            this.Controls.Add(this.ComboBox_TipoGráfico);
+            this.Controls.Add(this.ComboBox_TipoGrafico);
             this.Controls.Add(this.Button_LimparGrafico);
             this.Controls.Add(this.DataGridView_Historico);
             this.Controls.Add(this.Button_InserirValoresAleatorios);
@@ -261,9 +269,10 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn DataGridView_Historico_EixoX;
         private System.Windows.Forms.DataGridViewTextBoxColumn DataGridView_Historico_EixoY;
         internal System.Windows.Forms.Button Button_LimparGrafico;
-        internal System.Windows.Forms.ComboBox ComboBox_TipoGráfico;
+        internal System.Windows.Forms.ComboBox ComboBox_TipoGrafico;
         internal System.Windows.Forms.CheckBox CheckBox_Grafico3D;
         internal System.Windows.Forms.ComboBox ComboBox_PaletaCorGrafico;
+        internal System.Windows.Forms.Timer Timer_InsercaoAleatoria;
     }
 }
 

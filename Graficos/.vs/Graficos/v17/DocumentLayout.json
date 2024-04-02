@@ -1,16 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\NSYS-DEV-05\\Desktop\\Estudos\\CSharp-Projetos\\Graficos\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{9F3A3058-3BEA-40B4-B2BE-427F98C177B9}|Graficos\\Graficos.csproj|c:\\users\\nsys-dev-05\\desktop\\estudos\\csharp-projetos\\graficos\\graficos\\formularios\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F3A3058-3BEA-40B4-B2BE-427F98C177B9}|Graficos\\Graficos.csproj|solutionrelative:graficos\\formularios\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F3A3058-3BEA-40B4-B2BE-427F98C177B9}|Graficos\\Graficos.csproj|c:\\users\\nsys-dev-05\\desktop\\estudos\\csharp-projetos\\graficos\\graficos\\formularios\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9F3A3058-3BEA-40B4-B2BE-427F98C177B9}|Graficos\\Graficos.csproj|solutionrelative:graficos\\formularios\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -18,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -43,31 +34,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FormPrincipal.cs",
-              "DocumentMoniker": "C:\\Users\\NSYS-DEV-05\\Desktop\\Estudos\\CSharp-Projetos\\Graficos\\Graficos\\Formularios\\FormPrincipal.cs",
-              "RelativeDocumentMoniker": "Graficos\\Formularios\\FormPrincipal.cs",
-              "ToolTip": "C:\\Users\\NSYS-DEV-05\\Desktop\\Estudos\\CSharp-Projetos\\Graficos\\Graficos\\Formularios\\FormPrincipal.cs",
-              "RelativeToolTip": "Graficos\\Formularios\\FormPrincipal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T13:21:36.489Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormPrincipal.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\NSYS-DEV-05\\Desktop\\Estudos\\CSharp-Projetos\\Graficos\\Graficos\\Formularios\\FormPrincipal.cs",
-              "RelativeDocumentMoniker": "Graficos\\Formularios\\FormPrincipal.cs",
-              "ToolTip": "C:\\Users\\NSYS-DEV-05\\Desktop\\Estudos\\CSharp-Projetos\\Graficos\\Graficos\\Formularios\\FormPrincipal.cs [Design]",
-              "RelativeToolTip": "Graficos\\Formularios\\FormPrincipal.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T12:49:09.189Z",
-              "EditorCaption": " [Design]"
             }
           ]
         },

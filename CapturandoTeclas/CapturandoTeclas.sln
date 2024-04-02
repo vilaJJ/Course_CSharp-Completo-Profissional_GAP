@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapturandoTeclas", "CapturandoTeclas\CapturandoTeclas.csproj", "{98044FB9-22D0-4156-9CB2-38452C80AF9D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98044FB9-22D0-4156-9CB2-38452C80AF9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98044FB9-22D0-4156-9CB2-38452C80AF9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98044FB9-22D0-4156-9CB2-38452C80AF9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98044FB9-22D0-4156-9CB2-38452C80AF9D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F07B85E0-18E9-4634-9A47-7775277337CA}
+	EndGlobalSection
+EndGlobal

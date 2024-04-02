@@ -1,8 +1,8 @@
-﻿using Graficos.Formularios;
+﻿using CapturandoTeclas.Formularios;
 using System;
 using System.Windows.Forms;
 
-namespace Graficos
+namespace CapturandoTeclas
 {
     internal static class Program
     {

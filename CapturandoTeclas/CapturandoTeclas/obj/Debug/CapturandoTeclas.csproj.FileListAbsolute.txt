@@ -1,0 +1,10 @@
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\CapturandoTeclas\CapturandoTeclas\bin\Debug\CapturandoTeclas.exe.config
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\CapturandoTeclas\CapturandoTeclas\bin\Debug\CapturandoTeclas.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\CapturandoTeclas\CapturandoTeclas\bin\Debug\CapturandoTeclas.pdb
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\CapturandoTeclas\CapturandoTeclas\obj\Debug\CapturandoTeclas.csproj.AssemblyReference.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\CapturandoTeclas\CapturandoTeclas\obj\Debug\CapturandoTeclas.Formularios.FormPrincipal.resources
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\CapturandoTeclas\CapturandoTeclas\obj\Debug\CapturandoTeclas.Properties.Resources.resources
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\CapturandoTeclas\CapturandoTeclas\obj\Debug\CapturandoTeclas.csproj.GenerateResource.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\CapturandoTeclas\CapturandoTeclas\obj\Debug\CapturandoTeclas.csproj.CoreCompileInputs.cache
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\CapturandoTeclas\CapturandoTeclas\obj\Debug\CapturandoTeclas.exe
+C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\CapturandoTeclas\CapturandoTeclas\obj\Debug\CapturandoTeclas.pdb
