@@ -64,6 +64,7 @@
             StatusStrip_Status = new StatusStrip();
             ToolStripStatusLabel_Status_Zoom = new ToolStripStatusLabel();
             RichTextBox_Texto = new RichTextBox();
+            SaveFileDialog_SalvarArquivo = new SaveFileDialog();
             MenuStrip_Opcoes.SuspendLayout();
             StatusStrip_Status.SuspendLayout();
             SuspendLayout();
@@ -317,6 +318,11 @@
             RichTextBox_Texto.TabIndex = 2;
             RichTextBox_Texto.Text = "";
             // 
+            // SaveFileDialog_SalvarArquivo
+            // 
+            SaveFileDialog_SalvarArquivo.Filter = "Arquivo de texto rico|*.rtf|Arquivo de texto|*.txt|Todos os arquivos|*.*";
+            SaveFileDialog_SalvarArquivo.Title = "Salvar o arquivo";
+            // 
             // FormPrincipal
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -378,5 +384,6 @@
         internal StatusStrip StatusStrip_Status;
         internal ToolStripStatusLabel ToolStripStatusLabel_Status_Zoom;
         internal RichTextBox RichTextBox_Texto;
+        internal SaveFileDialog SaveFileDialog_SalvarArquivo;
     }
 }

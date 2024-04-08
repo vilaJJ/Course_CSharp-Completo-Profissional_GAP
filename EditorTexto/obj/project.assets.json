@@ -8,23 +8,23 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\NSYS-DEV-05\\.nuget\\packages\\": {},
+    "C:\\Users\\vilar\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\NSYS-DEV-05\\Desktop\\Estudos\\CSharp-Projetos\\EditorTexto\\EditorTexto.csproj",
+      "projectUniqueName": "C:\\Users\\vilar\\OneDrive\\Área de Trabalho\\Estudos\\Estudando-CSharp\\EditorTexto\\EditorTexto.csproj",
       "projectName": "EditorTexto",
-      "projectPath": "C:\\Users\\NSYS-DEV-05\\Desktop\\Estudos\\CSharp-Projetos\\EditorTexto\\EditorTexto.csproj",
-      "packagesPath": "C:\\Users\\NSYS-DEV-05\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\NSYS-DEV-05\\Desktop\\Estudos\\CSharp-Projetos\\EditorTexto\\obj\\",
+      "projectPath": "C:\\Users\\vilar\\OneDrive\\Área de Trabalho\\Estudos\\Estudando-CSharp\\EditorTexto\\EditorTexto.csproj",
+      "packagesPath": "C:\\Users\\vilar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vilar\\OneDrive\\Área de Trabalho\\Estudos\\Estudando-CSharp\\EditorTexto\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\NSYS-DEV-05\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\vilar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -32,10 +32,10 @@
         "net8.0-windows"
       ],
       "sources": {
+        "C:\\.NET\\NuGet": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://nuget.nortesys.com.br/nuget/": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -76,7 +76,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

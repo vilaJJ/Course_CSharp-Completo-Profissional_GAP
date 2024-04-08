@@ -15,3 +15,20 @@ C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\EditorTexto\obj\Debug\net8.
 C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\EditorTexto\obj\Debug\net8.0-windows\EditorTexto.pdb
 C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\EditorTexto\obj\Debug\net8.0-windows\EditorTexto.genruntimeconfig.cache
 C:\Users\NSYS-DEV-05\Desktop\Estudos\CSharp-Projetos\EditorTexto\obj\Debug\net8.0-windows\ref\EditorTexto.dll
+C:\Users\vilar\OneDrive\Área de Trabalho\Estudos\Estudando-CSharp\EditorTexto\bin\Debug\net8.0-windows\EditorTexto.exe
+C:\Users\vilar\OneDrive\Área de Trabalho\Estudos\Estudando-CSharp\EditorTexto\bin\Debug\net8.0-windows\EditorTexto.deps.json
+C:\Users\vilar\OneDrive\Área de Trabalho\Estudos\Estudando-CSharp\EditorTexto\bin\Debug\net8.0-windows\EditorTexto.runtimeconfig.json
+C:\Users\vilar\OneDrive\Área de Trabalho\Estudos\Estudando-CSharp\EditorTexto\bin\Debug\net8.0-windows\EditorTexto.dll
+C:\Users\vilar\OneDrive\Área de Trabalho\Estudos\Estudando-CSharp\EditorTexto\bin\Debug\net8.0-windows\EditorTexto.pdb
+C:\Users\vilar\OneDrive\Área de Trabalho\Estudos\Estudando-CSharp\EditorTexto\obj\Debug\net8.0-windows\EditorTexto.FormPrincipal.resources
+C:\Users\vilar\OneDrive\Área de Trabalho\Estudos\Estudando-CSharp\EditorTexto\obj\Debug\net8.0-windows\EditorTexto.csproj.GenerateResource.cache
+C:\Users\vilar\OneDrive\Área de Trabalho\Estudos\Estudando-CSharp\EditorTexto\obj\Debug\net8.0-windows\EditorTexto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vilar\OneDrive\Área de Trabalho\Estudos\Estudando-CSharp\EditorTexto\obj\Debug\net8.0-windows\EditorTexto.AssemblyInfoInputs.cache
+C:\Users\vilar\OneDrive\Área de Trabalho\Estudos\Estudando-CSharp\EditorTexto\obj\Debug\net8.0-windows\EditorTexto.AssemblyInfo.cs
+C:\Users\vilar\OneDrive\Área de Trabalho\Estudos\Estudando-CSharp\EditorTexto\obj\Debug\net8.0-windows\EditorTexto.csproj.CoreCompileInputs.cache
+C:\Users\vilar\OneDrive\Área de Trabalho\Estudos\Estudando-CSharp\EditorTexto\obj\Debug\net8.0-windows\EditorTexto.sourcelink.json
+C:\Users\vilar\OneDrive\Área de Trabalho\Estudos\Estudando-CSharp\EditorTexto\obj\Debug\net8.0-windows\EditorTexto.dll
+C:\Users\vilar\OneDrive\Área de Trabalho\Estudos\Estudando-CSharp\EditorTexto\obj\Debug\net8.0-windows\refint\EditorTexto.dll
+C:\Users\vilar\OneDrive\Área de Trabalho\Estudos\Estudando-CSharp\EditorTexto\obj\Debug\net8.0-windows\EditorTexto.pdb
+C:\Users\vilar\OneDrive\Área de Trabalho\Estudos\Estudando-CSharp\EditorTexto\obj\Debug\net8.0-windows\EditorTexto.genruntimeconfig.cache
+C:\Users\vilar\OneDrive\Área de Trabalho\Estudos\Estudando-CSharp\EditorTexto\obj\Debug\net8.0-windows\ref\EditorTexto.dll
