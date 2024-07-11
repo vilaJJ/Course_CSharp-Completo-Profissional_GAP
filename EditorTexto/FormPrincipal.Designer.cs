@@ -65,6 +65,7 @@
             ToolStripStatusLabel_Status_Zoom = new ToolStripStatusLabel();
             RichTextBox_Texto = new RichTextBox();
             SaveFileDialog_SalvarArquivo = new SaveFileDialog();
+            OpenFileDialog_AbrirArquivo = new OpenFileDialog();
             MenuStrip_Opcoes.SuspendLayout();
             StatusStrip_Status.SuspendLayout();
             SuspendLayout();
@@ -317,11 +318,17 @@
             RichTextBox_Texto.Size = new Size(784, 515);
             RichTextBox_Texto.TabIndex = 2;
             RichTextBox_Texto.Text = "";
+            RichTextBox_Texto.TextChanged += RichTextBox_Texto_TextChanged;
             // 
             // SaveFileDialog_SalvarArquivo
             // 
             SaveFileDialog_SalvarArquivo.Filter = "Arquivo de texto rico|*.rtf|Arquivo de texto|*.txt|Todos os arquivos|*.*";
-            SaveFileDialog_SalvarArquivo.Title = "Salvar o arquivo";
+            SaveFileDialog_SalvarArquivo.Title = "Salvar o arquivo...";
+            // 
+            // OpenFileDialog_AbrirArquivo
+            // 
+            OpenFileDialog_AbrirArquivo.Filter = "Arquivo de texto rico|*.rtf|Arquivo de texto|*.txt|Todos os arquivos|*.*";
+            OpenFileDialog_AbrirArquivo.Title = "Abrir o arquivo...";
             // 
             // FormPrincipal
             // 
@@ -335,7 +342,7 @@
             MinimumSize = new Size(800, 600);
             Name = "FormPrincipal";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Editor de texto";
+            Text = "Editor de Texto";
             WindowState = FormWindowState.Maximized;
             FormClosing += FormPrincipal_FormClosing;
             MenuStrip_Opcoes.ResumeLayout(false);
@@ -385,5 +392,6 @@
         internal ToolStripStatusLabel ToolStripStatusLabel_Status_Zoom;
         internal RichTextBox RichTextBox_Texto;
         internal SaveFileDialog SaveFileDialog_SalvarArquivo;
+        internal OpenFileDialog OpenFileDialog_AbrirArquivo;
     }
 }

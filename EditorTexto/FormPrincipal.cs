@@ -4,6 +4,8 @@ namespace EditorTexto
 {
     public partial class FormPrincipal : Form
     {
+        #region Construtores
+
         public FormPrincipal(bool isNovaJanela = false)
         {
             InitializeComponent();
@@ -14,13 +16,15 @@ namespace EditorTexto
             }
         }
 
+        #endregion
+
         #region Eventos do Formulário
 
         private void FormPrincipal_FormClosing(object sender, FormClosingEventArgs e)
         {
             var resultadoMensagem = MessageBox.Show(
                 "Deseja realmente sair?",
-                Text,
+                "Editor de Texto",
                 MessageBoxButtons.YesNo,
                 MessageBoxIcon.Question,
                 MessageBoxDefaultButton.Button2
@@ -40,7 +44,9 @@ namespace EditorTexto
 
         private void ToolStripMenuItem_Opcoes_Arquivo_Novo_Click(object sender, EventArgs e)
         {
+            Gerenciador.RestaurarValoresPadroes();
             RichTextBox_Texto.Clear();
+            DefinirTituloJanela();
         }
 
         private void ToolStripMenuItem_Opcoes_Arquivo_NovaJanela_Click(object sender, EventArgs e)
@@ -56,21 +62,38 @@ namespace EditorTexto
 
         private void ToolStripMenuItem_Opcoes_Arquivo_Abrir_Click(object sender, EventArgs e)
         {
+            string? path;
 
+            DialogResult resultadoDialogo = OpenFileDialog_AbrirArquivo.ShowDialog();
+
+            if (resultadoDialogo != DialogResult.OK)
+            {
+                return;
+            }
+
+            path = OpenFileDialog_AbrirArquivo.FileName;
+
+            if (File.Exists(path) is false)
+            {
+                return;
+            }
+
+            AbrirArquivo(path);
         }
 
         private void ToolStripMenuItem_Opcoes_Arquivo_Salvar_Click(object sender, EventArgs e)
         {
             string? path = null;
 
-            if (File.Exists(Gerenciador.DestinoArquivo) is false)
+            if (Gerenciador.IsArquivoNovo && File.Exists(Gerenciador.DestinoArquivo) is false)
             {
+                SaveFileDialog_SalvarArquivo.Title = "Salvar o arquivo...";
                 SaveFileDialog_SalvarArquivo.FileName = string.Empty;
 
                 var resultadoDialogo = SaveFileDialog_SalvarArquivo.ShowDialog();
 
                 if (resultadoDialogo != DialogResult.OK)
-                {                    
+                {
                     return;
                 }
 
@@ -82,12 +105,25 @@ namespace EditorTexto
 
         private void ToolStripMenuItem_Opcoes_Arquivo_SalvarComo_Click(object sender, EventArgs e)
         {
+            string? path;
 
+            SaveFileDialog_SalvarArquivo.Title = "Salvar o arquivo como...";
+            SaveFileDialog_SalvarArquivo.FileName = string.Empty;
+
+            var resultadoDialogo = SaveFileDialog_SalvarArquivo.ShowDialog();
+
+            if (resultadoDialogo != DialogResult.OK)
+            {
+                return;
+            }
+
+            path = SaveFileDialog_SalvarArquivo.FileName;
+            SalvarArquivo(path);
         }
 
         private void ToolStripMenuItem_Opcoes_Arquivo_Fechar_Click(object sender, EventArgs e)
         {
-            Close();   
+            Close();
         }
 
         #endregion
@@ -110,7 +146,59 @@ namespace EditorTexto
 
         #endregion
 
+        #region Caixa de edição
+
+        private void RichTextBox_Texto_TextChanged(object sender, EventArgs e)
+        {
+            if (Gerenciador.IsArquivoSalvo is true)
+            {
+                Gerenciador.IsArquivoSalvo = false;
+
+                string? path = Gerenciador.IsArquivoNovo is true
+                    ? string.Empty
+                    : Gerenciador.DestinoArquivo;
+
+                DefinirTituloJanela(path);
+            }
+        }
+
+        #endregion
+
         #region Helpers
+
+        private void AbrirArquivo(string path)
+        {
+            try
+            {
+                FileInfo infoArquivo = new(path);
+
+                int indexPontoExt = infoArquivo.Name.LastIndexOf('.');
+
+                Gerenciador.PastaDestino = infoArquivo.DirectoryName + @"";
+                Gerenciador.NomeArquivo = infoArquivo.Name.Remove(indexPontoExt);
+                Gerenciador.NomeExtensao = infoArquivo.Extension.Remove(0, 1);
+
+                using StreamReader leitor = new(path);
+
+                string textoArquivo = leitor.ReadToEnd();
+
+                DefinirTextoEditor(textoArquivo);
+
+                Gerenciador.IsArquivoNovo = false;
+                Gerenciador.IsArquivoSalvo = true;
+
+                DefinirTituloJanela(path);                
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(
+                    "Não foi possível abrir o arquivo.\n\n" + ex.Message,
+                    "Abrir o arquivo",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error
+                    );
+            }
+        }
 
         private void SalvarArquivo(string? path = null)
         {
@@ -125,7 +213,13 @@ namespace EditorTexto
 
                 escritor.Write(documento);
 
+                Gerenciador.IsArquivoNovo = false;
+                Gerenciador.IsArquivoSalvo = true;
+
                 AtualizarArquivoEmUso(path);
+                DefinirTituloJanela(path);                
+
+                OpenFileDialog_AbrirArquivo.FileName = path;
             }
             catch (Exception ex)
             {
@@ -136,6 +230,29 @@ namespace EditorTexto
                    MessageBoxIcon.Error
                    );
             }
+        }
+
+        private void DefinirTituloJanela(string? path = null)
+        {
+            string nomeAplicacao = "Editor de Texto";
+
+            if (path is null)
+            {
+                Text = nomeAplicacao;
+                return;
+            }
+
+            Text = string.Format(
+                "{0}{1}{2}",
+                nomeAplicacao,
+                Gerenciador.IsArquivoSalvo is true ? string.Empty : " (não salvo)",
+                string.IsNullOrWhiteSpace(path) ? string.Empty : $" - {path}"
+                );
+        }
+
+        private void DefinirTextoEditor(string texto)
+        {
+            RichTextBox_Texto.Text = texto;
         }
 
         private static void AtualizarArquivoEmUso(string path)
