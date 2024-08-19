@@ -130,9 +130,98 @@ namespace EditorTexto
 
         #region Editar
 
+        private void ToolStripMenuItem_Opcoes_Editar_Desfazer_Click(object sender, EventArgs e)
+        {
+            if (RichTextBox_Texto.CanUndo is false)
+            {
+                return;
+            }
+            RichTextBox_Texto.Undo();
+        }
+
+        private void ToolStripMenuItem_Opcoes_Editar_Refazer_Click(object sender, EventArgs e)
+        {
+            RichTextBox_Texto.Redo();
+        }
+
+        private void ToolStripMenuItem_Opcoes_Editar_Recortar_Click(object sender, EventArgs e)
+        {
+            RichTextBox_Texto.Cut();
+        }
+
+        private void ToolStripMenuItem_Opcoes_Editar_Copiar_Click(object sender, EventArgs e)
+        {
+            RichTextBox_Texto.Copy();
+        }
+
+        private void ToolStripMenuItem_Opcoes_Editar_Colar_Click(object sender, EventArgs e)
+        {
+            RichTextBox_Texto.Paste();
+        }
+
+        private void ToolStripMenuItem_Opcoes_Editar_Excluir_Click(object sender, EventArgs e)
+        {
+            int selectionStart = RichTextBox_Texto.SelectionStart;
+            int selectionLength = RichTextBox_Texto.SelectionLength;
+
+            string textoEditado = RichTextBox_Texto.Text.Remove(
+                selectionStart,
+                selectionLength
+                );
+
+            if (selectionStart > textoEditado.Length)
+            {
+                selectionStart = textoEditado.Length;
+            }
+
+            RichTextBox_Texto.Text = textoEditado;
+            RichTextBox_Texto.SelectionStart = selectionStart;
+        }
+
+        private void ToolStripMenuItem_Opcoes_Editar_DataHora_Click(object sender, EventArgs e)
+        {
+            DateTime dataHoraAtual = DateTime.Now;
+            string dataHoraAtualFormatada = dataHoraAtual.ToString("dd/MM/yyyy HH:mm:ss");
+            int selectionStart = RichTextBox_Texto.SelectionStart;
+            string textoEditado = RichTextBox_Texto.Text.Insert(selectionStart, dataHoraAtualFormatada);
+
+            selectionStart += dataHoraAtualFormatada.Length;
+
+            RichTextBox_Texto.Text = textoEditado;
+            RichTextBox_Texto.SelectionStart = selectionStart;
+        }
+
         #endregion
 
         #region Formatar
+
+        private void ToolStripMenuItem_Opcoes_Formatar_QuebraAutoLinha_CheckedChanged(object sender, EventArgs e)
+        {
+            bool isChecked = ToolStripMenuItem_Opcoes_Formatar_QuebraAutoLinha.Checked;
+            RichTextBox_Texto.WordWrap = isChecked is true;
+        }
+
+        private void ToolStripMenuItem_Opcoes_Formatar_Fonte_Click(object sender, EventArgs e)
+        {
+            Font fonteAtual = RichTextBox_Texto.Font;
+            Color corAtual = RichTextBox_Texto.ForeColor;
+
+            FontDialog_FonteTexto.Font = fonteAtual;
+            FontDialog_FonteTexto.Color = corAtual;
+
+            DialogResult resultadoDialogo = FontDialog_FonteTexto.ShowDialog();
+
+            if (resultadoDialogo is not DialogResult.OK)
+            {
+                return;
+            }
+
+            Font fonteSelecionada = FontDialog_FonteTexto.Font;
+            Color corSelecionada = FontDialog_FonteTexto.Color;
+
+            RichTextBox_Texto.Font = fonteSelecionada;
+            RichTextBox_Texto.ForeColor = corSelecionada;
+        }
 
         #endregion
 
@@ -187,7 +276,7 @@ namespace EditorTexto
                 Gerenciador.IsArquivoNovo = false;
                 Gerenciador.IsArquivoSalvo = true;
 
-                DefinirTituloJanela(path);                
+                DefinirTituloJanela(path);
             }
             catch (Exception ex)
             {
@@ -217,7 +306,7 @@ namespace EditorTexto
                 Gerenciador.IsArquivoSalvo = true;
 
                 AtualizarArquivoEmUso(path);
-                DefinirTituloJanela(path);                
+                DefinirTituloJanela(path);
 
                 OpenFileDialog_AbrirArquivo.FileName = path;
             }
@@ -268,6 +357,6 @@ namespace EditorTexto
             Gerenciador.NomeExtensao = informacoes.Extension[1..];
         }
 
-        #endregion
+        #endregion        
     }
 }
