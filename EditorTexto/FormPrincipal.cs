@@ -227,6 +227,44 @@ namespace EditorTexto
 
         #region Exibir
 
+        private void ToolStripMenuItem_Opcoes_Exibir_Zoom_Ampliar_Click(object sender, EventArgs e)
+        {
+            float zoomFactor = RichTextBox_Texto.ZoomFactor;
+            zoomFactor += 0.1f;
+
+            if (zoomFactor > 5)
+            {
+                zoomFactor = 5;
+            }
+            
+            AtualizarZoom(zoomFactor);
+        }
+
+        private void ToolStripMenuItem_Opcoes_Exibir_Zoom_Reduzir_Click(object sender, EventArgs e)
+        {
+            float zoomFactor = RichTextBox_Texto.ZoomFactor;
+            zoomFactor -= 0.1f;
+
+            if (zoomFactor < 0.1)
+            {
+                zoomFactor = 0.1f;
+            }
+
+            AtualizarZoom(zoomFactor);
+        }
+
+        private void ToolStripMenuItem_Opcoes_Exibir_Zoom_Restaurar_Click(object sender, EventArgs e)
+        {
+            float zoomFactor = 1;
+            AtualizarZoom(zoomFactor);
+        }
+
+        private void ToolStripMenuItem_Opcoes_Exibir_BarraStatus_CheckedChanged(object sender, EventArgs e)
+        {
+            bool isChecked = ToolStripMenuItem_Opcoes_Exibir_BarraStatus.Checked;
+            StatusStrip_Status.Enabled = StatusStrip_Status.Visible = isChecked;
+        }
+
         #endregion
 
         #region Ajuda
@@ -357,6 +395,22 @@ namespace EditorTexto
             Gerenciador.NomeExtensao = informacoes.Extension[1..];
         }
 
-        #endregion        
+        private void AtualizarZoom(float zoomFactor)
+        {
+            float zoomFactorFloat = Convert.ToSingle(zoomFactor);
+
+            double zoomFactorMult = zoomFactor * 100;
+            double zoomFactorFormatado = Math.Round(zoomFactorMult);
+
+            string status = string.Format(
+                "{0}%",
+                zoomFactorFormatado
+                );
+
+            RichTextBox_Texto.ZoomFactor = zoomFactorFloat;
+            ToolStripStatusLabel_Status_Zoom.Text = status;
+        }
+
+        #endregion
     }
 }

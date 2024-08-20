@@ -156,7 +156,7 @@
             // 
             ToolStripMenuItem_Opcoes_Editar_Desfazer.Name = "ToolStripMenuItem_Opcoes_Editar_Desfazer";
             ToolStripMenuItem_Opcoes_Editar_Desfazer.ShortcutKeyDisplayString = "Ctrl+Z";
-            ToolStripMenuItem_Opcoes_Editar_Desfazer.Size = new Size(159, 22);
+            ToolStripMenuItem_Opcoes_Editar_Desfazer.Size = new Size(180, 22);
             ToolStripMenuItem_Opcoes_Editar_Desfazer.Text = "&Desfazer";
             ToolStripMenuItem_Opcoes_Editar_Desfazer.Click += ToolStripMenuItem_Opcoes_Editar_Desfazer_Click;
             // 
@@ -164,20 +164,20 @@
             // 
             ToolStripMenuItem_Opcoes_Editar_Refazer.Name = "ToolStripMenuItem_Opcoes_Editar_Refazer";
             ToolStripMenuItem_Opcoes_Editar_Refazer.ShortcutKeyDisplayString = "Ctrl+Y";
-            ToolStripMenuItem_Opcoes_Editar_Refazer.Size = new Size(159, 22);
+            ToolStripMenuItem_Opcoes_Editar_Refazer.Size = new Size(180, 22);
             ToolStripMenuItem_Opcoes_Editar_Refazer.Text = "&Refazer";
             ToolStripMenuItem_Opcoes_Editar_Refazer.Click += ToolStripMenuItem_Opcoes_Editar_Refazer_Click;
             // 
             // ToolStripMenuItem_Opcoes_Editar_Separador1
             // 
             ToolStripMenuItem_Opcoes_Editar_Separador1.Name = "ToolStripMenuItem_Opcoes_Editar_Separador1";
-            ToolStripMenuItem_Opcoes_Editar_Separador1.Size = new Size(156, 6);
+            ToolStripMenuItem_Opcoes_Editar_Separador1.Size = new Size(177, 6);
             // 
             // ToolStripMenuItem_Opcoes_Editar_Recortar
             // 
             ToolStripMenuItem_Opcoes_Editar_Recortar.Name = "ToolStripMenuItem_Opcoes_Editar_Recortar";
             ToolStripMenuItem_Opcoes_Editar_Recortar.ShortcutKeyDisplayString = "Ctrl+X";
-            ToolStripMenuItem_Opcoes_Editar_Recortar.Size = new Size(159, 22);
+            ToolStripMenuItem_Opcoes_Editar_Recortar.Size = new Size(180, 22);
             ToolStripMenuItem_Opcoes_Editar_Recortar.Text = "R&ecortar";
             ToolStripMenuItem_Opcoes_Editar_Recortar.Click += ToolStripMenuItem_Opcoes_Editar_Recortar_Click;
             // 
@@ -185,7 +185,7 @@
             // 
             ToolStripMenuItem_Opcoes_Editar_Copiar.Name = "ToolStripMenuItem_Opcoes_Editar_Copiar";
             ToolStripMenuItem_Opcoes_Editar_Copiar.ShortcutKeyDisplayString = "Ctrl+C";
-            ToolStripMenuItem_Opcoes_Editar_Copiar.Size = new Size(159, 22);
+            ToolStripMenuItem_Opcoes_Editar_Copiar.Size = new Size(180, 22);
             ToolStripMenuItem_Opcoes_Editar_Copiar.Text = "&Copiar";
             ToolStripMenuItem_Opcoes_Editar_Copiar.Click += ToolStripMenuItem_Opcoes_Editar_Copiar_Click;
             // 
@@ -193,7 +193,7 @@
             // 
             ToolStripMenuItem_Opcoes_Editar_Colar.Name = "ToolStripMenuItem_Opcoes_Editar_Colar";
             ToolStripMenuItem_Opcoes_Editar_Colar.ShortcutKeyDisplayString = "Ctrl+V";
-            ToolStripMenuItem_Opcoes_Editar_Colar.Size = new Size(159, 22);
+            ToolStripMenuItem_Opcoes_Editar_Colar.Size = new Size(180, 22);
             ToolStripMenuItem_Opcoes_Editar_Colar.Text = "C&olar";
             ToolStripMenuItem_Opcoes_Editar_Colar.Click += ToolStripMenuItem_Opcoes_Editar_Colar_Click;
             // 
@@ -201,20 +201,20 @@
             // 
             ToolStripMenuItem_Opcoes_Editar_Excluir.Name = "ToolStripMenuItem_Opcoes_Editar_Excluir";
             ToolStripMenuItem_Opcoes_Editar_Excluir.ShortcutKeyDisplayString = "Del";
-            ToolStripMenuItem_Opcoes_Editar_Excluir.Size = new Size(159, 22);
+            ToolStripMenuItem_Opcoes_Editar_Excluir.Size = new Size(180, 22);
             ToolStripMenuItem_Opcoes_Editar_Excluir.Text = "&Excluir";
             ToolStripMenuItem_Opcoes_Editar_Excluir.Click += ToolStripMenuItem_Opcoes_Editar_Excluir_Click;
             // 
             // ToolStripMenuItem_Opcoes_Editar_Separador2
             // 
             ToolStripMenuItem_Opcoes_Editar_Separador2.Name = "ToolStripMenuItem_Opcoes_Editar_Separador2";
-            ToolStripMenuItem_Opcoes_Editar_Separador2.Size = new Size(156, 6);
+            ToolStripMenuItem_Opcoes_Editar_Separador2.Size = new Size(177, 6);
             // 
             // ToolStripMenuItem_Opcoes_Editar_DataHora
             // 
             ToolStripMenuItem_Opcoes_Editar_DataHora.Name = "ToolStripMenuItem_Opcoes_Editar_DataHora";
             ToolStripMenuItem_Opcoes_Editar_DataHora.ShortcutKeys = Keys.F5;
-            ToolStripMenuItem_Opcoes_Editar_DataHora.Size = new Size(159, 22);
+            ToolStripMenuItem_Opcoes_Editar_DataHora.Size = new Size(180, 22);
             ToolStripMenuItem_Opcoes_Editar_DataHora.Text = "&Data e Hora";
             ToolStripMenuItem_Opcoes_Editar_DataHora.Click += ToolStripMenuItem_Opcoes_Editar_DataHora_Click;
             // 
@@ -251,31 +251,39 @@
             // 
             ToolStripMenuItem_Opcoes_Exibir_Zoom.DropDownItems.AddRange(new ToolStripItem[] { ToolStripMenuItem_Opcoes_Exibir_Zoom_Ampliar, ToolStripMenuItem_Opcoes_Exibir_Zoom_Reduzir, ToolStripMenuItem_Opcoes_Exibir_Zoom_Separador1, ToolStripMenuItem_Opcoes_Exibir_Zoom_Restaurar });
             ToolStripMenuItem_Opcoes_Exibir_Zoom.Name = "ToolStripMenuItem_Opcoes_Exibir_Zoom";
-            ToolStripMenuItem_Opcoes_Exibir_Zoom.Size = new Size(151, 22);
+            ToolStripMenuItem_Opcoes_Exibir_Zoom.ShowShortcutKeys = false;
+            ToolStripMenuItem_Opcoes_Exibir_Zoom.Size = new Size(180, 22);
             ToolStripMenuItem_Opcoes_Exibir_Zoom.Text = "&Zoom";
             // 
             // ToolStripMenuItem_Opcoes_Exibir_Zoom_Ampliar
             // 
             ToolStripMenuItem_Opcoes_Exibir_Zoom_Ampliar.Name = "ToolStripMenuItem_Opcoes_Exibir_Zoom_Ampliar";
-            ToolStripMenuItem_Opcoes_Exibir_Zoom_Ampliar.Size = new Size(123, 22);
+            ToolStripMenuItem_Opcoes_Exibir_Zoom_Ampliar.ShortcutKeyDisplayString = "Ctrl + +";
+            ToolStripMenuItem_Opcoes_Exibir_Zoom_Ampliar.ShortcutKeys = Keys.Control | Keys.Oemplus;
+            ToolStripMenuItem_Opcoes_Exibir_Zoom_Ampliar.Size = new Size(180, 22);
             ToolStripMenuItem_Opcoes_Exibir_Zoom_Ampliar.Text = "&Ampliar";
+            ToolStripMenuItem_Opcoes_Exibir_Zoom_Ampliar.Click += ToolStripMenuItem_Opcoes_Exibir_Zoom_Ampliar_Click;
             // 
             // ToolStripMenuItem_Opcoes_Exibir_Zoom_Reduzir
             // 
             ToolStripMenuItem_Opcoes_Exibir_Zoom_Reduzir.Name = "ToolStripMenuItem_Opcoes_Exibir_Zoom_Reduzir";
-            ToolStripMenuItem_Opcoes_Exibir_Zoom_Reduzir.Size = new Size(123, 22);
+            ToolStripMenuItem_Opcoes_Exibir_Zoom_Reduzir.ShortcutKeyDisplayString = "Ctrl + -";
+            ToolStripMenuItem_Opcoes_Exibir_Zoom_Reduzir.ShortcutKeys = Keys.Control | Keys.OemMinus;
+            ToolStripMenuItem_Opcoes_Exibir_Zoom_Reduzir.Size = new Size(180, 22);
             ToolStripMenuItem_Opcoes_Exibir_Zoom_Reduzir.Text = "&Reduzir";
+            ToolStripMenuItem_Opcoes_Exibir_Zoom_Reduzir.Click += ToolStripMenuItem_Opcoes_Exibir_Zoom_Reduzir_Click;
             // 
             // ToolStripMenuItem_Opcoes_Exibir_Zoom_Separador1
             // 
             ToolStripMenuItem_Opcoes_Exibir_Zoom_Separador1.Name = "ToolStripMenuItem_Opcoes_Exibir_Zoom_Separador1";
-            ToolStripMenuItem_Opcoes_Exibir_Zoom_Separador1.Size = new Size(120, 6);
+            ToolStripMenuItem_Opcoes_Exibir_Zoom_Separador1.Size = new Size(177, 6);
             // 
             // ToolStripMenuItem_Opcoes_Exibir_Zoom_Restaurar
             // 
             ToolStripMenuItem_Opcoes_Exibir_Zoom_Restaurar.Name = "ToolStripMenuItem_Opcoes_Exibir_Zoom_Restaurar";
-            ToolStripMenuItem_Opcoes_Exibir_Zoom_Restaurar.Size = new Size(123, 22);
+            ToolStripMenuItem_Opcoes_Exibir_Zoom_Restaurar.Size = new Size(180, 22);
             ToolStripMenuItem_Opcoes_Exibir_Zoom_Restaurar.Text = "R&estaurar";
+            ToolStripMenuItem_Opcoes_Exibir_Zoom_Restaurar.Click += ToolStripMenuItem_Opcoes_Exibir_Zoom_Restaurar_Click;
             // 
             // ToolStripMenuItem_Opcoes_Exibir_BarraStatus
             // 
@@ -283,8 +291,9 @@
             ToolStripMenuItem_Opcoes_Exibir_BarraStatus.CheckOnClick = true;
             ToolStripMenuItem_Opcoes_Exibir_BarraStatus.CheckState = CheckState.Checked;
             ToolStripMenuItem_Opcoes_Exibir_BarraStatus.Name = "ToolStripMenuItem_Opcoes_Exibir_BarraStatus";
-            ToolStripMenuItem_Opcoes_Exibir_BarraStatus.Size = new Size(151, 22);
+            ToolStripMenuItem_Opcoes_Exibir_BarraStatus.Size = new Size(188, 22);
             ToolStripMenuItem_Opcoes_Exibir_BarraStatus.Text = "&Barra de status";
+            ToolStripMenuItem_Opcoes_Exibir_BarraStatus.CheckedChanged += ToolStripMenuItem_Opcoes_Exibir_BarraStatus_CheckedChanged;
             // 
             // ToolStripMenuItem_Opcoes_Ajuda
             // 
