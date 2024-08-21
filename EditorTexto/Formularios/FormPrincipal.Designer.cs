@@ -201,7 +201,7 @@
             // ToolStripMenuItem_Opcoes_Editar_Excluir
             // 
             ToolStripMenuItem_Opcoes_Editar_Excluir.Name = "ToolStripMenuItem_Opcoes_Editar_Excluir";
-            ToolStripMenuItem_Opcoes_Editar_Excluir.ShortcutKeyDisplayString = "Del";
+            ToolStripMenuItem_Opcoes_Editar_Excluir.ShortcutKeyDisplayString = "Delete";
             ToolStripMenuItem_Opcoes_Editar_Excluir.Size = new Size(159, 22);
             ToolStripMenuItem_Opcoes_Editar_Excluir.Text = "&Excluir";
             ToolStripMenuItem_Opcoes_Editar_Excluir.Click += ToolStripMenuItem_Opcoes_Editar_Excluir_Click;
@@ -306,12 +306,14 @@
             // ToolStripMenuItem_Opcoes_Ajuda_Exibir
             // 
             ToolStripMenuItem_Opcoes_Ajuda_Exibir.Name = "ToolStripMenuItem_Opcoes_Ajuda_Exibir";
+            ToolStripMenuItem_Opcoes_Ajuda_Exibir.ShortcutKeys = Keys.F1;
             ToolStripMenuItem_Opcoes_Ajuda_Exibir.Size = new Size(180, 22);
             ToolStripMenuItem_Opcoes_Ajuda_Exibir.Text = "&Exibir ajuda";
             ToolStripMenuItem_Opcoes_Ajuda_Exibir.Click += ToolStripMenuItem_Opcoes_Ajuda_Exibir_Click;
             // 
             // ToolStripMenuItem_Opcoes_Ajuda_SobrePrograma
             // 
+            ToolStripMenuItem_Opcoes_Ajuda_SobrePrograma.Image = Properties.Resources.text_editor;
             ToolStripMenuItem_Opcoes_Ajuda_SobrePrograma.Name = "ToolStripMenuItem_Opcoes_Ajuda_SobrePrograma";
             ToolStripMenuItem_Opcoes_Ajuda_SobrePrograma.Size = new Size(180, 22);
             ToolStripMenuItem_Opcoes_Ajuda_SobrePrograma.Text = "&Sobre o programa";
@@ -324,7 +326,7 @@
             StatusStrip_Status.Name = "StatusStrip_Status";
             StatusStrip_Status.Size = new Size(784, 22);
             StatusStrip_Status.SizingGrip = false;
-            StatusStrip_Status.TabIndex = 1;
+            StatusStrip_Status.TabIndex = 2;
             StatusStrip_Status.Text = "Barra de status do aplicativo";
             // 
             // ToolStripStatusLabel_Status_Zoom
@@ -339,7 +341,7 @@
             RichTextBox_Texto.Location = new Point(0, 24);
             RichTextBox_Texto.Name = "RichTextBox_Texto";
             RichTextBox_Texto.Size = new Size(784, 515);
-            RichTextBox_Texto.TabIndex = 2;
+            RichTextBox_Texto.TabIndex = 1;
             RichTextBox_Texto.Text = "";
             RichTextBox_Texto.WordWrap = false;
             RichTextBox_Texto.TextChanged += RichTextBox_Texto_TextChanged;

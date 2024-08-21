@@ -427,6 +427,6 @@ namespace EditorTexto.Formularios
             ToolStripStatusLabel_Status_Zoom.Text = status;
         }
 
-        #endregion
+#endregion
     }
 }
