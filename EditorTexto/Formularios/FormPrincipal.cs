@@ -1,6 +1,8 @@
 using EditorTexto.Classes;
+using EditorTexto.Formularios.SobrePrograma;
+using System.Diagnostics;
 
-namespace EditorTexto
+namespace EditorTexto.Formularios
 {
     public partial class FormPrincipal : Form
     {
@@ -236,7 +238,7 @@ namespace EditorTexto
             {
                 zoomFactor = 5;
             }
-            
+
             AtualizarZoom(zoomFactor);
         }
 
@@ -268,6 +270,20 @@ namespace EditorTexto
         #endregion
 
         #region Ajuda
+
+        private void ToolStripMenuItem_Opcoes_Ajuda_Exibir_Click(object sender, EventArgs e)
+        {
+            Process.Start(
+                "explorer.exe",
+                "https://support.microsoft.com/pt-br/windows/ajuda-do-bloco-de-notas-do-windows-4d68c388-2ff2-0e7f-b706-35fb2ab88a8c"
+                );
+        }
+
+        private void ToolStripMenuItem_Opcoes_Ajuda_SobrePrograma_Click(object sender, EventArgs e)
+        {
+            using FormSobrePrograma form = new();
+            form.ShowDialog();
+        }
 
         #endregion
 

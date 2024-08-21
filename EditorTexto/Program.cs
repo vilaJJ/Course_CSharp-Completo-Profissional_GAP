@@ -1,3 +1,5 @@
+using EditorTexto.Formularios;
+
 namespace EditorTexto
 {
     internal static class Program
