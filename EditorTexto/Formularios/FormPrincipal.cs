@@ -1,6 +1,5 @@
 using EditorTexto.Classes;
 using EditorTexto.Formularios.SobrePrograma;
-using System.Diagnostics;
 
 namespace EditorTexto.Formularios
 {
@@ -273,10 +272,7 @@ namespace EditorTexto.Formularios
 
         private void ToolStripMenuItem_Opcoes_Ajuda_Exibir_Click(object sender, EventArgs e)
         {
-            Process.Start(
-                "explorer.exe",
-                "https://support.microsoft.com/pt-br/windows/ajuda-do-bloco-de-notas-do-windows-4d68c388-2ff2-0e7f-b706-35fb2ab88a8c"
-                );
+            Process_AbrirAjuda.Start();
         }
 
         private void ToolStripMenuItem_Opcoes_Ajuda_SobrePrograma_Click(object sender, EventArgs e)
@@ -286,6 +282,55 @@ namespace EditorTexto.Formularios
         }
 
         #endregion
+
+        #endregion
+
+        #region Barra de Ferramentas
+
+        private void ToolStripButton_BarraFerramenta_NovoDocumento_Click(object sender, EventArgs e)
+        {
+            ToolStripMenuItem_Opcoes_Arquivo_Novo.PerformClick();
+        }
+
+        private void ToolStripButton_BarraFerramenta_NovaJanela_Click(object sender, EventArgs e)
+        {
+            ToolStripMenuItem_Opcoes_Arquivo_NovaJanela.PerformClick();
+        }
+
+        private void ToolStripButton_BarraFerramenta_AbrirArquivo_Click(object sender, EventArgs e)
+        {
+            ToolStripMenuItem_Opcoes_Arquivo_Abrir.PerformClick();
+        }
+
+        private void ToolStripButton_BarraFerramenta_SalvarArquivo_Click(object sender, EventArgs e)
+        {
+            ToolStripMenuItem_Opcoes_Arquivo_Salvar.PerformClick();
+        }
+
+        private void ToolStripButton_BarraFerramenta_DataHoraAtual_Click(object sender, EventArgs e)
+        {
+            ToolStripMenuItem_Opcoes_Editar_DataHora.PerformClick();
+        }
+
+        private void ToolStripButton_BarraFerramenta_SelecionarFonte_Click(object sender, EventArgs e)
+        {
+            ToolStripMenuItem_Opcoes_Formatar_Fonte.PerformClick();
+        }
+
+        private void ToolStripButton_BarraFerramenta_AumentarZoom_Click(object sender, EventArgs e)
+        {
+            ToolStripMenuItem_Opcoes_Exibir_Zoom_Ampliar.PerformClick();
+        }
+
+        private void ToolStripButton_BarraFerramenta_ReduzirZoom_Click(object sender, EventArgs e)
+        {
+            ToolStripMenuItem_Opcoes_Exibir_Zoom_Reduzir.PerformClick();
+        }
+
+        private void ToolStripButton_BarraFerramenta_RestaurarZoom_Click(object sender, EventArgs e)
+        {
+            ToolStripMenuItem_Opcoes_Exibir_Zoom_Restaurar.PerformClick();
+        }
 
         #endregion
 
@@ -427,6 +472,6 @@ namespace EditorTexto.Formularios
             ToolStripStatusLabel_Status_Zoom.Text = status;
         }
 
-#endregion
+        #endregion        
     }
 }

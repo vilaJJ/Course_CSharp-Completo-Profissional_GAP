@@ -68,8 +68,23 @@
             SaveFileDialog_SalvarArquivo = new SaveFileDialog();
             OpenFileDialog_AbrirArquivo = new OpenFileDialog();
             FontDialog_FonteTexto = new FontDialog();
+            Process_AbrirAjuda = new System.Diagnostics.Process();
+            ToolStrip_BarraFerramentas = new ToolStrip();
+            ToolStripButton_BarraFerramenta_NovoDocumento = new ToolStripButton();
+            ToolStripButton_BarraFerramenta_NovaJanela = new ToolStripButton();
+            ToolStripButton_BarraFerramenta_AbrirArquivo = new ToolStripButton();
+            ToolStripButton_BarraFerramenta_SalvarArquivo = new ToolStripButton();
+            ToolStripSeparator_BarraFerramentas_1 = new ToolStripSeparator();
+            ToolStripButton_BarraFerramenta_DataHoraAtual = new ToolStripButton();
+            ToolStripSeparator_BarraFerramentas_2 = new ToolStripSeparator();
+            ToolStripButton_BarraFerramenta_SelecionarFonte = new ToolStripButton();
+            ToolStripSeparator_BarraFerramentas_3 = new ToolStripSeparator();
+            ToolStripButton_BarraFerramenta_AumentarZoom = new ToolStripButton();
+            ToolStripButton_BarraFerramenta_ReduzirZoom = new ToolStripButton();
+            ToolStripButton_BarraFerramenta_RestaurarZoom = new ToolStripButton();
             MenuStrip_Opcoes.SuspendLayout();
             StatusStrip_Status.SuspendLayout();
+            ToolStrip_BarraFerramentas.SuspendLayout();
             SuspendLayout();
             // 
             // MenuStrip_Opcoes
@@ -90,6 +105,7 @@
             // 
             // ToolStripMenuItem_Opcoes_Arquivo_Novo
             // 
+            ToolStripMenuItem_Opcoes_Arquivo_Novo.Image = Properties.Resources.new_document;
             ToolStripMenuItem_Opcoes_Arquivo_Novo.Name = "ToolStripMenuItem_Opcoes_Arquivo_Novo";
             ToolStripMenuItem_Opcoes_Arquivo_Novo.ShortcutKeys = Keys.Control | Keys.N;
             ToolStripMenuItem_Opcoes_Arquivo_Novo.Size = new Size(211, 22);
@@ -98,6 +114,7 @@
             // 
             // ToolStripMenuItem_Opcoes_Arquivo_NovaJanela
             // 
+            ToolStripMenuItem_Opcoes_Arquivo_NovaJanela.Image = Properties.Resources.notes;
             ToolStripMenuItem_Opcoes_Arquivo_NovaJanela.Name = "ToolStripMenuItem_Opcoes_Arquivo_NovaJanela";
             ToolStripMenuItem_Opcoes_Arquivo_NovaJanela.ShortcutKeys = Keys.Control | Keys.Alt | Keys.N;
             ToolStripMenuItem_Opcoes_Arquivo_NovaJanela.Size = new Size(211, 22);
@@ -111,6 +128,7 @@
             // 
             // ToolStripMenuItem_Opcoes_Arquivo_Abrir
             // 
+            ToolStripMenuItem_Opcoes_Arquivo_Abrir.Image = Properties.Resources.folder;
             ToolStripMenuItem_Opcoes_Arquivo_Abrir.Name = "ToolStripMenuItem_Opcoes_Arquivo_Abrir";
             ToolStripMenuItem_Opcoes_Arquivo_Abrir.ShortcutKeys = Keys.Control | Keys.O;
             ToolStripMenuItem_Opcoes_Arquivo_Abrir.Size = new Size(211, 22);
@@ -119,6 +137,7 @@
             // 
             // ToolStripMenuItem_Opcoes_Arquivo_Salvar
             // 
+            ToolStripMenuItem_Opcoes_Arquivo_Salvar.Image = Properties.Resources.save;
             ToolStripMenuItem_Opcoes_Arquivo_Salvar.Name = "ToolStripMenuItem_Opcoes_Arquivo_Salvar";
             ToolStripMenuItem_Opcoes_Arquivo_Salvar.ShortcutKeys = Keys.Control | Keys.S;
             ToolStripMenuItem_Opcoes_Arquivo_Salvar.Size = new Size(211, 22);
@@ -127,6 +146,7 @@
             // 
             // ToolStripMenuItem_Opcoes_Arquivo_SalvarComo
             // 
+            ToolStripMenuItem_Opcoes_Arquivo_SalvarComo.Image = Properties.Resources.save;
             ToolStripMenuItem_Opcoes_Arquivo_SalvarComo.Name = "ToolStripMenuItem_Opcoes_Arquivo_SalvarComo";
             ToolStripMenuItem_Opcoes_Arquivo_SalvarComo.ShortcutKeys = Keys.Control | Keys.Shift | Keys.S;
             ToolStripMenuItem_Opcoes_Arquivo_SalvarComo.Size = new Size(211, 22);
@@ -140,6 +160,7 @@
             // 
             // ToolStripMenuItem_Opcoes_Arquivo_Fechar
             // 
+            ToolStripMenuItem_Opcoes_Arquivo_Fechar.Image = Properties.Resources.exit;
             ToolStripMenuItem_Opcoes_Arquivo_Fechar.Name = "ToolStripMenuItem_Opcoes_Arquivo_Fechar";
             ToolStripMenuItem_Opcoes_Arquivo_Fechar.ShortcutKeyDisplayString = "Alt+F4";
             ToolStripMenuItem_Opcoes_Arquivo_Fechar.Size = new Size(211, 22);
@@ -213,6 +234,7 @@
             // 
             // ToolStripMenuItem_Opcoes_Editar_DataHora
             // 
+            ToolStripMenuItem_Opcoes_Editar_DataHora.Image = Properties.Resources.time_and_date;
             ToolStripMenuItem_Opcoes_Editar_DataHora.Name = "ToolStripMenuItem_Opcoes_Editar_DataHora";
             ToolStripMenuItem_Opcoes_Editar_DataHora.ShortcutKeys = Keys.F5;
             ToolStripMenuItem_Opcoes_Editar_DataHora.Size = new Size(159, 22);
@@ -236,6 +258,7 @@
             // 
             // ToolStripMenuItem_Opcoes_Formatar_Fonte
             // 
+            ToolStripMenuItem_Opcoes_Formatar_Fonte.Image = Properties.Resources.font;
             ToolStripMenuItem_Opcoes_Formatar_Fonte.Name = "ToolStripMenuItem_Opcoes_Formatar_Fonte";
             ToolStripMenuItem_Opcoes_Formatar_Fonte.Size = new Size(221, 22);
             ToolStripMenuItem_Opcoes_Formatar_Fonte.Text = "&Fonte";
@@ -251,6 +274,7 @@
             // ToolStripMenuItem_Opcoes_Exibir_Zoom
             // 
             ToolStripMenuItem_Opcoes_Exibir_Zoom.DropDownItems.AddRange(new ToolStripItem[] { ToolStripMenuItem_Opcoes_Exibir_Zoom_Ampliar, ToolStripMenuItem_Opcoes_Exibir_Zoom_Reduzir, ToolStripMenuItem_Opcoes_Exibir_Zoom_Separador1, ToolStripMenuItem_Opcoes_Exibir_Zoom_Restaurar });
+            ToolStripMenuItem_Opcoes_Exibir_Zoom.Image = Properties.Resources.zoom;
             ToolStripMenuItem_Opcoes_Exibir_Zoom.Name = "ToolStripMenuItem_Opcoes_Exibir_Zoom";
             ToolStripMenuItem_Opcoes_Exibir_Zoom.ShowShortcutKeys = false;
             ToolStripMenuItem_Opcoes_Exibir_Zoom.Size = new Size(151, 22);
@@ -305,9 +329,10 @@
             // 
             // ToolStripMenuItem_Opcoes_Ajuda_Exibir
             // 
+            ToolStripMenuItem_Opcoes_Ajuda_Exibir.Image = Properties.Resources.help;
             ToolStripMenuItem_Opcoes_Ajuda_Exibir.Name = "ToolStripMenuItem_Opcoes_Ajuda_Exibir";
             ToolStripMenuItem_Opcoes_Ajuda_Exibir.ShortcutKeys = Keys.F1;
-            ToolStripMenuItem_Opcoes_Ajuda_Exibir.Size = new Size(180, 22);
+            ToolStripMenuItem_Opcoes_Ajuda_Exibir.Size = new Size(169, 22);
             ToolStripMenuItem_Opcoes_Ajuda_Exibir.Text = "&Exibir ajuda";
             ToolStripMenuItem_Opcoes_Ajuda_Exibir.Click += ToolStripMenuItem_Opcoes_Ajuda_Exibir_Click;
             // 
@@ -315,7 +340,7 @@
             // 
             ToolStripMenuItem_Opcoes_Ajuda_SobrePrograma.Image = Properties.Resources.text_editor;
             ToolStripMenuItem_Opcoes_Ajuda_SobrePrograma.Name = "ToolStripMenuItem_Opcoes_Ajuda_SobrePrograma";
-            ToolStripMenuItem_Opcoes_Ajuda_SobrePrograma.Size = new Size(180, 22);
+            ToolStripMenuItem_Opcoes_Ajuda_SobrePrograma.Size = new Size(169, 22);
             ToolStripMenuItem_Opcoes_Ajuda_SobrePrograma.Text = "&Sobre o programa";
             ToolStripMenuItem_Opcoes_Ajuda_SobrePrograma.Click += ToolStripMenuItem_Opcoes_Ajuda_SobrePrograma_Click;
             // 
@@ -326,7 +351,7 @@
             StatusStrip_Status.Name = "StatusStrip_Status";
             StatusStrip_Status.Size = new Size(784, 22);
             StatusStrip_Status.SizingGrip = false;
-            StatusStrip_Status.TabIndex = 2;
+            StatusStrip_Status.TabIndex = 3;
             StatusStrip_Status.Text = "Barra de status do aplicativo";
             // 
             // ToolStripStatusLabel_Status_Zoom
@@ -338,10 +363,10 @@
             // RichTextBox_Texto
             // 
             RichTextBox_Texto.Dock = DockStyle.Fill;
-            RichTextBox_Texto.Location = new Point(0, 24);
+            RichTextBox_Texto.Location = new Point(0, 49);
             RichTextBox_Texto.Name = "RichTextBox_Texto";
-            RichTextBox_Texto.Size = new Size(784, 515);
-            RichTextBox_Texto.TabIndex = 1;
+            RichTextBox_Texto.Size = new Size(784, 490);
+            RichTextBox_Texto.TabIndex = 2;
             RichTextBox_Texto.Text = "";
             RichTextBox_Texto.WordWrap = false;
             RichTextBox_Texto.TextChanged += RichTextBox_Texto_TextChanged;
@@ -360,6 +385,135 @@
             // 
             FontDialog_FonteTexto.ShowColor = true;
             // 
+            // Process_AbrirAjuda
+            // 
+            Process_AbrirAjuda.StartInfo.Arguments = "https://support.microsoft.com/pt-br/windows/ajuda-do-bloco-de-notas-do-windows-4d68c388-2ff2-0e7f-b706-35fb2ab88a8c";
+            Process_AbrirAjuda.StartInfo.Domain = "";
+            Process_AbrirAjuda.StartInfo.FileName = "explorer.exe";
+            Process_AbrirAjuda.StartInfo.LoadUserProfile = false;
+            Process_AbrirAjuda.StartInfo.Password = null;
+            Process_AbrirAjuda.StartInfo.StandardErrorEncoding = null;
+            Process_AbrirAjuda.StartInfo.StandardInputEncoding = null;
+            Process_AbrirAjuda.StartInfo.StandardOutputEncoding = null;
+            Process_AbrirAjuda.StartInfo.UseCredentialsForNetworkingOnly = false;
+            Process_AbrirAjuda.StartInfo.UserName = "";
+            Process_AbrirAjuda.SynchronizingObject = this;
+            // 
+            // ToolStrip_BarraFerramentas
+            // 
+            ToolStrip_BarraFerramentas.GripStyle = ToolStripGripStyle.Hidden;
+            ToolStrip_BarraFerramentas.Items.AddRange(new ToolStripItem[] { ToolStripButton_BarraFerramenta_NovoDocumento, ToolStripButton_BarraFerramenta_NovaJanela, ToolStripButton_BarraFerramenta_AbrirArquivo, ToolStripButton_BarraFerramenta_SalvarArquivo, ToolStripSeparator_BarraFerramentas_1, ToolStripButton_BarraFerramenta_DataHoraAtual, ToolStripSeparator_BarraFerramentas_2, ToolStripButton_BarraFerramenta_SelecionarFonte, ToolStripSeparator_BarraFerramentas_3, ToolStripButton_BarraFerramenta_AumentarZoom, ToolStripButton_BarraFerramenta_ReduzirZoom, ToolStripButton_BarraFerramenta_RestaurarZoom });
+            ToolStrip_BarraFerramentas.Location = new Point(0, 24);
+            ToolStrip_BarraFerramentas.Name = "ToolStrip_BarraFerramentas";
+            ToolStrip_BarraFerramentas.Size = new Size(784, 25);
+            ToolStrip_BarraFerramentas.TabIndex = 1;
+            ToolStrip_BarraFerramentas.Text = "Barra de Ferramentas";
+            // 
+            // ToolStripButton_BarraFerramenta_NovoDocumento
+            // 
+            ToolStripButton_BarraFerramenta_NovoDocumento.DisplayStyle = ToolStripItemDisplayStyle.Image;
+            ToolStripButton_BarraFerramenta_NovoDocumento.Image = Properties.Resources.new_document;
+            ToolStripButton_BarraFerramenta_NovoDocumento.ImageTransparentColor = Color.Magenta;
+            ToolStripButton_BarraFerramenta_NovoDocumento.Name = "ToolStripButton_BarraFerramenta_NovoDocumento";
+            ToolStripButton_BarraFerramenta_NovoDocumento.Size = new Size(23, 22);
+            ToolStripButton_BarraFerramenta_NovoDocumento.ToolTipText = "Iniciar novo documento";
+            ToolStripButton_BarraFerramenta_NovoDocumento.Click += ToolStripButton_BarraFerramenta_NovoDocumento_Click;
+            // 
+            // ToolStripButton_BarraFerramenta_NovaJanela
+            // 
+            ToolStripButton_BarraFerramenta_NovaJanela.DisplayStyle = ToolStripItemDisplayStyle.Image;
+            ToolStripButton_BarraFerramenta_NovaJanela.Image = Properties.Resources.notes;
+            ToolStripButton_BarraFerramenta_NovaJanela.ImageTransparentColor = Color.Magenta;
+            ToolStripButton_BarraFerramenta_NovaJanela.Name = "ToolStripButton_BarraFerramenta_NovaJanela";
+            ToolStripButton_BarraFerramenta_NovaJanela.Size = new Size(23, 22);
+            ToolStripButton_BarraFerramenta_NovaJanela.ToolTipText = "Abrir nova janela";
+            ToolStripButton_BarraFerramenta_NovaJanela.Click += ToolStripButton_BarraFerramenta_NovaJanela_Click;
+            // 
+            // ToolStripButton_BarraFerramenta_AbrirArquivo
+            // 
+            ToolStripButton_BarraFerramenta_AbrirArquivo.DisplayStyle = ToolStripItemDisplayStyle.Image;
+            ToolStripButton_BarraFerramenta_AbrirArquivo.Image = Properties.Resources.folder;
+            ToolStripButton_BarraFerramenta_AbrirArquivo.ImageTransparentColor = Color.Magenta;
+            ToolStripButton_BarraFerramenta_AbrirArquivo.Name = "ToolStripButton_BarraFerramenta_AbrirArquivo";
+            ToolStripButton_BarraFerramenta_AbrirArquivo.Size = new Size(23, 22);
+            ToolStripButton_BarraFerramenta_AbrirArquivo.ToolTipText = "Abrir o arquivo";
+            ToolStripButton_BarraFerramenta_AbrirArquivo.Click += ToolStripButton_BarraFerramenta_AbrirArquivo_Click;
+            // 
+            // ToolStripButton_BarraFerramenta_SalvarArquivo
+            // 
+            ToolStripButton_BarraFerramenta_SalvarArquivo.DisplayStyle = ToolStripItemDisplayStyle.Image;
+            ToolStripButton_BarraFerramenta_SalvarArquivo.Image = Properties.Resources.save;
+            ToolStripButton_BarraFerramenta_SalvarArquivo.ImageTransparentColor = Color.Magenta;
+            ToolStripButton_BarraFerramenta_SalvarArquivo.Name = "ToolStripButton_BarraFerramenta_SalvarArquivo";
+            ToolStripButton_BarraFerramenta_SalvarArquivo.Size = new Size(23, 22);
+            ToolStripButton_BarraFerramenta_SalvarArquivo.ToolTipText = "Salvar o arquivo";
+            ToolStripButton_BarraFerramenta_SalvarArquivo.Click += ToolStripButton_BarraFerramenta_SalvarArquivo_Click;
+            // 
+            // ToolStripSeparator_BarraFerramentas_1
+            // 
+            ToolStripSeparator_BarraFerramentas_1.Name = "ToolStripSeparator_BarraFerramentas_1";
+            ToolStripSeparator_BarraFerramentas_1.Size = new Size(6, 25);
+            // 
+            // ToolStripButton_BarraFerramenta_DataHoraAtual
+            // 
+            ToolStripButton_BarraFerramenta_DataHoraAtual.DisplayStyle = ToolStripItemDisplayStyle.Image;
+            ToolStripButton_BarraFerramenta_DataHoraAtual.Image = Properties.Resources.time_and_date;
+            ToolStripButton_BarraFerramenta_DataHoraAtual.ImageTransparentColor = Color.Magenta;
+            ToolStripButton_BarraFerramenta_DataHoraAtual.Name = "ToolStripButton_BarraFerramenta_DataHoraAtual";
+            ToolStripButton_BarraFerramenta_DataHoraAtual.Size = new Size(23, 22);
+            ToolStripButton_BarraFerramenta_DataHoraAtual.ToolTipText = "Escrever a data e hora atual";
+            ToolStripButton_BarraFerramenta_DataHoraAtual.Click += ToolStripButton_BarraFerramenta_DataHoraAtual_Click;
+            // 
+            // ToolStripSeparator_BarraFerramentas_2
+            // 
+            ToolStripSeparator_BarraFerramentas_2.Name = "ToolStripSeparator_BarraFerramentas_2";
+            ToolStripSeparator_BarraFerramentas_2.Size = new Size(6, 25);
+            // 
+            // ToolStripButton_BarraFerramenta_SelecionarFonte
+            // 
+            ToolStripButton_BarraFerramenta_SelecionarFonte.DisplayStyle = ToolStripItemDisplayStyle.Image;
+            ToolStripButton_BarraFerramenta_SelecionarFonte.Image = Properties.Resources.font;
+            ToolStripButton_BarraFerramenta_SelecionarFonte.ImageTransparentColor = Color.Magenta;
+            ToolStripButton_BarraFerramenta_SelecionarFonte.Name = "ToolStripButton_BarraFerramenta_SelecionarFonte";
+            ToolStripButton_BarraFerramenta_SelecionarFonte.Size = new Size(23, 22);
+            ToolStripButton_BarraFerramenta_SelecionarFonte.ToolTipText = "Selecionar a fonte";
+            ToolStripButton_BarraFerramenta_SelecionarFonte.Click += ToolStripButton_BarraFerramenta_SelecionarFonte_Click;
+            // 
+            // ToolStripSeparator_BarraFerramentas_3
+            // 
+            ToolStripSeparator_BarraFerramentas_3.Name = "ToolStripSeparator_BarraFerramentas_3";
+            ToolStripSeparator_BarraFerramentas_3.Size = new Size(6, 25);
+            // 
+            // ToolStripButton_BarraFerramenta_AumentarZoom
+            // 
+            ToolStripButton_BarraFerramenta_AumentarZoom.Image = Properties.Resources.zoom;
+            ToolStripButton_BarraFerramenta_AumentarZoom.ImageTransparentColor = Color.Magenta;
+            ToolStripButton_BarraFerramenta_AumentarZoom.Name = "ToolStripButton_BarraFerramenta_AumentarZoom";
+            ToolStripButton_BarraFerramenta_AumentarZoom.Size = new Size(35, 22);
+            ToolStripButton_BarraFerramenta_AumentarZoom.Text = "+";
+            ToolStripButton_BarraFerramenta_AumentarZoom.ToolTipText = "Aumentar o zoom do texto";
+            ToolStripButton_BarraFerramenta_AumentarZoom.Click += ToolStripButton_BarraFerramenta_AumentarZoom_Click;
+            // 
+            // ToolStripButton_BarraFerramenta_ReduzirZoom
+            // 
+            ToolStripButton_BarraFerramenta_ReduzirZoom.Image = Properties.Resources.zoom;
+            ToolStripButton_BarraFerramenta_ReduzirZoom.ImageTransparentColor = Color.Magenta;
+            ToolStripButton_BarraFerramenta_ReduzirZoom.Name = "ToolStripButton_BarraFerramenta_ReduzirZoom";
+            ToolStripButton_BarraFerramenta_ReduzirZoom.Size = new Size(32, 22);
+            ToolStripButton_BarraFerramenta_ReduzirZoom.Text = "-";
+            ToolStripButton_BarraFerramenta_ReduzirZoom.ToolTipText = "Reduzir o zoom do texto";
+            ToolStripButton_BarraFerramenta_ReduzirZoom.Click += ToolStripButton_BarraFerramenta_ReduzirZoom_Click;
+            // 
+            // ToolStripButton_BarraFerramenta_RestaurarZoom
+            // 
+            ToolStripButton_BarraFerramenta_RestaurarZoom.Image = Properties.Resources.zoom;
+            ToolStripButton_BarraFerramenta_RestaurarZoom.ImageTransparentColor = Color.Magenta;
+            ToolStripButton_BarraFerramenta_RestaurarZoom.Name = "ToolStripButton_BarraFerramenta_RestaurarZoom";
+            ToolStripButton_BarraFerramenta_RestaurarZoom.Size = new Size(76, 22);
+            ToolStripButton_BarraFerramenta_RestaurarZoom.Text = "Restaurar";
+            ToolStripButton_BarraFerramenta_RestaurarZoom.ToolTipText = "Restaurar o zoom do texto";
+            ToolStripButton_BarraFerramenta_RestaurarZoom.Click += ToolStripButton_BarraFerramenta_RestaurarZoom_Click;
+            // 
             // FormPrincipal
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -367,6 +521,7 @@
             ClientSize = new Size(784, 561);
             Controls.Add(RichTextBox_Texto);
             Controls.Add(StatusStrip_Status);
+            Controls.Add(ToolStrip_BarraFerramentas);
             Controls.Add(MenuStrip_Opcoes);
             Icon = (Icon)resources.GetObject("$this.Icon");
             MainMenuStrip = MenuStrip_Opcoes;
@@ -380,6 +535,8 @@
             MenuStrip_Opcoes.PerformLayout();
             StatusStrip_Status.ResumeLayout(false);
             StatusStrip_Status.PerformLayout();
+            ToolStrip_BarraFerramentas.ResumeLayout(false);
+            ToolStrip_BarraFerramentas.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -425,5 +582,19 @@
         internal SaveFileDialog SaveFileDialog_SalvarArquivo;
         internal OpenFileDialog OpenFileDialog_AbrirArquivo;
         internal FontDialog FontDialog_FonteTexto;
+        internal System.Diagnostics.Process Process_AbrirAjuda;
+        internal ToolStrip ToolStrip_BarraFerramentas;
+        internal ToolStripButton ToolStripButton_BarraFerramenta_NovoDocumento;
+        internal ToolStripButton ToolStripButton_BarraFerramenta_NovaJanela;
+        internal ToolStripButton ToolStripButton_BarraFerramenta_AbrirArquivo;
+        internal ToolStripButton ToolStripButton_BarraFerramenta_SalvarArquivo;
+        internal ToolStripButton ToolStripButton_BarraFerramenta_DataHoraAtual;
+        internal ToolStripButton ToolStripButton_BarraFerramenta_SelecionarFonte;
+        internal ToolStripButton ToolStripButton_BarraFerramenta_ReduzirZoom;
+        internal ToolStripButton ToolStripButton_BarraFerramenta_AumentarZoom;
+        internal ToolStripButton ToolStripButton_BarraFerramenta_RestaurarZoom;
+        internal ToolStripSeparator ToolStripSeparator_BarraFerramentas_1;
+        internal ToolStripSeparator ToolStripSeparator_BarraFerramentas_2;
+        internal ToolStripSeparator ToolStripSeparator_BarraFerramentas_3;
     }
 }
