@@ -7,9 +7,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageStore.Application", "I
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageStore.UI", "ImageStore.UI\ImageStore.UI.csproj", "{E52F3E75-0DD4-403A-8875-F91C5512421D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageStore.UI.Model", "ImageStore.UI.Model\ImageStore.UI.Model.csproj", "{DC5C3DB9-073B-44C2-A4FD-AA06EAFD5352}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageStore.UI.Model", "ImageStore.UI.Model\ImageStore.UI.Model.csproj", "{DC5C3DB9-073B-44C2-A4FD-AA06EAFD5352}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageStore.Infra.Data", "ImageStore.Infra.Data\ImageStore.Infra.Data.csproj", "{A2C2EDF5-364E-4641-89B2-07393A5C07BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageStore.Infra.Data", "ImageStore.Infra.Data\ImageStore.Infra.Data.csproj", "{A2C2EDF5-364E-4641-89B2-07393A5C07BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageStore.Domain", "ImageStore.Domain\ImageStore.Domain.csproj", "{3C164568-A84D-459F-B8AC-DFD20118D953}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageStore.Services", "ImageStore.Services\ImageStore.Services.csproj", "{322F9179-D58D-405E-8C8C-F6AAA4CA2CA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageStore.Utilities", "ImageStore.Utilities\ImageStore.Utilities.csproj", "{3F4579AD-7188-484A-A20A-FE8DD5689417}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +39,18 @@ Global
 		{A2C2EDF5-364E-4641-89B2-07393A5C07BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2C2EDF5-364E-4641-89B2-07393A5C07BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2C2EDF5-364E-4641-89B2-07393A5C07BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C164568-A84D-459F-B8AC-DFD20118D953}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C164568-A84D-459F-B8AC-DFD20118D953}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C164568-A84D-459F-B8AC-DFD20118D953}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C164568-A84D-459F-B8AC-DFD20118D953}.Release|Any CPU.Build.0 = Release|Any CPU
+		{322F9179-D58D-405E-8C8C-F6AAA4CA2CA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{322F9179-D58D-405E-8C8C-F6AAA4CA2CA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{322F9179-D58D-405E-8C8C-F6AAA4CA2CA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{322F9179-D58D-405E-8C8C-F6AAA4CA2CA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F4579AD-7188-484A-A20A-FE8DD5689417}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F4579AD-7188-484A-A20A-FE8DD5689417}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F4579AD-7188-484A-A20A-FE8DD5689417}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F4579AD-7188-484A-A20A-FE8DD5689417}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

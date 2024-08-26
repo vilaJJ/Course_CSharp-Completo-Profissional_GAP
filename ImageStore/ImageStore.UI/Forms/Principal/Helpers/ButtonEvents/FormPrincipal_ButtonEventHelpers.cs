@@ -1,4 +1,4 @@
-﻿using ImageStore.UI.Mensagem;
+﻿using ImageStore.UI.Mensagens;
 using ImageStore.UI.Model.Mensagens.Enums;
 
 namespace ImageStore.UI.Forms.Principal.Helpers.ButtonEvents
@@ -16,6 +16,19 @@ namespace ImageStore.UI.Forms.Principal.Helpers.ButtonEvents
                 CaixaMensagem.RealizarDialogo(new(tipo: TipoMensagem.Erro ,
                                                   texto: $"Não foi possível escolher a imagem localmente. {ex.Message}"));
             }            
+        }
+
+        internal static async Task Button_Inserir_ClickEvent(this FormPrincipal form)
+        {
+            try
+            {
+                await form.InserirImagem();
+            }
+            catch (Exception ex)
+            {
+                CaixaMensagem.RealizarDialogo(new(tipo: TipoMensagem.Erro,
+                                                  texto: $"Não foi possível inserir a imagem. {ex.Message}"));
+            }
         }
     }
 }

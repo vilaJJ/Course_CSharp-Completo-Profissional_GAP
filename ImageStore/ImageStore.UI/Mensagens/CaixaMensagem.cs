@@ -1,6 +1,6 @@
 ﻿using ImageStore.UI.Model.Mensagens.Enums;
 
-namespace ImageStore.UI.Mensagem
+namespace ImageStore.UI.Mensagens
 {
     public static class CaixaMensagem
     {
@@ -58,7 +58,7 @@ namespace ImageStore.UI.Mensagem
 
         private static MessageBoxIcon ObterIconeMensagem(this TipoMensagem tipoMensagem)
         {
-            return (MessageBoxIcon)((int)tipoMensagem);
+            return (MessageBoxIcon)(int)tipoMensagem;
         }
 
         private static MessageBoxButtons ObterBotoes(this TipoMensagem tipoMensagem)

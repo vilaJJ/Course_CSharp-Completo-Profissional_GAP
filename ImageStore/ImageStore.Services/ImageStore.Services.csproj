@@ -2,14 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>net8.0-windows</TargetFramework>
-    <Nullable>enable</Nullable>
-    <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ImageStore.Services\ImageStore.Services.csproj" />
+    <ProjectReference Include="..\ImageStore.Infra.Data\ImageStore.Infra.Data.csproj" />
     <ProjectReference Include="..\ImageStore.UI.Model\ImageStore.UI.Model.csproj" />
+    <ProjectReference Include="..\ImageStore.Utilities\ImageStore.Utilities.csproj" />
   </ItemGroup>
 
 </Project>

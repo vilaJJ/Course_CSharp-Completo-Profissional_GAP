@@ -4,8 +4,13 @@
     {
         #region Campos
 
-        public readonly string Nome = nome;
         public readonly Image Data = data;
+
+        #endregion
+
+        #region Propriedades
+
+        public string Nome { get; set; } = nome;
 
         #endregion
     }
