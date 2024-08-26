@@ -37,6 +37,7 @@
             Button_EscolherLocal = new Button();
             Button_Inserir = new Button();
             Button_RecuperarDoBanco = new Button();
+            OpenFileDialog_EscolherLocal = new OpenFileDialog();
             ((System.ComponentModel.ISupportInitialize)PictureBox_ImagemSelecionada).BeginInit();
             StatusStrip_BarraStatus.SuspendLayout();
             SuspendLayout();
@@ -62,6 +63,7 @@
             // 
             // TextBox_NomeImagem
             // 
+            TextBox_NomeImagem.Enabled = false;
             TextBox_NomeImagem.Location = new Point(12, 373);
             TextBox_NomeImagem.MaxLength = 100;
             TextBox_NomeImagem.Name = "TextBox_NomeImagem";
@@ -103,9 +105,11 @@
             Button_EscolherLocal.TabIndex = 2;
             Button_EscolherLocal.Text = "&Escolher Local";
             Button_EscolherLocal.UseVisualStyleBackColor = true;
+            Button_EscolherLocal.Click += Button_EscolherLocal_Click;
             // 
             // Button_Inserir
             // 
+            Button_Inserir.Enabled = false;
             Button_Inserir.Location = new Point(397, 406);
             Button_Inserir.Name = "Button_Inserir";
             Button_Inserir.Size = new Size(75, 23);
@@ -121,6 +125,10 @@
             Button_RecuperarDoBanco.TabIndex = 3;
             Button_RecuperarDoBanco.Text = "&Recuperar do Banco";
             Button_RecuperarDoBanco.UseVisualStyleBackColor = true;
+            // 
+            // OpenFileDialog_EscolherLocal
+            // 
+            OpenFileDialog_EscolherLocal.Filter = "Escolha a imagem (gif, jpg, png)|*.gif;*.jpg;*.png";
             // 
             // FormPrincipal
             // 
@@ -160,5 +168,6 @@
         internal Button Button_EscolherLocal;
         internal Button Button_Inserir;
         internal Button Button_RecuperarDoBanco;
+        internal OpenFileDialog OpenFileDialog_EscolherLocal;
     }
 }
