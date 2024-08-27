@@ -19,10 +19,12 @@ namespace ImageStore.Services.Imagens
         {
             try
             {
+                int linhasRetornadas;
+                Domain.Imagens.Imagem imagemInserir = await ObterImagem(imagem);
+                
                 using ImagensRepository repository = new();
-                Domain.Imagens.Imagem imagemInserir = ObterImagem(imagem);
+                linhasRetornadas = await repository.Inserir(imagemInserir);
 
-                int linhasRetornadas = await repository.Inserir(imagemInserir);
                 return linhasRetornadas > 0;
             }
             catch (Exception ex)
@@ -37,14 +39,14 @@ namespace ImageStore.Services.Imagens
 
         #region Métodos Privados
 
-        private static Domain.Imagens.Imagem ObterImagem(UI.Model.Imagens.Imagem imagem)
+        private static async Task<Domain.Imagens.Imagem> ObterImagem(UI.Model.Imagens.Imagem imagem)
         {
             MemoryStream? stream = null;
 
             try
             {
-                stream = ObterMemoryStreamImagem(imagem.Data);
-                byte[] bytes = ObterBytesDaStream(stream);
+                stream = await ObterMemoryStreamImagem(imagem.Data);
+                byte[] bytes = await ObterBytesDaStream(stream);
 
                 return new Domain.Imagens.Imagem(
                     imagem.Nome,
@@ -62,14 +64,14 @@ namespace ImageStore.Services.Imagens
             
         }
 
-        private static MemoryStream ObterMemoryStreamImagem(Image imagem)
+        private static async Task<MemoryStream> ObterMemoryStreamImagem(Image imagem)
         {
-            return imagem.ObterMemoryStream();
+            return await imagem.ObterMemoryStream();
         }
 
-        private static byte[] ObterBytesDaStream(MemoryStream stream) 
+        private static async Task<byte[]> ObterBytesDaStream(MemoryStream stream) 
         {
-            return stream.ObterBytesDaStream();
+            return await stream.ObterBytesDaStream();
         }
 
         #endregion

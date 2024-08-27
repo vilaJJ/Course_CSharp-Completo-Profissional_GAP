@@ -49,6 +49,9 @@ namespace ImageStore.UI.Forms.Principal
         private async void Button_Inserir_Click(object sender, EventArgs e) =>
             await this.Button_Inserir_ClickEvent();
 
+        private void Button_RecuperarDoBanco_Click(object sender, EventArgs e) =>
+            this.Button_RecuperarDoBanco_ClickEvent();
+
         #endregion
 
         #region TextBox Events

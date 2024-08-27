@@ -2,17 +2,20 @@
 {
     public static class StreamConverter
     {
-        public static MemoryStream ObterMemoryStream(this Image imagem)
+        public static async Task<MemoryStream> ObterMemoryStream(this Image imagem)
         {
-            MemoryStream stream = new();
-            imagem.Save(stream, imagem.RawFormat);
+            return await Task.Run(() => 
+            {
+                MemoryStream stream = new();
+                imagem.Save(stream, imagem.RawFormat);
 
-            return stream;
+                return stream;
+            });
         }
 
-        public static byte[] ObterBytesDaStream(this MemoryStream stream)
+        public static async Task<byte[]> ObterBytesDaStream(this MemoryStream stream)
         {
-            return stream.ToArray();
+            return await Task.Run(stream.ToArray);            
         }
     }
 }

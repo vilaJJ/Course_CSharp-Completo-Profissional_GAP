@@ -1,4 +1,5 @@
-﻿using ImageStore.UI.Mensagens;
+﻿using ImageStore.UI.Forms.RecuperarImagemBanco;
+using ImageStore.UI.Mensagens;
 using ImageStore.UI.Model.Imagens;
 using ImageStore.UI.Model.Mensagens.Enums;
 
@@ -7,6 +8,18 @@ namespace ImageStore.UI.Forms.Principal.Helpers
     internal static class FormPrincipal_Helpers
     {
         #region Métodos Internos
+
+        #region Abrir formulário
+
+        internal static void AbrirFormularioRecuperarImagemBanco(this FormPrincipal form)
+        {
+            using FormRecuperarImagemBanco formRecuperarImagemBanco = new();
+            formRecuperarImagemBanco.ShowDialog();
+
+            form.BringToFront();
+        }
+
+        #endregion
 
         #region Atualizar dados
 
@@ -28,7 +41,7 @@ namespace ImageStore.UI.Forms.Principal.Helpers
         {
             bool isAtivo = form.Imagem is not null;
 
-            form.AtualizarEstadoBotoes(isAtivo);
+            form.AtualizarBotaoInserir(isAtivo);
             form.AtualizarEstadoCampos(isAtivo);
         }
 
@@ -58,9 +71,17 @@ namespace ImageStore.UI.Forms.Principal.Helpers
             }
 
             string caminhoArquivo = form.OpenFileDialog_EscolherLocal.FileName;
+
+            if (ValidarTamanhoArquivo(caminhoArquivo) is false)
+            {
+                form.EscolherImagemLocal();
+                return;
+            }
+
             string nomeArquivo = form.OpenFileDialog_EscolherLocal.SafeFileName;
             Image imagem = ObterImagemPorPath(caminhoArquivo);
-            form.Imagem = new(nomeArquivo, imagem);
+
+            form.Imagem = new(caminhoArquivo, nomeArquivo, imagem);
         }
 
         #endregion
@@ -74,11 +95,30 @@ namespace ImageStore.UI.Forms.Principal.Helpers
                 return;
             }
 
-            using Services.Imagens.Imagem imagemService = new();
-            bool isInserida = await imagemService.Inserir(imagem);
+            bool? isInserida = null;
 
-            ExibirResultadoInsercao(isInserida);
-            form.Imagem = null;
+            try
+            {
+                form.ExibirCarregamento(true);
+
+                using Services.Imagens.Imagem imagemService = new();
+                isInserida = await imagemService.Inserir(imagem);
+
+                form.Imagem = null;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            finally
+            {
+                form.ExibirCarregamento(false);
+
+                if (isInserida is bool isImagemInserida)
+                {
+                    ExibirResultadoInsercao(isImagemInserida);
+                }
+            }            
         }
 
         #endregion
@@ -89,16 +129,44 @@ namespace ImageStore.UI.Forms.Principal.Helpers
 
         #region Atualizar estado
 
-        private static void AtualizarEstadoBotoes(this FormPrincipal form, bool isAtivo)
+        private static void AtualizarBotaoInserir(this FormPrincipal form, bool isAtivo)
         {
             form.Button_Inserir.Enabled =
                 isAtivo;
+        }
+
+        private static void AtualizarEstadoBotoes(this FormPrincipal form, bool isAtivo)
+        {
+            form.Button_EscolherLocal.Enabled =
+            form.Button_RecuperarDoBanco.Enabled =
+                isAtivo;
+
+            form.AtualizarBotaoInserir(isAtivo);
         }
 
         private static void AtualizarEstadoCampos(this FormPrincipal form, bool isAtivo)
         {
             form.TextBox_NomeImagem.Enabled =
                 isAtivo;
+        }
+
+        private static void AtualizarEstadoProgresso(this FormPrincipal form, bool isCarregando)
+        {
+            form.ProgressBar_Progresso.Enabled =
+            form.ProgressBar_Progresso.Visible =
+                isCarregando;
+        }
+
+        private static void RealizarInvoke(this FormPrincipal form, Action action)
+        {
+            if (form.InvokeRequired is true)
+            {
+                form.Invoke(action);
+            }
+            else
+            {
+                action();
+            }
         }
 
         #endregion
@@ -113,6 +181,18 @@ namespace ImageStore.UI.Forms.Principal.Helpers
         private static void ExibirNomeArquivo(this FormPrincipal form, string? nome)
         {
             form.TextBox_NomeImagem.Text = nome;
+        }
+
+        private static void ExibirCarregamento(this FormPrincipal form, bool isCarregando)
+        {
+            bool isAtivo = isCarregando is false;
+
+            form.RealizarInvoke(() =>
+            {
+                form.AtualizarEstadoCampos(isAtivo);
+                form.AtualizarEstadoBotoes(isAtivo);
+                form.AtualizarEstadoProgresso(isCarregando);
+            });
         }
 
         #endregion
@@ -162,6 +242,36 @@ namespace ImageStore.UI.Forms.Principal.Helpers
             }
 
             return imagem;
+        }
+
+        private static FileInfo ObterArquivoPorCaminho(string caminhoArquivo)
+        {
+            return new FileInfo(caminhoArquivo);
+        }
+
+        private static long ObterQuantidadeBytesArquivo(FileInfo informacoesArquivo)
+        {
+            return informacoesArquivo.Length;
+        }
+
+        #endregion
+
+        #region Validações
+
+        private static bool ValidarTamanhoArquivo(string caminhoArquivo)
+        {
+            FileInfo informacoesArquivo = ObterArquivoPorCaminho(caminhoArquivo);
+            long quantidadeBytes = ObterQuantidadeBytesArquivo(informacoesArquivo);
+
+            bool isValido = quantidadeBytes <= 15000000;
+
+            if (isValido is false)
+            {
+                CaixaMensagem.RealizarDialogo(new(TipoMensagem.Alerta,
+                                                  "O tamanho máximo da imagem deve ser de 15mb. Escolha uma imagem válida."));
+            }
+
+            return isValido;
         }
 
         #endregion

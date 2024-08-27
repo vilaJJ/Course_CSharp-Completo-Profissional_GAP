@@ -30,5 +30,18 @@ namespace ImageStore.UI.Forms.Principal.Helpers.ButtonEvents
                                                   texto: $"Não foi possível inserir a imagem. {ex.Message}"));
             }
         }
+
+        internal static void Button_RecuperarDoBanco_ClickEvent(this FormPrincipal form)
+        {
+            try
+            {
+                form.AbrirFormularioRecuperarImagemBanco();
+            }
+            catch (Exception ex)
+            {
+                CaixaMensagem.RealizarDialogo(new(tipo: TipoMensagem.Erro,
+                                                  texto: $"Falha na exibição do módulo de recuperação de imagem no banco. {ex.Message}"));
+            }
+        }
     }
 }

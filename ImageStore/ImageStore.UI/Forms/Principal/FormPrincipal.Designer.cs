@@ -35,6 +35,7 @@
             Button_Inserir = new Button();
             Button_RecuperarDoBanco = new Button();
             OpenFileDialog_EscolherLocal = new OpenFileDialog();
+            ProgressBar_Progresso = new ProgressBar();
             ((System.ComponentModel.ISupportInitialize)PictureBox_ImagemSelecionada).BeginInit();
             SuspendLayout();
             // 
@@ -96,16 +97,29 @@
             Button_RecuperarDoBanco.TabIndex = 3;
             Button_RecuperarDoBanco.Text = "&Recuperar do Banco";
             Button_RecuperarDoBanco.UseVisualStyleBackColor = true;
+            Button_RecuperarDoBanco.Click += Button_RecuperarDoBanco_Click;
             // 
             // OpenFileDialog_EscolherLocal
             // 
             OpenFileDialog_EscolherLocal.Filter = "Escolha a imagem (gif, jpg, png)|*.gif;*.jpg;*.png";
+            // 
+            // ProgressBar_Progresso
+            // 
+            ProgressBar_Progresso.Enabled = false;
+            ProgressBar_Progresso.Location = new Point(284, 430);
+            ProgressBar_Progresso.MarqueeAnimationSpeed = 20;
+            ProgressBar_Progresso.Name = "ProgressBar_Progresso";
+            ProgressBar_Progresso.Size = new Size(107, 15);
+            ProgressBar_Progresso.Style = ProgressBarStyle.Marquee;
+            ProgressBar_Progresso.TabIndex = 5;
+            ProgressBar_Progresso.Visible = false;
             // 
             // FormPrincipal
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(484, 461);
+            Controls.Add(ProgressBar_Progresso);
             Controls.Add(Button_RecuperarDoBanco);
             Controls.Add(Button_Inserir);
             Controls.Add(Button_EscolherLocal);
@@ -134,5 +148,6 @@
         internal Button Button_Inserir;
         internal Button Button_RecuperarDoBanco;
         internal OpenFileDialog OpenFileDialog_EscolherLocal;
+        internal ProgressBar ProgressBar_Progresso;
     }
 }

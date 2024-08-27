@@ -1,9 +1,10 @@
 ﻿namespace ImageStore.UI.Model.Imagens
 {
-    public class Imagem(string nome, Image data)
+    public class Imagem(string path, string nome, Image data)
     {
         #region Campos
 
+        public readonly string Path = path;
         public readonly Image Data = data;
 
         #endregion
