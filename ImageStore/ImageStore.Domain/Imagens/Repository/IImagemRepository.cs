@@ -2,5 +2,8 @@
 
 namespace ImageStore.Domain.Imagens.Repository
 {
-    public interface IImagemRepository : IRepositoryBase<Imagem> { }
+    public interface IImagemRepository : IRepositoryBase<Imagem> 
+    {
+        Task<List<Imagem>> BuscarApenasDados();
+    }
 }

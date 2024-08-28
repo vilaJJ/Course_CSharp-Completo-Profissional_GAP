@@ -38,9 +38,11 @@
             Button_Excluir = new Button();
             Label_Imagem_Tamanho = new Label();
             Label_Imagem_Codigo = new Label();
+            PictureBox_CarregandoAcao = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)PictureBox_ImagemSelecionada).BeginInit();
             ((System.ComponentModel.ISupportInitialize)DataGridView_Imagens).BeginInit();
             ((System.ComponentModel.ISupportInitialize)BindingSource_Imagens).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)PictureBox_CarregandoAcao).BeginInit();
             SuspendLayout();
             // 
             // PictureBox_ImagemSelecionada
@@ -60,7 +62,7 @@
             DataGridView_Imagens.AllowUserToDeleteRows = false;
             DataGridView_Imagens.AllowUserToResizeRows = false;
             DataGridView_Imagens.AutoGenerateColumns = false;
-            DataGridView_Imagens.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            DataGridView_Imagens.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
             DataGridView_Imagens.BackgroundColor = SystemColors.ControlLight;
             DataGridView_Imagens.CellBorderStyle = DataGridViewCellBorderStyle.Raised;
             DataGridView_Imagens.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
@@ -81,10 +83,18 @@
             // 
             // DataGridView_Imagens_Nome
             // 
+            DataGridView_Imagens_Nome.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
             DataGridView_Imagens_Nome.DataPropertyName = "Nome";
             DataGridView_Imagens_Nome.HeaderText = "Imagens Salvas";
+            DataGridView_Imagens_Nome.MinimumWidth = 292;
             DataGridView_Imagens_Nome.Name = "DataGridView_Imagens_Nome";
             DataGridView_Imagens_Nome.ReadOnly = true;
+            DataGridView_Imagens_Nome.Width = 292;
+            // 
+            // BindingSource_Imagens
+            // 
+            BindingSource_Imagens.CurrentChanged += BindingSource_Imagens_CurrentChanged;
+            BindingSource_Imagens.ListChanged += BindingSource_Imagens_ListChanged;
             // 
             // Button_Fechar
             // 
@@ -97,21 +107,25 @@
             // 
             // Button_Salvar
             // 
+            Button_Salvar.Enabled = false;
             Button_Salvar.Location = new Point(478, 378);
             Button_Salvar.Name = "Button_Salvar";
             Button_Salvar.Size = new Size(75, 23);
             Button_Salvar.TabIndex = 2;
             Button_Salvar.Text = "&Salvar";
             Button_Salvar.UseVisualStyleBackColor = true;
+            Button_Salvar.Click += Button_Salvar_Click;
             // 
             // Button_Excluir
             // 
+            Button_Excluir.Enabled = false;
             Button_Excluir.Location = new Point(559, 378);
             Button_Excluir.Name = "Button_Excluir";
             Button_Excluir.Size = new Size(75, 23);
             Button_Excluir.TabIndex = 3;
             Button_Excluir.Text = "&Excluir";
             Button_Excluir.UseVisualStyleBackColor = true;
+            Button_Excluir.Click += Button_Excluir_Click;
             // 
             // Label_Imagem_Tamanho
             // 
@@ -122,6 +136,7 @@
             Label_Imagem_Tamanho.TabIndex = 5;
             Label_Imagem_Tamanho.Text = "Tamanho da Imagem";
             Label_Imagem_Tamanho.Visible = false;
+            Label_Imagem_Tamanho.TextChanged += Label_Imagem_Tamanho_TextChanged;
             // 
             // Label_Imagem_Codigo
             // 
@@ -132,6 +147,18 @@
             Label_Imagem_Codigo.Text = "Código da Imagem";
             Label_Imagem_Codigo.TextAlign = ContentAlignment.MiddleRight;
             Label_Imagem_Codigo.Visible = false;
+            Label_Imagem_Codigo.TextChanged += Label_Imagem_Codigo_TextChanged;
+            // 
+            // PictureBox_CarregandoAcao
+            // 
+            PictureBox_CarregandoAcao.BackgroundImageLayout = ImageLayout.Zoom;
+            PictureBox_CarregandoAcao.Image = Properties.Resources.loading;
+            PictureBox_CarregandoAcao.Location = new Point(668, 378);
+            PictureBox_CarregandoAcao.Name = "PictureBox_CarregandoAcao";
+            PictureBox_CarregandoAcao.Size = new Size(23, 23);
+            PictureBox_CarregandoAcao.SizeMode = PictureBoxSizeMode.Zoom;
+            PictureBox_CarregandoAcao.TabIndex = 7;
+            PictureBox_CarregandoAcao.TabStop = false;
             // 
             // FormRecuperarImagemBanco
             // 
@@ -139,6 +166,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             CancelButton = Button_Fechar;
             ClientSize = new Size(784, 411);
+            Controls.Add(PictureBox_CarregandoAcao);
             Controls.Add(Label_Imagem_Codigo);
             Controls.Add(Label_Imagem_Tamanho);
             Controls.Add(Button_Excluir);
@@ -155,9 +183,11 @@
             Name = "FormRecuperarImagemBanco";
             StartPosition = FormStartPosition.CenterParent;
             Text = "Image Store - Recuperar Imagem do Banco";
+            Shown += FormRecuperarImagemBanco_Shown;
             ((System.ComponentModel.ISupportInitialize)PictureBox_ImagemSelecionada).EndInit();
             ((System.ComponentModel.ISupportInitialize)DataGridView_Imagens).EndInit();
             ((System.ComponentModel.ISupportInitialize)BindingSource_Imagens).EndInit();
+            ((System.ComponentModel.ISupportInitialize)PictureBox_CarregandoAcao).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -169,9 +199,10 @@
         internal Button Button_Fechar;
         internal Button Button_Salvar;
         internal Button Button_Excluir;
-        internal DataGridViewTextBoxColumn DataGridView_Imagens_Nome;
         internal BindingSource BindingSource_Imagens;
         internal Label Label_Imagem_Codigo;
         internal Label Label_Imagem_Tamanho;
+        internal PictureBox PictureBox_CarregandoAcao;
+        private DataGridViewTextBoxColumn DataGridView_Imagens_Nome;
     }
 }

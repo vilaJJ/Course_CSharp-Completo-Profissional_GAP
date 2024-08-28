@@ -42,10 +42,10 @@ namespace ImageStore.Infra.Data.Context
             return linhasAfetadas;
         }
 
-        protected async Task<TEntity> Obter<TEntity>(string sql, object? parametro = null)
+        protected async Task<TEntity?> Obter<TEntity>(string sql, object? parametro = null)
         {
             MySqlConnection conexao = await ObterConexao();
-            TEntity consulta = await conexao.QuerySingleAsync<TEntity>(sql, parametro);
+            TEntity? consulta = await conexao.QueryFirstOrDefaultAsync<TEntity>(sql, parametro);
 
             return consulta;
         }

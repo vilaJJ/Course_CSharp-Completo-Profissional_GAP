@@ -101,10 +101,10 @@ namespace ImageStore.UI.Forms.Principal.Helpers
             {
                 form.ExibirCarregamento(true);
 
-                using Services.Imagens.Imagem imagemService = new();
-                isInserida = await imagemService.Inserir(imagem);
-
-                form.Imagem = null;
+                {
+                    using Services.Imagens.Imagem imagemService = new();
+                    isInserida = await imagemService.Inserir(imagem);
+                }
             }
             catch (Exception)
             {
@@ -117,6 +117,7 @@ namespace ImageStore.UI.Forms.Principal.Helpers
                 if (isInserida is bool isImagemInserida)
                 {
                     ExibirResultadoInsercao(isImagemInserida);
+                    form.Imagem = null;
                 }
             }            
         }

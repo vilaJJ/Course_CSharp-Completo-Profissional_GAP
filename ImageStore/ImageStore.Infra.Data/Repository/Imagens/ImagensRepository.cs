@@ -1,7 +1,6 @@
 ﻿using ImageStore.Domain.Imagens;
 using ImageStore.Domain.Imagens.Repository;
 using ImageStore.Infra.Data.Context;
-using System.Linq.Expressions;
 
 namespace ImageStore.Infra.Data.Repository.Imagens
 {
@@ -21,19 +20,24 @@ namespace ImageStore.Infra.Data.Repository.Imagens
 
         #region Métodos Públicos
 
-        public Task<List<Imagem>> Buscar()
+        public async Task<List<Imagem>> Buscar()
         {
-            throw new NotImplementedException();
+            string selectSql = $"SELECT * FROM {NomeTabela}";
+            return await ObterLista<Imagem>(selectSql);
         }
 
-        public Task<List<Imagem>> Buscar(Expression<Func<Imagem, bool>> predicate)
+        public async Task<List<Imagem>> Buscar(Func<Imagem, bool> predicate)
         {
-            throw new NotImplementedException();
+            List<Imagem> consulta = await Buscar();
+
+            return consulta.Where(predicate)
+                           .ToList();
         }
 
-        public Task<Imagem> Buscar(Guid id)
+        public async Task<Imagem?> Buscar(Guid id)
         {
-            throw new NotImplementedException();
+            string selectSql = $"SELECT * FROM {NomeTabela} WHERE Codigo = @Codigo";
+            return await Obter<Imagem>(selectSql, new{ Codigo = id });
         }
 
         public async Task<int> Inserir(Imagem entity)
@@ -42,12 +46,31 @@ namespace ImageStore.Infra.Data.Repository.Imagens
             return await Executar(insertSql, entity);
         }
 
+        public async Task<int> Excluir(Imagem entity)
+        {
+            string deleteSql = $"DELETE FROM {NomeTabela} WHERE Codigo = @Codigo";
+            return await Executar(deleteSql, entity);
+        }
+
+        public async Task<bool> Existe(Guid id)
+        {
+            string selectSql = $"SELECT 1 FROM {NomeTabela} WHERE Codigo = @Codigo";
+            int? query = await Obter<int>(selectSql, id);
+            return query is int;
+        }
+
+        public async Task<List<Imagem>> BuscarApenasDados()
+        {
+            string selectSql = $"SELECT Codigo, Nome FROM {NomeTabela}";
+            return await ObterLista<Imagem>(selectSql);
+        }
+
         #endregion
 
         public new void Dispose()
         {
             GC.SuppressFinalize(this);
             base.Dispose();
-        }        
+        }
     }
 }

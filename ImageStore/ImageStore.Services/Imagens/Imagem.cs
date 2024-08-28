@@ -15,15 +15,43 @@ namespace ImageStore.Services.Imagens
 
         #region Métodos Públicos
 
+        public async Task<UI.Model.Imagens.Imagem?> Buscar(Guid codigo)
+        {
+            try
+            {
+                Domain.Imagens.Imagem? imagem;
+
+                {
+                    using ImagensRepository repository = new();
+                    imagem = await repository.Buscar(codigo);
+                }
+
+                if (imagem is null)
+                {
+                    return null;
+                }
+
+                return ConverterImagemDominio(imagem);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(
+                    $"Falha ao buscar imagem no Banco de Dados pelo código. {ex.Message}"
+                    );
+            }
+        }
+
         public async Task<bool> Inserir(UI.Model.Imagens.Imagem imagem)
         {
             try
             {
                 int linhasRetornadas;
                 Domain.Imagens.Imagem imagemInserir = await ObterImagem(imagem);
-                
-                using ImagensRepository repository = new();
-                linhasRetornadas = await repository.Inserir(imagemInserir);
+
+                {
+                    using ImagensRepository repository = new();
+                    linhasRetornadas = await repository.Inserir(imagemInserir);
+                }
 
                 return linhasRetornadas > 0;
             }
@@ -31,6 +59,30 @@ namespace ImageStore.Services.Imagens
             {
                 throw new Exception(
                     $"Falha ao inserir imagem no Banco de Dados. {ex.Message}"
+                    );
+            }
+        }
+
+        public async Task<List<UI.Model.Imagens.Imagem>> ObterDadosImagens()
+        {
+            try
+            {
+                List<Domain.Imagens.Imagem> imagensBanco;
+                List<UI.Model.Imagens.Imagem> imagensDados;
+
+                {
+                    using ImagensRepository repository = new();
+                    imagensBanco = await repository.BuscarApenasDados();
+                }
+
+                imagensDados = ConverterImagemDominio(imagensBanco);
+
+                return imagensDados;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(
+                    $"Falha ao buscar os dados de imagens no Banco. {ex.Message}"
                     );
             }
         }
@@ -45,6 +97,12 @@ namespace ImageStore.Services.Imagens
 
             try
             {
+                if (imagem.Data is null)
+                {
+                    throw new ArgumentNullException("imagem.Data",
+                                                    "Os dados de imagem estão nulos.");
+                }
+
                 stream = await ObterMemoryStreamImagem(imagem.Data);
                 byte[] bytes = await ObterBytesDaStream(stream);
 
@@ -64,6 +122,8 @@ namespace ImageStore.Services.Imagens
             
         }
 
+        #region Conversão de dados
+
         private static async Task<MemoryStream> ObterMemoryStreamImagem(Image imagem)
         {
             return await imagem.ObterMemoryStream();
@@ -73,6 +133,28 @@ namespace ImageStore.Services.Imagens
         {
             return await stream.ObterBytesDaStream();
         }
+
+        private static UI.Model.Imagens.Imagem ConverterImagemDominio(Domain.Imagens.Imagem imagemDominio)
+        {
+            return new(codigo: imagemDominio.Codigo,
+                       nome: imagemDominio.Nome, 
+                       data: imagemDominio.Data is not null ? null : null,
+                       bytes: imagemDominio.Data);
+        }
+
+        private static List<UI.Model.Imagens.Imagem> ConverterImagemDominio(List<Domain.Imagens.Imagem> imagensDominio)
+        {
+            List<UI.Model.Imagens.Imagem> imagens = [];
+
+            foreach (Domain.Imagens.Imagem imagem in imagensDominio)
+            {
+                imagens.Add(ConverterImagemDominio(imagem));
+            }
+
+            return imagens;
+        }
+
+        #endregion
 
         #endregion
 
