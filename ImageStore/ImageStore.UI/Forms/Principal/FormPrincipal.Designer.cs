@@ -101,7 +101,9 @@
             // 
             // OpenFileDialog_EscolherLocal
             // 
-            OpenFileDialog_EscolherLocal.Filter = "Escolha a imagem (gif, jpg, png)|*.gif;*.jpg;*.png";
+            OpenFileDialog_EscolherLocal.DereferenceLinks = false;
+            OpenFileDialog_EscolherLocal.Filter = "Escolha a imagem|*.gif;*.jpg;*.png;";
+            OpenFileDialog_EscolherLocal.FileOk += OpenFileDialog_EscolherLocal_FileOk;
             // 
             // ProgressBar_Progresso
             // 

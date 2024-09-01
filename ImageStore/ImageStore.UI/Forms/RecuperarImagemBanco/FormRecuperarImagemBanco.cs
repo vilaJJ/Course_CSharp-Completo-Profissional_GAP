@@ -29,8 +29,8 @@ namespace ImageStore.UI.Forms.RecuperarImagemBanco
         private void Button_Salvar_Click(object sender, EventArgs e) =>
             this.Button_Salvar_ClickEvent();
 
-        private void Button_Excluir_Click(object sender, EventArgs e) =>
-            this.Button_Excluir_ClickEvent();
+        private async void Button_Excluir_Click(object sender, EventArgs e) =>
+            await this.Button_Excluir_ClickEvent();
 
         #endregion
 

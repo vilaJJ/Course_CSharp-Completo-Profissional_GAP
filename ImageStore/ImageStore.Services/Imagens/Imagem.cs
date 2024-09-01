@@ -31,7 +31,7 @@ namespace ImageStore.Services.Imagens
                     return null;
                 }
 
-                return ConverterImagemDominio(imagem);
+                return await ConverterImagemDominioParaModel(imagem);
             }
             catch (Exception ex)
             {
@@ -75,14 +75,55 @@ namespace ImageStore.Services.Imagens
                     imagensBanco = await repository.BuscarApenasDados();
                 }
 
-                imagensDados = ConverterImagemDominio(imagensBanco);
-
+                imagensDados = await ConverterImagensDominioParaModel(imagensBanco);
                 return imagensDados;
             }
             catch (Exception ex)
             {
                 throw new Exception(
                     $"Falha ao buscar os dados de imagens no Banco. {ex.Message}"
+                    );
+            }
+        }
+
+        public async Task<bool> Excluir(Guid id)
+        {
+            try
+            {
+                int linhasAfetadas;
+
+                {
+                    using ImagensRepository repository = new();
+                    linhasAfetadas = await repository.Excluir(id);
+                }
+
+                return linhasAfetadas > 0;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(
+                    $"Falha ao excluir imagem no Banco de Dados. {ex.Message}"
+                    );
+            }
+        }
+
+        public async Task<bool> Existe(Guid id)
+        {
+            try
+            {
+                bool existe;
+
+                {
+                    using ImagensRepository repository = new();
+                    existe = await repository.Existe(id);
+                }
+
+                return existe;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(
+                    $"Falha ao verificar se existe a imagem no Banco de Dados. {ex.Message}"
                     );
             }
         }
@@ -118,8 +159,7 @@ namespace ImageStore.Services.Imagens
             finally
             {
                 stream?.Dispose();
-            }
-            
+            }            
         }
 
         #region Conversão de dados
@@ -134,24 +174,33 @@ namespace ImageStore.Services.Imagens
             return await stream.ObterBytesDaStream();
         }
 
-        private static UI.Model.Imagens.Imagem ConverterImagemDominio(Domain.Imagens.Imagem imagemDominio)
+        private static async Task<UI.Model.Imagens.Imagem> ConverterImagemDominioParaModel(Domain.Imagens.Imagem imagemDominio)
         {
+            Image? data = await ObterImage(imagemDominio.Data);
+
             return new(codigo: imagemDominio.Codigo,
                        nome: imagemDominio.Nome, 
-                       data: imagemDominio.Data is not null ? null : null,
+                       data: data,
                        bytes: imagemDominio.Data);
         }
 
-        private static List<UI.Model.Imagens.Imagem> ConverterImagemDominio(List<Domain.Imagens.Imagem> imagensDominio)
+        private static async Task<List<UI.Model.Imagens.Imagem>> ConverterImagensDominioParaModel(List<Domain.Imagens.Imagem> imagensDominio)
         {
             List<UI.Model.Imagens.Imagem> imagens = [];
 
-            foreach (Domain.Imagens.Imagem imagem in imagensDominio)
+            foreach (Domain.Imagens.Imagem imagemDominio in imagensDominio)
             {
-                imagens.Add(ConverterImagemDominio(imagem));
+                UI.Model.Imagens.Imagem imagemModel = await ConverterImagemDominioParaModel(imagemDominio);
+                imagens.Add(imagemModel);
             }
 
             return imagens;
+        }
+
+        private static async Task<Image?> ObterImage(byte[]? bytes)
+        {
+            MemoryStream? stream = await bytes.ObterMemoryStream();
+            return await stream.ObterImage();
         }
 
         #endregion

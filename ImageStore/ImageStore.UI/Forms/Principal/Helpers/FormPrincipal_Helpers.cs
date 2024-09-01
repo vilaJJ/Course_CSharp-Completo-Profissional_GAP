@@ -7,6 +7,21 @@ namespace ImageStore.UI.Forms.Principal.Helpers
 {
     internal static class FormPrincipal_Helpers
     {
+        #region Propriedades Privadas
+
+        private static string[] ExtensoesValidas
+        {
+            get =>
+            [
+                "gif",
+                "jpg",
+                "jpeg",
+                "png",
+            ];
+        }
+
+        #endregion
+
         #region Métodos Internos
 
         #region Abrir formulário
@@ -120,6 +135,19 @@ namespace ImageStore.UI.Forms.Principal.Helpers
                     form.Imagem = null;
                 }
             }            
+        }
+
+        #endregion
+
+        #region Validaçoes
+
+        internal static bool ValidarExtensaoArquivoSelecionado(this FormPrincipal form)
+        {
+            string nomeArquivo = form.OpenFileDialog_EscolherLocal.SafeFileName;
+            string[] nomeArquivoArray = nomeArquivo.Split('.');
+            string? extensao = nomeArquivoArray.LastOrDefault();
+
+            return ExtensoesValidas.Contains(extensao);
         }
 
         #endregion

@@ -6,5 +6,7 @@ namespace ImageStore.Services.Imagens.Interfaces
         Task<UI.Model.Imagens.Imagem?> Buscar(Guid codigo);
         Task<bool> Inserir(UI.Model.Imagens.Imagem imagem);
         Task<List<UI.Model.Imagens.Imagem>> ObterDadosImagens();
+        Task<bool> Excluir(Guid id);
+        Task<bool> Existe(Guid id);
     }
 }

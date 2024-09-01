@@ -8,7 +8,7 @@
         Task<List<TEntity>> Buscar();
         Task<List<TEntity>> Buscar(Func<TEntity, bool> predicate);
         Task<TEntity?> Buscar(Guid id);
-        Task<int> Excluir(TEntity entity);
+        Task<int> Excluir(Guid id);
         Task<bool> Existe(Guid id);
     }
 }

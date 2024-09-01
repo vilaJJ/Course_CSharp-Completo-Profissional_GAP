@@ -1,6 +1,5 @@
 ﻿using ImageStore.UI.Mensagens;
 using ImageStore.UI.Model.Mensagens.Enums;
-using ImageStore.UI.Properties;
 using ImageStore.Utilities.Converters.Arquivos;
 
 namespace ImageStore.UI.Forms.RecuperarImagemBanco.Helpers
@@ -67,9 +66,49 @@ namespace ImageStore.UI.Forms.RecuperarImagemBanco.Helpers
 
         #region Excluir dados
 
-        internal static void ExcluirImagemSelecionada(this FormRecuperarImagemBanco form)
+        internal static async Task ExcluirImagemSelecionada(this FormRecuperarImagemBanco form)
         {
+            Model.Imagens.Imagem imagemSelecionada = form.ObterImagemSelecionada();
 
+            if (imagemSelecionada.Codigo is not Guid codigo)
+            {
+                throw new NullReferenceException("A imagem não possuí um código.");
+            }
+
+            bool? isExcluida = null;
+            bool existeImagemNoBanco = await IsImagemExisteBanco(codigo);
+
+            TipoMensagem tipoMensagem;
+            string mensagem;
+
+            if (existeImagemNoBanco is false)
+            {
+                tipoMensagem = TipoMensagem.Alerta;
+                mensagem = "Não foi encontrada a imagem selecionada. Talvez ela tenha sido removida do Banco de Dados.";                
+            }
+            else
+            {
+                isExcluida = await ExcluirImagem(codigo);
+
+                if (isExcluida is true)
+                {
+                    tipoMensagem = TipoMensagem.Informacao;
+                    mensagem = "Imagem excluída com sucesso.";
+                }
+                else
+                {
+                    tipoMensagem = TipoMensagem.Alerta;
+                    mensagem = "A imagem selecionada não foi excluída. Tente novamente mais tarde.";
+                }
+            }
+
+            if (existeImagemNoBanco is false || isExcluida is true)
+            {
+                form.RemoverItemSelecionado();
+            }
+
+            CaixaMensagem.RealizarDialogo(new(tipo: tipoMensagem,
+                                              texto: mensagem));
         }
 
         #endregion
@@ -124,6 +163,18 @@ namespace ImageStore.UI.Forms.RecuperarImagemBanco.Helpers
 
         #endregion
 
+        #region Excluir dados
+
+        private static async Task<bool> ExcluirImagem(Guid id)
+        {
+            {
+                using Services.Imagens.Imagem imagemService = new();
+                return await imagemService.Excluir(id);
+            }
+        }
+
+        #endregion
+
         #region Inicializar dados
 
         private static async Task PopularBindingSource(this FormRecuperarImagemBanco form)
@@ -174,7 +225,7 @@ namespace ImageStore.UI.Forms.RecuperarImagemBanco.Helpers
 
         #endregion
 
-        #region Remover dados
+        #region Remover itens
 
         private static void RemoverItemSelecionado(this FormRecuperarImagemBanco form)
         {
@@ -194,6 +245,14 @@ namespace ImageStore.UI.Forms.RecuperarImagemBanco.Helpers
                 CaixaMensagem.RealizarDialogo(new(tipo: TipoMensagem.Alerta,
                                                   texto: "Não existem imagens salvas no Banco de Dados."));
                 form.FecharFormulario();
+            }
+        }
+
+        private static async Task<bool> IsImagemExisteBanco(Guid codigo)
+        {
+            {
+                using Services.Imagens.Imagem imagemService = new();
+                return await imagemService.Existe(codigo);
             }
         }
 

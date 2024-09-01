@@ -1,7 +1,9 @@
 ﻿using ImageStore.UI.Forms.Principal.Helpers;
 using ImageStore.UI.Forms.Principal.Helpers.ButtonEvents;
+using ImageStore.UI.Forms.Principal.Helpers.OpenFileDialogEvents;
 using ImageStore.UI.Forms.Principal.Helpers.TextBoxEvents;
 using ImageStore.UI.Model.Imagens;
+using System.ComponentModel;
 
 namespace ImageStore.UI.Forms.Principal
 {
@@ -58,6 +60,13 @@ namespace ImageStore.UI.Forms.Principal
 
         private void TextBox_NomeImagem_TextChanged(object sender, EventArgs e) =>
             this.TextBox_NomeImagem_TextChangedEvent();
+
+        #endregion
+
+        #region OpenFileDialog Events
+
+        private void OpenFileDialog_EscolherLocal_FileOk(object sender, CancelEventArgs e) =>
+            this.OpenFileDialog_EscolherLocal_FileOkEvent(e);
 
         #endregion
     }

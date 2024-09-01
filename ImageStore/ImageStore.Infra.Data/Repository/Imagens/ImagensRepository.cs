@@ -46,16 +46,16 @@ namespace ImageStore.Infra.Data.Repository.Imagens
             return await Executar(insertSql, entity);
         }
 
-        public async Task<int> Excluir(Imagem entity)
+        public async Task<int> Excluir(Guid id)
         {
             string deleteSql = $"DELETE FROM {NomeTabela} WHERE Codigo = @Codigo";
-            return await Executar(deleteSql, entity);
+            return await Executar(deleteSql, new{ Codigo = id });
         }
 
         public async Task<bool> Existe(Guid id)
         {
             string selectSql = $"SELECT 1 FROM {NomeTabela} WHERE Codigo = @Codigo";
-            int? query = await Obter<int>(selectSql, id);
+            int? query = await Obter<int>(selectSql, new{ Codigo = id });
             return query is int;
         }
 

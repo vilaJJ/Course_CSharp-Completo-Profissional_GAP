@@ -18,11 +18,20 @@ namespace ImageStore.UI.Forms.RecuperarImagemBanco.Helpers.ButtonEvents
             }
         }
 
-        internal static void Button_Excluir_ClickEvent(this FormRecuperarImagemBanco form)
+        internal static async Task Button_Excluir_ClickEvent(this FormRecuperarImagemBanco form)
         {
             try
             {
-                form.ExcluirImagemSelecionada();
+                DialogResult resultadoDialogo = 
+                    CaixaMensagem.RealizarDialogo(new(tipo: TipoMensagem.Pergunta,
+                                                      texto: "Tem certeza de que deseja apagar a imagem selecionada?"));
+
+                if (resultadoDialogo is not DialogResult.Yes)
+                {
+                    return;
+                }
+
+                await form.ExcluirImagemSelecionada();
             }
             catch (Exception ex)
             {
