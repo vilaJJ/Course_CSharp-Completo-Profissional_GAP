@@ -11,13 +11,7 @@ namespace ImageStore.UI.Forms.Principal.Helpers
 
         private static string[] ExtensoesValidas
         {
-            get =>
-            [
-                "gif",
-                "jpg",
-                "jpeg",
-                "png",
-            ];
+            get => Infra.Constants.Extensoes.ExtensoesConstants.ExtensoesValidas;
         }
 
         #endregion
@@ -32,6 +26,15 @@ namespace ImageStore.UI.Forms.Principal.Helpers
             formRecuperarImagemBanco.ShowDialog();
 
             form.BringToFront();
+        }
+
+        #endregion
+
+        #region Ações de formulário
+
+        internal static void FecharFormulario(this FormPrincipal form)
+        {
+            form.RealizarInvoke(form.Close);
         }
 
         #endregion
@@ -93,10 +96,19 @@ namespace ImageStore.UI.Forms.Principal.Helpers
                 return;
             }
 
-            string nomeArquivo = form.OpenFileDialog_EscolherLocal.SafeFileName;
+            string nomeArquivo = RemoverExtensaoNomeArquivo(form.OpenFileDialog_EscolherLocal.SafeFileName);
             Image imagem = ObterImagemPorPath(caminhoArquivo);
 
             form.Imagem = new(caminhoArquivo, nomeArquivo, imagem);
+        }
+
+        #endregion
+
+        #region Inicializações
+
+        internal static void InicializarFormulario(this FormPrincipal form)
+        {
+            form.InicializarConfiguracaoOpenFileDialog();
         }
 
         #endregion
@@ -245,6 +257,40 @@ namespace ImageStore.UI.Forms.Principal.Helpers
             }
 
             CaixaMensagem.RealizarDialogo(new(tipoMensagem, mensagem));
+        }
+
+        #endregion
+
+        #region Formatar dados
+
+        private static string RemoverExtensaoNomeArquivo(string nomeArquivo)
+        {
+            string[] nomeArquivoArray = nomeArquivo.Split('.');
+
+            string nome = string.Empty;
+
+            for (int i = 0; i < nomeArquivoArray.Length - 1; i++)
+            {
+                nome += nomeArquivoArray[i];
+            }
+
+            return nome;
+;        }
+
+        #endregion
+
+        #region Inicializações
+
+        private static void InicializarConfiguracaoOpenFileDialog(this FormPrincipal form)
+        {
+            string filtro = "Escolha a imagem|";
+
+            foreach (string extensao in ExtensoesValidas)
+            {
+                filtro += $"*.{extensao};";
+            }
+
+            form.OpenFileDialog_EscolherLocal.Filter = filtro;
         }
 
         #endregion

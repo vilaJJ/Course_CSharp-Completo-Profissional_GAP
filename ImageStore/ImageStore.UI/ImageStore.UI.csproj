@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ImageStore.Infra.Constants\ImageStore.Infra.Constants.csproj" />
     <ProjectReference Include="..\ImageStore.Services\ImageStore.Services.csproj" />
     <ProjectReference Include="..\ImageStore.UI.Model\ImageStore.UI.Model.csproj" />
   </ItemGroup>

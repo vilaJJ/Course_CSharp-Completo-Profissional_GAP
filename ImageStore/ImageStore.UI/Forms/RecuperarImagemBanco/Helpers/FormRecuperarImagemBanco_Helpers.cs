@@ -6,6 +6,16 @@ namespace ImageStore.UI.Forms.RecuperarImagemBanco.Helpers
 {
     internal static class FormRecuperarImagemBanco_Helpers
     {
+        #region Propriedades Privadas
+
+        private static string[] ExtensoesValidas
+        {
+            get => Infra.Constants.Extensoes.ExtensoesConstants.ExtensoesValidas;
+        }
+
+        #endregion
+
+
         #region Métodos Internos
 
         #region Ações de formulário
@@ -117,6 +127,7 @@ namespace ImageStore.UI.Forms.RecuperarImagemBanco.Helpers
 
         internal static async Task InicializarFormulario(this FormRecuperarImagemBanco form)
         {
+            form.InicializarSaveFileDialog();
             await form.PopularBindingSource();
             form.ValidarSeHaImagens();
         }
@@ -127,7 +138,21 @@ namespace ImageStore.UI.Forms.RecuperarImagemBanco.Helpers
 
         internal static void SalvarImagemSelecionada(this FormRecuperarImagemBanco form)
         {
+            Model.Imagens.Imagem imagemSelecionada = form.ObterImagemSelecionada();
+            form.SaveFileDialog_SalvarImagem.FileName = imagemSelecionada.Nome;
 
+            DialogResult resultadoDialogo = form.SaveFileDialog_SalvarImagem.ShowDialog();
+
+            if (resultadoDialogo is not DialogResult.OK)
+            {
+                return;
+            }
+
+            string pathInformado = form.SaveFileDialog_SalvarImagem.FileName;
+            form.PictureBox_ImagemSelecionada.Image.Save(pathInformado);
+
+            CaixaMensagem.RealizarDialogo(new(tipo: TipoMensagem.Informacao,
+                                              texto: "Imagem salva com sucesso."));
         }
 
         #endregion
@@ -171,6 +196,22 @@ namespace ImageStore.UI.Forms.RecuperarImagemBanco.Helpers
                 using Services.Imagens.Imagem imagemService = new();
                 return await imagemService.Excluir(id);
             }
+        }
+
+        #endregion
+
+        #region Inicializações
+
+        private static void InicializarSaveFileDialog(this FormRecuperarImagemBanco form)
+        {
+            string filtro = string.Empty;
+
+            foreach (string extensao in ExtensoesValidas)
+            {
+                filtro += $"{extensao.ToUpper()}|*.{extensao}|";
+            }
+
+            form.SaveFileDialog_SalvarImagem.Filter = filtro.Trim('|');
         }
 
         #endregion

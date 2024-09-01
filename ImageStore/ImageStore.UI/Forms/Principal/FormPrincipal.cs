@@ -1,5 +1,6 @@
 ﻿using ImageStore.UI.Forms.Principal.Helpers;
 using ImageStore.UI.Forms.Principal.Helpers.ButtonEvents;
+using ImageStore.UI.Forms.Principal.Helpers.FormEvents;
 using ImageStore.UI.Forms.Principal.Helpers.OpenFileDialogEvents;
 using ImageStore.UI.Forms.Principal.Helpers.TextBoxEvents;
 using ImageStore.UI.Model.Imagens;
@@ -40,6 +41,13 @@ namespace ImageStore.UI.Forms.Principal
         {
             InitializeComponent();
         }
+
+        #endregion
+
+        #region Form Events
+
+        private void FormPrincipal_Load(object sender, EventArgs e) =>
+            this.LoadEvent();
 
         #endregion
 

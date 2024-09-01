@@ -39,6 +39,7 @@
             Label_Imagem_Tamanho = new Label();
             Label_Imagem_Codigo = new Label();
             PictureBox_CarregandoAcao = new PictureBox();
+            SaveFileDialog_SalvarImagem = new SaveFileDialog();
             ((System.ComponentModel.ISupportInitialize)PictureBox_ImagemSelecionada).BeginInit();
             ((System.ComponentModel.ISupportInitialize)DataGridView_Imagens).BeginInit();
             ((System.ComponentModel.ISupportInitialize)BindingSource_Imagens).BeginInit();
@@ -204,5 +205,6 @@
         internal Label Label_Imagem_Tamanho;
         internal PictureBox PictureBox_CarregandoAcao;
         private DataGridViewTextBoxColumn DataGridView_Imagens_Nome;
+        internal SaveFileDialog SaveFileDialog_SalvarImagem;
     }
 }

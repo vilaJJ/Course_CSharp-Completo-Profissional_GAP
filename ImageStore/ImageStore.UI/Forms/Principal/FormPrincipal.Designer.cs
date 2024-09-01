@@ -102,7 +102,6 @@
             // OpenFileDialog_EscolherLocal
             // 
             OpenFileDialog_EscolherLocal.DereferenceLinks = false;
-            OpenFileDialog_EscolherLocal.Filter = "Escolha a imagem|*.gif;*.jpg;*.png;";
             OpenFileDialog_EscolherLocal.FileOk += OpenFileDialog_EscolherLocal_FileOk;
             // 
             // ProgressBar_Progresso
@@ -136,6 +135,7 @@
             Name = "FormPrincipal";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Image Store";
+            Load += FormPrincipal_Load;
             ((System.ComponentModel.ISupportInitialize)PictureBox_ImagemSelecionada).EndInit();
             ResumeLayout(false);
             PerformLayout();
