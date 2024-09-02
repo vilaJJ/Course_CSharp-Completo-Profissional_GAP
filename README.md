@@ -1,5 +1,5 @@
 # Course_CSharp-Completo-Profissional_GAP
-Repositório desenvolvido durante a execução do curso na Udemy 'C# Completo e Profissional', de Gabriel Artigas Pierri.
+
 Repository developed during the course on Udemy _C# Completo e Profissional_ (Complete and Professional C#), by Gabriel Artigas Pierri.
 
 [Click here to access the course on the Udemy website.](https://www.udemy.com/course/csharp-completo-e-profissional/)
